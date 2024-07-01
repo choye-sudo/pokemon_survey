@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "pretendard";
+    src: url("../webfont/Pretendard.ttf") format('truetype');
+}
+
+header{
+    position:sticky;
+    top: 0px;
+    width:100%;
+    height: auto;
+    padding:10px;
+    background-color: rgba(255,255,255,0.9);
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(255, 255, 237);
+    font-family: 'Pretendard';
+    margin: 0;
+    padding: 0;
+    font-size: 0.75em;
+    line-height: 1.2em;
+}
+
+#wrap{
+    text-align: left;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url('../images/pikachu_icon.png');
+    background-size: 10em;
+    min-height: 1080px;
+}
+
+#logo{
+    float: left;
+    margin:10px;
+    padding:10px;
+}
+
+#logo img{
+    width: 200px;
+    height: 75px;
+    object-fit: fill;
+}
+
+#top_menu{
+    margin: 0px 100px 0px 0px;
+    float: right;
+}
+
+#top_menu ul{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 200;
+    color: black;
+}
+
+#top_menu ul li{
+    float: right;
+    margin: 10px;
+    padding:10px;
+}
+
+#top_menu a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#top_menu a:hover{
+    font-weight: 700;
+    color: rgb(28, 73, 161);
+}
+
+#login{
+    float:right top;
+    margin: 20px 64px 0 0;
+    font-size: small;
+}
+
+#login a{
+    text-decoration: none;
+    color: black;
+}
+
+#login a:hover{
+    font-weight: 700;
+    color: rgb(28, 73, 161);
+}
+.clear{
+    clear: both;
+}
+
+footer{
+    height: 30px;
+    padding :5px;
+    background-color: rgba(255,255,255,1.0);
+    position: relative;
+    transform: translateY(0%);
+
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
