@@ -4,9 +4,104 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokemon Survey</title>
+    <link href="./css/default.css" rel="stylesheet" type="text/css" media="all">
     <link href="./css/survey.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-    
+    <div id="wrap">
+        <!-- header -->
+        <header>
+            <a id="logo">
+                <img src="./assets/images/International_Pokemon_logo.png"/>
+            </a>
+            <nav id="top_menu">
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./survey.html">SURVEY</a></li>
+                    <li><a href="./product.html">PRODUCT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- survey contents -->
+        <div id="survey">
+            <nav id="side_menu">
+                <ul>
+                    <li><a href="#">이름</a></li>
+                    <li><a href="#">계기</a></li>
+                    <li><a href="#">입문작</a></li>
+                    <li><a href="#">최애작</a></li>
+                    <li><a href="#">최애포켓몬</a></li>
+                    <li><a href="#">최애타입</a></li>
+                    <li><a href="#">최애트레이너</a></li>
+                </ul>
+            </nav>
+            <div id="notice">
+                <h2>포켓몬 설문</h2>
+                <p>포켓몬과 관련된 여러가지 사항을 물어볼게요.</p>
+                <p>편안한 마음으로 대답해주시면 됩니다!</p>
+                <hr/>
+            </div>
+            <!--왜 post가 안될까?-->
+            <form action="./result.html" method="get">
+                <p>
+                    <label>트레이너님의 이름을 알려주세요!</label>
+                    <input type="text" name="username"/>
+                </p>
+                <p>
+                    <label>포켓몬을 처음 접하게 된건 어느 작품을 통해서 였나요?</label>
+                    <select id ="type" name="startwork">
+                        <optgroup label="">
+                            <option value="">피카츄</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label>가장 좋아하는 포켓몬 작품은 무엇인가요?</label>
+                    <select id ="type" name="favoritework">
+                        <optgroup label="">
+                            <option value="">피카츄</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label>가장 좋아하는 포켓몬은 누구인가요?</label>
+                    <select id ="type" name="pokename">
+                        <optgroup label="">
+                            <option value="">피카츄</option>
+                        </optgroup>
+                    </select>
+                </p>
+                <p>
+                    <label>가장 좋아하는 타입은 무엇인가요?</label><br/>
+                    <input type="checkbox" name="checkbox"/>아메리칸 숏헤어
+                    <input type="checkbox" name="checkbox"/>노르웨이 숲
+                    <input type="checkbox" name="checkbox"/>먼치킨
+                    <input type="checkbox" name="checkbox"/>랙돌
+                    <input type="checkbox" name="checkbox"/>스코티쉬 폴드
+                    <input type="checkbox" name="checkbox"/>히히 다 좋아
+                </p>
+                <p>
+                    <label>가장 좋아하는 트레이너는 누구인가요?</label>
+                    <select id ="type" name="pokename">
+                        <optgroup label="">
+                            <option value="">피카츄</option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <hr/>
+                <p>
+                    <input type="reset" value="다시할래요"/>
+                    <input type="submit" value="다했어요!"/>
+                </p>
+            </form>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <p><small>Cho Ye-Eun made this website in 2024. Pokémon company has all rights!</small></p>
+        </footer>
+    </div>
 </body>
 </html>
