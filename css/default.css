@@ -14,6 +14,10 @@
     box-sizing: border-box;
 }
 
+#wrap{
+    font-family: 'asindinarub';
+}
+
 header{
     position:sticky;
     top: 0px;
@@ -24,26 +28,58 @@ header{
     display: flex;
     align-items: center;
     z-index: 100;
+    display: flex;
+    box-shadow: 0 3px 10px #c2c2c2;
 }
 
-ul{
+header #logo{
+    flex-basis: 30%;
+}
+
+#logo img{
+    padding: 10px;
+    width: 175px;
+    height: auto;
+}
+
+header #top_menu{
+    flex-basis: 70%;
+}
+
+nav ul{
     list-style: none;
+    display: flex;
+    justify-content: flex-end;/*flex-direction: row-reverse;*/
+    padding: 15px;
+}
+
+nav li{
+    padding: 15px;
 }
 
 nav a{
     text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: rgb(255, 54, 19);
 }
 
 body{
-    background-color: rgb(220, 220, 220);
-    font-family: 'asindinarub';
+    background-color: rgb(240, 240, 240);
     max-width: 100%;
     margin: 0;
     padding: 0;
 }
 
 .img_main{
+    position: relative;
+    display: flex;
     max-width: 100%;
+    height: 60vw;
+    justify-content: center;
+    align-items: center;
 }
 
 .img_main img{
@@ -52,33 +88,134 @@ body{
 }
 
 #img_front {
-    position: relative;
+    position: absolute;
+    width: 30vw;
+    height: auto;
     z-index: 1;
 }
 
 #img_back {
     position: absolute;
+    width: 80vw;
+    padding: 30px;
     z-index: 0;
 }
 
-.container{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
+/* 브라우저 화면 너비가 790px 이하인 경우 */
+@media(max-width:790px){
+    .container{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main_picture{
+        flex: 0 0 auto;
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+    
+    .main_picture img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main_text{
+        padding: 20px;
+    }
+    
+    mark{
+        background-color: rgb(255, 241, 84);
+        border-radius: 4px;
+    }
+    
+    #first{
+        background-color: rgb(255, 54, 19);
+        color: white;
+    }
+    
+    #second{
+        background-color: black;
+        color: rgb(255, 241, 84);
+    }
+    
+    button{
+        padding: 10px 30px;
+        font-family: 'asindinarub';
+        border: none;
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 30px;
+        margin-top: 30px;
+        width: 100%;
+    }
 }
 
-.main_picture{
-    flex-basis: 30%;
+/* 브라우저 화면 너비가 791px 이상인 경우 */
+@media(min-width:791px){
+    .container{
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+    }
+    
+    .main_picture{
+        flex: 0 0 auto;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .main_picture img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main_text{
+        flex: 1;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .main_text button{
+        padding: 10px 30px;
+        font-family: 'asindinarub';
+        border: none;
+        font-weight: 500;
+        font-size: 18px;
+        border-radius: 30px;
+        margin-top: 40px;
+        width: 325px;
+    }
 }
 
-.main_picture img{
-    width: 100%; height: 100%;
+#first button{
+    background-color: black;
+    color: white;
 }
 
-.main_text{
-    flex-basis: 70%;
-    padding: 30px;
+#first button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 54, 19);
+}
+
+#second button{
+    background-color: rgb(255, 241, 84);
+}
+
+#second button:hover{
+    background-color: rgb(255, 54, 19);
+    color: black;
+}
+
+mark{
+    background-color: rgb(255, 241, 84);
+    border-radius: 4px;
 }
 
 #first{
@@ -88,42 +225,16 @@ body{
 
 #second{
     background-color: black;
-    color: rgb(255, 54, 19);
+    color: rgb(255, 241, 84);
 }
-
-button{
-    padding: 10px 30px;
-    font-family: 'asindinarub';
-    border: none;
-    font-weight: 500;
-    font-size: 20px;
-    border-radius: 30px;
-}
-
-#first button{
-    background-color: black;
-    color: white;
-}
-
-#second button{
-    background-color: rgb(255, 54, 19);
-}
-
-
-/*#wrap{
-    text-align: left;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url('../images/pikachu_icon.png');
-    background-size: 10em;
-    min-height: 1080px;
-}*/
 
 footer{
+    font-family: 'pretendard';
+    font-weight: 600;
     height: 30px;
     padding :5px;
     background-color: rgba(255,255,255,1.0);
+    color: rgb(207, 207, 207);
     position: relative;
     transform: translateY(0%);
 

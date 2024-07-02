@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: "pretendard";
+    src: url("../assets/fonts/Pretendard.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: "asindinarub";
+    src: url("../assets/fonts/asindinarub.ttf") format('truetype');
+}
