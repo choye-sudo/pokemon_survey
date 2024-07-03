@@ -26,71 +26,127 @@
         <!-- survey contents -->
         <div id="survey">
             <div id="notice">
-                <h2>포켓몬 설문</h2>
+                <h2><img src="./assets/images/pokeball.png"/>포켓몬 설문<img src="./assets/images/pokeball.png"/></h2>
                 <p>포켓몬과 관련된 여러가지 사항을 물어볼게요.</p>
-                <p>편안한 마음으로 대답해주시면 됩니다!</p>
-                <hr/>
+                <p><mark>편안한 마음</mark>으로 대답해주시면 됩니다!</p>
             </div>
             <!--왜 post가 안될까?-->
             <form action="./result.html" method="get">
-                <p>
-                    <label>트레이너님의 이름을 알려주세요!</label>
-                    <input type="text" name="username"/>
-                </p>
-                <p>
-                    <label>포켓몬을 처음 접하게 된건 어느 작품을 통해서 였나요?</label>
-                    <select id ="type" name="startwork">
-                        <optgroup label="">
-                            <option value="">피카츄</option>
-                        </optgroup>
-                    </select>
-                </p>
-                <p>
-                    <label>가장 좋아하는 포켓몬 작품은 무엇인가요?</label>
-                    <select id ="type" name="favoritework">
-                        <optgroup label="">
-                            <option value="">피카츄</option>
-                        </optgroup>
-                    </select>
-                </p>
-                <p>
-                    <label>가장 좋아하는 포켓몬은 누구인가요?</label>
-                    <select id ="type" name="pokename">
-                        <optgroup label="">
-                            <option value="">피카츄</option>
-                        </optgroup>
-                    </select>
-                </p>
-                <p>
-                    <label>가장 좋아하는 타입은 무엇인가요?</label><br/>
-                    <input type="checkbox" name="checkbox"/>아메리칸 숏헤어
-                    <input type="checkbox" name="checkbox"/>노르웨이 숲
-                    <input type="checkbox" name="checkbox"/>먼치킨
-                    <input type="checkbox" name="checkbox"/>랙돌
-                    <input type="checkbox" name="checkbox"/>스코티쉬 폴드
-                    <input type="checkbox" name="checkbox"/>히히 다 좋아
-                </p>
-                <p>
-                    <label>가장 좋아하는 트레이너는 누구인가요?</label>
-                    <select id ="type" name="pokename">
-                        <optgroup label="">
-                            <option value="">피카츄</option>
-                        </optgroup>
-                    </select>
-                </p>
-
+                <div class="question">
+                    <label><mark>트레이너님의 닉네임</mark>을 알려주세요!</label>
+                    <input type="text" name="username" placeholder="닉네임 입력"/>
+                </div>
+                <div class="question">
+                    <label><mark>포켓몬을 처음 접한건</mark> 어느 작품을 통해서였나요?</label>
+                    <div class="userinput">
+                        <div class="select" id="selectFirstwork">
+                            <div class="select-selected" id="selectFirstworkOption">검색 조건</div>
+                            <div class="select-items">
+                                <div data-value="workname">작품명</div>
+                                <div data-value="genre">장르</div>
+                                <div data-value="gen">세대 구분</div>
+                            </div>
+                        </div>
+                        <input type="text" name="firstwork" placeholder="검색 조건 선택 후 검색어 입력"/>
+                    </div>
+                </div>
+                <div class="question">
+                    <label><mark>가장 좋아하는 포켓몬 작품</mark>은 무엇인가요?</label>
+                    <div class="userinput">
+                        <div class="select" id="selectFavwork">
+                            <div class="select-selected" id="selectFavworkOption">검색 조건</div>
+                            <div class="select-items">
+                                <div data-value="workname">작품명</div>
+                                <div data-value="genre">장르</div>
+                                <div data-value="gen">세대 구분</div>
+                            </div>
+                        </div>
+                        <input type="text" name="favwork" placeholder="검색 조건 선택 후 검색어 입력"/>
+                    </div>
+                </div>
+                <div class="question">
+                    <label><mark>가장 좋아하는 포켓몬</mark>은 누구인가요?</label>
+                    <div class="userinput">
+                        <div class="select" id="selectFavpokemon">
+                            <div class="select-selected" id="selectFavpokemonOption">검색 조건</div>
+                            <div class="select-items">
+                                <div data-value="pokename">이름</div>
+                                <div data-value="poketype">타입</div>
+                                <div data-value="gen">세대 구분</div>
+                            </div>
+                        </div>
+                        <input type="text" name="favpokemon" placeholder="검색 조건 선택 후 검색어 입력"/>
+                    </div>
+                </div>
+                <div class="question">
+                    <label><mark>가장 좋아하는 타입</mark>은 무엇인가요?</label><br/>
+                    <div class="checkbox-container">
+                        <input type="checkbox" name="favtype" id="normal">
+                        <label for="normal"><img src="" alt="normal"></label>
+                        <input type="checkbox" name="favtype" id="fire">
+                        <label for="fire"><img src="" alt="fire"></label>
+                        <input type="checkbox" name="favtype" id="water">
+                        <label for="water"><img src="" alt="water"></label>
+                        <input type="checkbox" name="favtype" id="grass">
+                        <label for="grass"><img src="" alt="grass"></label>
+                        <input type="checkbox" name="favtype" id="electric">
+                        <label for="electric"><img src="" alt="electric"></label>
+                        <input type="checkbox" name="favtype" id="ice">
+                        <label for="ice"><img src="" alt="ice"></label>
+                        <input type="checkbox" name="favtype" id="fighting">
+                        <label for="fighting"><img src="" alt="fighting"></label>
+                        <input type="checkbox" name="favtype" id="poison">
+                        <label for="poison"><img src="" alt="poison"></label>
+                        <input type="checkbox" name="favtype" id="ground">
+                        <label for="ground"><img src="" alt="ground"></label>
+                        <input type="checkbox" name="favtype" id="flying">
+                        <label for="flying"><img src="" alt="flying"></label>
+                        <input type="checkbox" name="favtype" id="psychic">
+                        <label for="psychic"><img src="" alt="psychic"></label>
+                        <input type="checkbox" name="favtype" id="bug">
+                        <label for="bug"><img src="" alt="bug"></label>
+                        <input type="checkbox" name="favtype" id="rock">
+                        <label for="rock"><img src="" alt="rock"></label>
+                        <input type="checkbox" name="favtype" id="ghost">
+                        <label for="ghost"><img src="" alt="ghost"></label>
+                        <input type="checkbox" name="favtype" id="dragon">
+                        <label for="dragon"><img src="" alt="dragon"></label>
+                        <input type="checkbox" name="favtype" id="dark">
+                        <label for="dark"><img src="" alt="dark"></label>
+                        <input type="checkbox" name="favtype" id="steel">
+                        <label for="steel"><img src="" alt="steel"></label>
+                        <input type="checkbox" name="favtype" id="fairy">
+                        <label for="fairy"><img src="" alt="fairy"></label>
+                    </div>
+                </div>
+                <div class="question">
+                    <label><mark>가장 좋아하는 트레이너</mark>는 누구인가요?</label>
+                    <div class="userinput">
+                        <div class="select" id="selectFavtrainer">
+                            <div class="select-selected" id="selectFavtrainerOption">검색 조건</div>
+                            <div class="select-items">
+                                <div data-value="trainername">이름</div>
+                                <div data-value="gen">세대 구분</div>
+                                <div data-value="gender">성별</div>
+                            </div>
+                        </div>
+                        <input type="text" name="favtrainer" placeholder="검색 조건 선택 후 검색어 입력"/>
+                    </div>
+                </div>
                 <hr/>
-                <p>
+                <div class="button">
                     <input type="reset" value="다시할래요"/>
                     <input type="submit" value="다했어요!"/>
-                </p>
+                </div>
             </form>
-        </section>
+        </div>
 
         <!-- footer -->
         <footer>
             <p><small>Cho Ye-Eun made this website in 2024. Pokémon company has all rights!</small></p>
         </footer>
+
+        <script src="./js/selectbox.js"></script>
     </div>
 </body>
 </html>

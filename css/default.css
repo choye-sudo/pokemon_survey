@@ -14,10 +14,7 @@
     box-sizing: border-box;
 }
 
-#wrap{
-    font-family: 'asindinarub';
-}
-
+/*header 관련*/
 header{
     position:sticky;
     top: 0px;
@@ -66,6 +63,29 @@ nav a:hover{
     color: rgb(255, 54, 19);
 }
 
+
+/*body 관련*/
+body{
+    font-family: 'asindinarub';
+    background-color: rgb(240, 240, 240);
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../assets/images/pikuchu_icon_2.png);
+    background-size: 100px 100px;
+    animation: moveBackground 10s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 300px 300px;
+    }
+}
+
+/*footer 관련*/
 footer{
     font-family: 'pretendard';
     font-weight: 600;
@@ -79,4 +99,5 @@ footer{
     display: flex;
     align-items: center;
     justify-content: left;
+    box-shadow: 0 -3px 10px #c2c2c2;
 }
