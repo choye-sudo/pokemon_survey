@@ -1,3 +1,17 @@
+h1{
+    text-align: center;
+    margin: 0;
+    margin: 10vh auto;
+    font-size: 7vw;
+}
+
+h1 mark{
+    padding: 2vw;
+    background-color: rgb(255, 241, 84);
+    color: rgb(255, 54, 19);
+    border-radius: 10vw;
+}
+
 .img_main{
     position: relative;
     display: flex;

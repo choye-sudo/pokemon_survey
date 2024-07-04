@@ -38,6 +38,7 @@
 .checkbox-container label {
     display: block;
     cursor: pointer;
+    position: relative;
 }
 
 .checkbox-container img {
@@ -53,6 +54,33 @@
 
 .checkbox-container input[type="checkbox"]:checked + label img {
     transform: scale(1.1); /* 체크된 상태일 때 이미지 확대 */
+}
+
+span {
+    position: relative;
+}
+
+span::after {
+    content: attr(name);
+    font-size: 12px;
+    text-align: center;
+    width: 40%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 3px;
+    z-index: 1000;
+    display: none;
+     /* 가운데 정렬 */
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 100%;
+}
+
+span:hover::after {
+    display: block;
 }
 
 #notice{
@@ -118,22 +146,40 @@
     position: absolute;
     background-color: rgb(255, 255, 255);
     min-width: 100%;
-    display: none;
     z-index: 1;
-    overflow: auto;
+    overflow: hidden;
     border: solid 1px rgb(190, 190, 190);
     border-radius: 20px;
     text-align: center;
     margin-top: 5px;
+
+    /*초기 설정*/
+    opacity: 0;
+    visibility: hidden;
+    transform-origin: top;
+    transform: scaleY(0);
+    height: 0;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, height 0.3s ease;
+}
+
+.select .select-items.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+    height: auto;
+    transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, height 0.3s ease;
 }
 
 .select .select-items div {
-    padding: 8px 16px;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
-.custom-select .select-items div:hover {
-    background-color: #ddd;
+.select .select-items div:hover {
+    background-color: rgb(255, 241, 84);
+    color: rgb(255, 54, 19);
 }
 /*custom select box end*/
 
@@ -163,6 +209,7 @@ mark{
     background-color: rgb(255, 241, 84);
     color: rgb(255, 54, 19);
     border-radius: 4px;
+    padding: 2px;
 }
 
 hr{
@@ -171,6 +218,7 @@ hr{
     background: rgb(210, 210, 210);
     border: 0;
 }
+
 .button{
     margin: 10px;
     display: flex;
