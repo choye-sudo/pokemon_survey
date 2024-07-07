@@ -30,107 +30,159 @@
                 <p>포켓몬과 관련된 여러가지 사항을 물어볼게요.</p>
                 <p><mark>편안한 마음</mark>으로 대답해주시면 됩니다!</p>
             </div>
-            <!--왜 post가 안될까?-->
-            <form action="./result.html" method="get">
+            <form action="./submit_survey.php" method="post">
                 <div class="question">
                     <label><mark>트레이너님의 닉네임</mark>을 알려주세요!</label>
-                    <input type="text" name="username" placeholder="닉네임 입력"/>
+                    <input type="text" name="username" placeholder="닉네임 입력" required/>
                 </div>
                 <div class="question">
                     <label><mark>포켓몬을 처음 접한건</mark> 어느 작품을 통해서였나요?</label>
                     <div class="userinput">
-                        <div class="select" id="selectFirstwork">
-                            <div class="select-selected" id="selectFirstworkOption">검색 조건</div>
+                        <div class="select" id="selectFirstWorkGenre">
+                            <div class="select-selected" id="selectFirstWorkGenreOption">장르선택</div>
                             <div class="select-items">
-                                <div data-value="workname">작품명</div>
-                                <div data-value="genre">장르</div>
-                                <div data-value="gen">세대 구분</div>
+                                <div data-value="genre_videogame">비디오게임</div>
+                                <div data-value="genre_anime">애니메이션</div>
+                                <div data-value="genre_cartoon">만화</div>
+                                <div data-value="genre_movie">영화</div>
+                                <div data-value="genre_etc">기타</div>
                             </div>
                         </div>
-                        <input type="text" name="firstwork" placeholder="검색 조건 선택 후 검색어 입력"/>
+                        <div class="select" id="selectFirstWorkGen">
+                            <div class="select-selected" id="selectFirstWorkGenOption">세대선택</div>
+                            <div class="select-items">
+                                <div data-value="gen_1">1세대</div>
+                                <div data-value="gen_2">2세대</div>
+                                <div data-value="gen_3">3세대</div>
+                                <div data-value="gen_4">4세대</div>
+                                <div data-value="gen_5">5세대</div>
+                                <div data-value="gen_6">6세대</div>
+                                <div data-value="gen_7">7세대</div>
+                                <div data-value="gen_8">8세대</div>
+                                <div data-value="gen_9">9세대</div>
+                            </div>
+                        </div>
+                        <input type="text" id="firstworkKeyword" placeholder="검색 조건 선택 후 검색어 입력" onkeyup="performSearch('firstwork', 'pokemon_works')"/>
+                        <div id="firstworkResults" class="search-results"></div>
+                        <input type="hidden" name="firstwork" id="firstwork" required/>
                     </div>
                 </div>
                 <div class="question">
                     <label><mark>가장 좋아하는 포켓몬 작품</mark>은 무엇인가요?</label>
                     <div class="userinput">
-                        <div class="select" id="selectFavwork">
-                            <div class="select-selected" id="selectFavworkOption">검색 조건</div>
+                        <div class="select" id="selectFavWorkGenre">
+                            <div class="select-selected" id="selectFavWorkGenreOption">장르선택</div>
                             <div class="select-items">
-                                <div data-value="workname">작품명</div>
-                                <div data-value="genre">장르</div>
-                                <div data-value="gen">세대 구분</div>
+                                <div data-value="genre_videogame">비디오게임</div>
+                                <div data-value="genre_anime">애니메이션</div>
+                                <div data-value="genre_cartoon">만화</div>
+                                <div data-value="genre_movie">영화</div>
+                                <div data-value="genre_etc">기타</div>
                             </div>
                         </div>
-                        <input type="text" name="favwork" placeholder="검색 조건 선택 후 검색어 입력"/>
+                        <div class="select" id="selectFavWorkGen">
+                            <div class="select-selected" id="selectFavWorkGenOption">세대선택</div>
+                            <div class="select-items">
+                                <div data-value="gen_1">1세대</div>
+                                <div data-value="gen_2">2세대</div>
+                                <div data-value="gen_3">3세대</div>
+                                <div data-value="gen_4">4세대</div>
+                                <div data-value="gen_5">5세대</div>
+                                <div data-value="gen_6">6세대</div>
+                                <div data-value="gen_7">7세대</div>
+                                <div data-value="gen_8">8세대</div>
+                                <div data-value="gen_9">9세대</div>
+                            </div>
+                        </div>
+                        <input type="text" id="favworkKeyword" placeholder="검색 조건 선택 후 검색어 입력" onkeyup="performSearch('favwork', 'pokemon_works')"/>
+                        <div id="favworkResults" class="search-results"></div>
+                        <input type="hidden" name="favwork" id="favwork" required/>
                     </div>
                 </div>
                 <div class="question">
                     <label><mark>가장 좋아하는 포켓몬</mark>은 누구인가요?</label>
                     <div class="userinput">
-                        <div class="select" id="selectFavpokemon">
-                            <div class="select-selected" id="selectFavpokemonOption">검색 조건</div>
+                        <div class="select" id="selectFavpokemonGen">
+                            <div class="select-selected" id="selectFavpokemonGenOption">세대선택</div>
                             <div class="select-items">
-                                <div data-value="pokename">이름</div>
-                                <div data-value="poketype">타입</div>
-                                <div data-value="gen">세대 구분</div>
+                                <div data-value="gen_1">1세대</div>
+                                <div data-value="gen_2">2세대</div>
+                                <div data-value="gen_3">3세대</div>
+                                <div data-value="gen_4">4세대</div>
+                                <div data-value="gen_5">5세대</div>
+                                <div data-value="gen_6">6세대</div>
+                                <div data-value="gen_7">7세대</div>
+                                <div data-value="gen_8">8세대</div>
+                                <div data-value="gen_9">9세대</div>
                             </div>
                         </div>
-                        <input type="text" name="favpokemon" placeholder="검색 조건 선택 후 검색어 입력"/>
+                        <div class="select" id="selectFavpokemonType">
+                            <div class="select-selected" id="selectFavpokemonTypeOption">타입선택</div>
+                            <div class="select-items">
+                                <div data-value="normal">노말</div>
+                                <div data-value="fire">불꽃</div>
+                                <div data-value="water">물</div>
+                                <div data-value="grass">풀</div>
+                                <div data-value="electric">전기</div>
+                                <div data-value="ice">얼음</div>
+                                <div data-value="fighting">격투</div>
+                                <div data-value="poison">독</div>
+                                <div data-value="ground">땅</div>
+                                <div data-value="flying">비행</div>
+                                <div data-value="psychic">에스퍼</div>
+                                <div data-value="bug">벌레</div>
+                                <div data-value="rock">바위</div>
+                                <div data-value="ghost">고스트</div>
+                                <div data-value="dragon">드래곤</div>
+                                <div data-value="dark">악</div>
+                                <div data-value="steel">강철</div>
+                                <div data-value="fairy">페어리</div>
+                            </div>
+                        </div>
+                        <input type="text" id="favpokemonKeyword" placeholder="검색 조건 선택 후 검색어 입력" onkeyup="performSearch('favpokemon', 'pokemons')"/>
+                        <div id="favpokemonResults" class="search-results"></div>
+                        <input type="hidden" name="favpokemon" id="favpokemon" required/>
                     </div>
                 </div>
                 <div class="question">
                     <label><mark>가장 좋아하는 타입</mark>은 무엇인가요?</label><br/>
                     <div class="checkbox-container">
-                        <input type="checkbox" name="favtype" id="normal">
+                        <input type="checkbox" name="favtype[]" id="normal">
                         <label for="normal"><span name="normal"><img src="" alt="normal"></span></label>
-                        <input type="checkbox" name="favtype" id="fire">
+                        <input type="checkbox" name="favtype[]" id="fire">
                         <label for="fire"><span name="fire"><img src="" alt="fire"></span></label>
-                        <input type="checkbox" name="favtype" id="water">
+                        <input type="checkbox" name="favtype[]" id="water">
                         <label for="water"><span name="water"><img src="" alt="water"></span></label>
-                        <input type="checkbox" name="favtype" id="grass">
+                        <input type="checkbox" name="favtype[]" id="grass">
                         <label for="grass"><span name="grass"><img src="" alt="grass"></span></label>
-                        <input type="checkbox" name="favtype" id="electric">
+                        <input type="checkbox" name="favtype[]" id="electric">
                         <label for="electric"><span name="electric"><img src="" alt="electric"></span></label>
-                        <input type="checkbox" name="favtype" id="ice">
+                        <input type="checkbox" name="favtype[]" id="ice">
                         <label for="ice"><span name="ice"><img src="" alt="ice"></span></label>
-                        <input type="checkbox" name="favtype" id="fighting">
+                        <input type="checkbox" name="favtype[]" id="fighting">
                         <label for="fighting"><span name="fighting"><img src="" alt="fighting"></span></label>
-                        <input type="checkbox" name="favtype" id="poison">
+                        <input type="checkbox" name="favtype[]" id="poison">
                         <label for="poison"><span name="poison"><img src="" alt="poison"></span></label>
-                        <input type="checkbox" name="favtype" id="ground">
+                        <input type="checkbox" name="favtype[]" id="ground">
                         <label for="ground"><span name="ground"><img src="" alt="ground"></span></label>
-                        <input type="checkbox" name="favtype" id="flying">
+                        <input type="checkbox" name="favtype[]" id="flying">
                         <label for="flying"><span name="flying"><img src="" alt="flying"></span></label>
-                        <input type="checkbox" name="favtype" id="psychic">
+                        <input type="checkbox" name="favtype[]" id="psychic">
                         <label for="psychic"><span name="psychic"><img src="" alt="psychic"></span></label>
-                        <input type="checkbox" name="favtype" id="bug">
+                        <input type="checkbox" name="favtype[]" id="bug">
                         <label for="bug"><span name="bug"><img src="" alt="bug"></span></label>
-                        <input type="checkbox" name="favtype" id="rock">
+                        <input type="checkbox" name="favtype[]" id="rock">
                         <label for="rock"><span name="rock"><img src="" alt="rock"></span></label>
-                        <input type="checkbox" name="favtype" id="ghost">
+                        <input type="checkbox" name="favtype[]" id="ghost">
                         <label for="ghost"><span name="ghost"><img src="" alt="ghost"></span></label>
-                        <input type="checkbox" name="favtype" id="dragon">
+                        <input type="checkbox" name="favtype[]" id="dragon">
                         <label for="dragon"><span name="dragon"><img src="" alt="dragon"></span></label>
-                        <input type="checkbox" name="favtype" id="dark">
+                        <input type="checkbox" name="favtype[]" id="dark">
                         <label for="dark"><span name="dark"><img src="" alt="dark"></span></label>
-                        <input type="checkbox" name="favtype" id="steel">
+                        <input type="checkbox" name="favtype[]" id="steel">
                         <label for="steel"><span name="steel"><img src="" alt="steel"></span></label>
-                        <input type="checkbox" name="favtype" id="fairy">
+                        <input type="checkbox" name="favtype[]" id="fairy">
                         <label for="fairy"><span name="fairy"><img src="" alt="fairy"></span></label>
-                    </div>
-                </div>
-                <div class="question">
-                    <label><mark>가장 좋아하는 트레이너</mark>는 누구인가요?</label>
-                    <div class="userinput">
-                        <div class="select" id="selectFavtrainer">
-                            <div class="select-selected" id="selectFavtrainerOption">검색 조건</div>
-                            <div class="select-items">
-                                <div data-value="trainername">이름</div>
-                                <div data-value="gen">세대 구분</div>
-                                <div data-value="gender">성별</div>
-                            </div>
-                        </div>
-                        <input type="text" name="favtrainer" placeholder="검색 조건 선택 후 검색어 입력"/>
                     </div>
                 </div>
                 <hr/>

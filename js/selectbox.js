@@ -40,8 +40,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     // 각 셀렉 박스에 대해 함수 호출
-    setupSelect('selectFirstwork', 'selectFirstworkOption');
-    setupSelect('selectFavwork', 'selectFavworkOption');
-    setupSelect('selectFavpokemon', 'selectFavpokemonOption');
-    setupSelect('selectFavtrainer', 'selectFavtrainerOption');
+    setupSelect('selectFirstWorkGenre', 'selectFirstWorkGenreOption');
+    setupSelect('selectFirstWorkGen', 'selectFirstWorkGenOption');
+    
+    setupSelect('selectFavWorkGenre', 'selectFavWorkGenreOption');
+    setupSelect('selectFavWorkGen', 'selectFavWorkGenOption');
+
+    setupSelect('selectFavpokemonGen', 'selectFavpokemonGenOption');
+    setupSelect('selectFavpokemonType', 'selectFavpokemonTypeOption');
 });

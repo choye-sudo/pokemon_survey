@@ -117,15 +117,18 @@ span:hover::after {
 .select {
     position: relative;
     display: inline-block;
-    width: 125px;
+    max-width: 100px;
+    min-width: 100px;
     font-size: 14px;
     color: rgb(110, 110, 110);
+    margin-right:10px;
 }
 
 .select .select-selected {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     height: 30px;
+    width: 100%;
     border-radius: 20px;
     display: flex;
     align-items: center;
@@ -147,8 +150,9 @@ span:hover::after {
     background-color: rgb(255, 255, 255);
     min-width: 100%;
     z-index: 1;
-    overflow: hidden;
-    border: solid 1px rgb(190, 190, 190);
+    overflow-y: auto;
+    max-height: 250px;
+    border: solid 1px rgb(216, 216, 216);
     border-radius: 20px;
     text-align: center;
     margin-top: 5px;
@@ -160,6 +164,10 @@ span:hover::after {
     transform: scaleY(0);
     height: 0;
     transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, height 0.3s ease;
+}
+
+.select-items::-webkit-scrollbar{
+    display: none;
 }
 
 .select .select-items.show {
@@ -193,16 +201,26 @@ input{
     caret-color:rgb(190, 190, 190);
 }
 
-.userinput input{
-    margin-left: 10px;
-}
-
 input::placeholder{
     color: rgb(190, 190, 190);
 }
 
 input:focus::placeholder{
     opacity: 0;
+}
+
+.search-results {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+}
+.search-results div {
+    padding: 5px;
+    cursor: pointer;
+}
+.search-results div:hover {
+    background-color: #ddd;
 }
 
 mark{
