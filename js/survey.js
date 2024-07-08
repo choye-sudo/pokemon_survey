@@ -1,18 +1,17 @@
 document.addEventListener("DOMContentLoaded", function() {
     // DOMContentLoaded 이벤트가 발생하면, 내부 함수를 실행
 
+    /* 검색 기능 */
     function performSearch(inputId, table) {
-        // performSearch 함수는 검색 기능을 수행합니다.
-        var keyword = document.getElementById(inputId + 'Keyword').value;
-        // inputId에 해당하는 검색어 입력 필드의 값을 가져옵니다.
+        var keyword = document.getElementById(inputId + 'Keyword').value; // inputId에 해당하는 검색어 입력 필드의 값을 가져옴
 
-        var selectedOptionId = inputId + 'GenreOption';
-        // 검색 조건으로 선택한 요소의 ID를 지정합니다.
-        //장르 옵션만 있는게 아니기 때문에, 수정해야함. 내 생각에는 각 옵션별로도 또 따로 받는 변수를 만들어서, 따오게 하면 될 것 같음
-        //이름이 select ~ 아이디 ~ GenreOption 이런 형태여서 일단 html 이름부터 좀 먼저 맞춰주자.
+        var selectedGenreOption = document.getElementById(inputId + 'GenreOption') ? document.getElementById(inputId + 'GenreOption').getAttribute('data-value') : null;
+        var selectedGenOption = document.getElementById(inputId + 'GenOption') ? document.getElementById(inputId + 'GenOption').getAttribute('data-value') : null;
+        var selectedTypeOption = document.getElementById(inputId + 'TypeOption') ? document.getElementById(inputId + 'TypeOption').getAttribute('data-value') : null;
+        // 장르, 세대, 타입 옵션을 각각 가져옵니다.
 
-        var selectedOption = document.getElementById(selectedOptionId).getAttribute('data-value');
-        // 선택된 옵션의 data-value 값을 가져옵니다.
+        var selectedOption = selectedGenreOption || selectedGenOption || selectedTypeOption;
+        // 선택된 옵션 중 하나를 가져옵니다.
 
         if (!selectedOption) {
             alert('먼저 조건을 선택해주세요.');
@@ -30,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // AJAX 요청을 생성합니다.
 
         xhr.open("GET", `search.php?table=${table}&keyword=${encodeURIComponent(keyword)}&condition=${encodeURIComponent(selectedOption)}`, true);
-        // GET 요청을 초기화합니다. 검색어와 조건을 URL 파라미터로 전송합니다.
+        // GET 요청을 초기화합니다. 검색어와 조건을 URL 파라미터로 전송합니다.(php로 전달해 주는거임)
 
         xhr.onreadystatechange = function() {
             if (xhr.readyState === 4 && xhr.status === 200) {
