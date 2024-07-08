@@ -1,41 +1,69 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // DOMContentLoaded 이벤트가 발생하면, 내부 함수를 실행
+
     function performSearch(inputId, table) {
+        // performSearch 함수는 검색 기능을 수행합니다.
         var keyword = document.getElementById(inputId + 'Keyword').value;
-        var selectedOption = document.querySelector(`#${inputId} .select-selected`).dataset.value;
+        // inputId에 해당하는 검색어 입력 필드의 값을 가져옵니다.
+
+        var selectedOptionId = inputId + 'GenreOption';
+        // 검색 조건으로 선택한 요소의 ID를 지정합니다.
+
+        var selectedOption = document.getElementById(selectedOptionId).getAttribute('data-value');
+        // 선택된 옵션의 data-value 값을 가져옵니다.
 
         if (!selectedOption) {
             alert('먼저 조건을 선택해주세요.');
             return;
         }
+        // 선택된 옵션이 없으면 경고 메시지를 표시하고 함수를 종료합니다.
 
         if (keyword.length < 2) {
             document.getElementById(inputId + 'Results').innerHTML = '';
             return;
         }
+        // 검색어 길이가 2자 미만이면 검색 결과를 지우고 함수를 종료합니다.
 
-        // AJAX 요청 생성
         var xhr = new XMLHttpRequest();
+        // AJAX 요청을 생성합니다.
+
         xhr.open("GET", `search.php?table=${table}&keyword=${encodeURIComponent(keyword)}&condition=${encodeURIComponent(selectedOption)}`, true);
+        // GET 요청을 초기화합니다. 검색어와 조건을 URL 파라미터로 전송합니다.
+
         xhr.onreadystatechange = function() {
             if (xhr.readyState === 4 && xhr.status === 200) {
-                // 서버에서 받은 결과를 화면에 표시
                 document.getElementById(inputId + 'Results').innerHTML = xhr.responseText;
             }
         };
+        // 요청 상태가 완료되었고, 서버 응답이 성공적일 때 검색 결과를 표시합니다.
+
         xhr.send();
+        // 요청을 서버로 보냅니다.
     }
 
     function selectResult(element, inputId) {
+        // selectResult 함수는 검색 결과 중 하나를 선택했을 때 실행됩니다.
         var value = element.getAttribute('data-value');
+        // 선택된 결과의 data-value 속성을 가져옵니다.
+
         var text = element.innerText;
+        // 선택된 결과의 텍스트를 가져옵니다.
 
         document.getElementById(inputId).value = value;
+        // 숨겨진 입력 필드에 선택된 값(data-value)을 설정합니다.
+
         document.getElementById(inputId + 'Keyword').value = text;
+        // 검색어 입력 필드에 선택된 결과의 텍스트를 설정합니다.
+
         document.getElementById(inputId + 'Results').innerHTML = '';
+        // 검색 결과를 비웁니다.
     }
 
     function validateForm() {
+        // validateForm 함수는 폼 제출 시 유효성을 검사합니다.
         var requiredFields = ['firstwork', 'favwork', 'favpokemon'];
+        // 필수 입력 필드의 ID를 배열로 정의합니다.
+
         for (var i = 0; i < requiredFields.length; i++) {
             var field = requiredFields[i];
             if (document.getElementById(field).value === '') {
@@ -43,23 +71,29 @@ document.addEventListener("DOMContentLoaded", function() {
                 return false;
             }
         }
+        // 필수 입력 필드가 비어 있는지 확인하고, 비어 있으면 경고 메시지를 표시하고 제출을 중단합니다.
 
-        // 타입 체크박스 선택 여부 확인
         var favtypeChecked = document.querySelectorAll('input[name="favtype[]"]:checked');
+        // 선택된 타입 체크박스를 모두 가져옵니다.
+
         if (favtypeChecked.length === 0) {
             alert('최소한 하나의 타입을 선택해주세요.');
             return false;
         }
+        // 타입 체크박스가 하나도 선택되지 않은 경우 경고 메시지를 표시하고 제출을 중단합니다.
 
-        // 선택된 타입을 JSON 형태로 변환
         var favtypeValues = Array.from(favtypeChecked).map(cb => parseInt(cb.value));
+        // 선택된 체크박스 값을 배열로 변환하고 숫자로 변환합니다.
+
         document.getElementById('favtype').value = JSON.stringify(favtypeValues);
+        // 배열을 JSON 문자열로 변환하여 숨겨진 입력 필드에 설정합니다.
 
         return true;
+        // 폼이 유효한 경우 true를 반환하여 제출을 허용합니다.
     }
 
-    // 전역에 필요한 함수를 window 객체에 추가
     window.performSearch = performSearch;
     window.selectResult = selectResult;
     window.validateForm = validateForm;
+    // 전역에 필요한 함수를 window 객체에 추가합니다.
 });

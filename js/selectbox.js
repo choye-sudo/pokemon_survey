@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function() {
             selectItems[i].addEventListener('click', function() {
                 var selectedValue = this.getAttribute('data-value');
                 selectedOption.innerHTML = this.innerHTML;
+                selectedOption.setAttribute('data-value', selectedValue);
                 selectContainer.querySelector('.select-items').classList.remove('show');
             });
         }
