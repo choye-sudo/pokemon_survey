@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
         var selectedOptionId = inputId + 'GenreOption';
         // 검색 조건으로 선택한 요소의 ID를 지정합니다.
+        //장르 옵션만 있는게 아니기 때문에, 수정해야함. 내 생각에는 각 옵션별로도 또 따로 받는 변수를 만들어서, 따오게 하면 될 것 같음
+        //이름이 select ~ 아이디 ~ GenreOption 이런 형태여서 일단 html 이름부터 좀 먼저 맞춰주자.
 
         var selectedOption = document.getElementById(selectedOptionId).getAttribute('data-value');
         // 선택된 옵션의 data-value 값을 가져옵니다.
