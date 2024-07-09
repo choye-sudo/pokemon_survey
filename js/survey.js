@@ -1,16 +1,11 @@
 document.addEventListener("DOMContentLoaded", function() {
     // DOMContentLoaded 이벤트가 발생하면, 내부 함수를 실행
 
-    /* 검색 기능 */
+    /* 검색 */
     //inputBoxID : 각 유저 입력란 전체를 감싼 요소의 ID값
     function search(inputBoxID) {
-        //firstwork-search-keyword(키워드), firstwork-search-results(검색 결과 띄울 요소), firstwork-input(데이터베이스 보낼 데이터)
-        // 검색조건 선택 안되어있는 경우에도 검색은 가능하게? 검색어 입력 중에 조건 선택하는 경우는 어떻게 해야하지? 입력한 값 지워버리기?
-        // 검색어 입력 2자 이상부터 검색결과 띄워줌
-
-        // inputBoxID를 통해서 어디 테이블로 가야할지 확인하고 설정 해줄 수 있음.
-        // if문을 통해서 테이블 결정
-        // 검색조건은 selected-item의 data-value값을 전부 가져와서 쿼리문에 반영하면 된다
+        //검색조건 선택 안되어있는 경우에도 검색은 가능하게? 검색어 입력 중에 조건 선택하는 경우는 어떻게 해야하지? 입력한 값 지워버리기?
+        //조건 선택한건 어떻게 처리할지 고민하기
 
         //검색할 데이터베이스 테이블 결정
         var table = '';
@@ -28,25 +23,24 @@ document.addEventListener("DOMContentLoaded", function() {
 
         //html 요소 가져오기
         var inputBox = document.getElementById(inputBoxID);//전체 유저 입력란 (선택란+입력란) 요소를 가져옴
-        var keyword = inputBox.querySelector('.search-keyword').value; // 검색어 입력란에 입력된 값을 가져옴
         var selectedItems = inputBox.querySelectorAll('.selected-item');// selected-item 클래스 요소(선택된 조건이 담김)를 가져옴
-        var dataValues = [];
+        var selectedValues = [];
         selectedItems.forEach(function(item) {
-            dataValues.push(item.getAttribute('data-value'));
+            selectedValues.push(item.getAttribute('data-value'));
         });//반복문을 통해 선택된 조건 값을 가져옴
+        
+        // 조건 값이 없는 경우 어떻게 할건지 조건문으로 처리해주기.
 
+        var keyword = inputBox.querySelector('.search-keyword').value; // 검색어 입력란에 입력된 값을 가져옴
         // 검색어 길이가 2자 미만이면 검색 결과를 지우고 함수 종료
         if (keyword.length < 2) {
             inputBox.querySelector('.search-results').innerHTML = '';//search-results에 아무 결과도 나오지 않게 처리
             return;
         }
 
-
         // AJAX 요청을 생성
         var xhr = new XMLHttpRequest();
-
-        xhr.open("GET", `search.php?table=${table}&keyword=${encodeURIComponent(keyword)}&condition=${encodeURIComponent(selectedOption)}`, true);
-        // GET 요청을 초기화합니다. 검색어와 조건을 URL 파라미터로 전송합니다.(php로 전달해 주는거임)
+        xhr.open("GET", `search.php?table=${table}&keyword=${encodeURIComponent(keyword)}&condition=${encodeURIComponent(selectedOption)}`, true);// GET 요청을 초기화하고 검색어와 조건을 URL 파라미터로 전송
 
         xhr.onreadystatechange = function() {
             if (xhr.readyState === 4 && xhr.status === 200) {
@@ -59,26 +53,21 @@ document.addEventListener("DOMContentLoaded", function() {
         // 요청을 서버로 보냅니다.
     }
 
-    //이거 어느곳에서도 호출을 하고있지 않음...
-    function selectResult(element, inputId) {
-        // selectResult 함수는 검색 결과 중 하나를 선택했을 때 실행됩니다.
-        var value = element.getAttribute('data-value');
-        // 선택된 결과의 data-value 속성을 가져옵니다.
+    //검색 결과 선택하면 입력 창에 내용 넣고 data-value도 변경되게 수정해야함
+    //검색결과에 대해서 선택하는 부분과, 선택한 검색 결과를 입력창에 띄워주는 부분
+    /* 검색 결과 표시 */
+    function searchResult(){
 
-        var text = element.innerText;
-        // 선택된 결과의 텍스트를 가져옵니다.
-
-        document.getElementById(inputId).value = value;
-        // 숨겨진 입력 필드에 선택된 값(data-value)을 설정합니다.
-
-        document.getElementById(inputId + 'Keyword').value = text;
-        // 검색어 입력 필드에 선택된 결과의 텍스트를 설정합니다.
-
-        document.getElementById(inputId + 'Results').innerHTML = '';
-        // 검색 결과를 비웁니다.
     }
 
-    //정규표현식 넣을 수 있는지 한번 보기!!
+    //검색 결과를 선택해야만 유효하다고 판단하도록 하는 동작을 넣어야 함.
+    /* 검색 결과 선택 */
+    function searchResultSelect(){
+
+    }
+
+    //정규표현식 넣을 수 있는지 보기!!
+    /* 입력 내용 유효성 검사 */
     function validateForm() {
         // validateForm 함수는 폼 제출 시 유효성을 검사합니다.
         var requiredFields = ['firstwork', 'favwork', 'favpokemon'];
@@ -113,7 +102,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     window.search = search;
-    window.selectResult = selectResult;
     window.validateForm = validateForm;
     // 전역에 필요한 함수를 window 객체에 추가합니다.
 });
