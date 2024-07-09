@@ -16,20 +16,21 @@
     }
     .checkbox-container{
         display: grid;
+        flex-grow: 1;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
     }
 }
 
 /*851px 이상*/
-@media(min-width:851px){
+@media(min-width:850px){
     #survey{
         width: 850px;
         margin: 0 auto;
     }
     .checkbox-container{
-        margin-top: 20px;
         display: grid;
+        flex-grow: 1;
         grid-template-columns: repeat(6, 1fr);
         gap : 10px;
     }
@@ -83,7 +84,7 @@ span:hover::after {
     display: block;
 }
 
-#notice{
+.notice{
     text-align: center;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
@@ -93,7 +94,7 @@ span:hover::after {
     padding: 10px;
 }
 
-#notice img{
+.notice img{
     vertical-align: middle;/*글자, 이미지 가로 정렬 맞춤*/
     width: 40px;
     height: auto;
@@ -111,10 +112,11 @@ span:hover::after {
 .userinput{
     margin-top: 10px;
     display: flex;
+    justify-content: center;
 }
 
 /*custom select box start*/
-.select {
+.select-box {
     position: relative;
     display: inline-block;
     max-width: 100px;
@@ -124,7 +126,7 @@ span:hover::after {
     margin-right:10px;
 }
 
-.select .select-selected {
+.select-box .selected-item {
     background-color: rgb(255, 255, 255);
     padding: 10px;
     height: 30px;
@@ -135,7 +137,7 @@ span:hover::after {
     cursor: pointer;
 }
 
-.select .select-selected::after {
+.select-box .selected-item::after {
     content: '';
     position: absolute;
     top: 50%;
@@ -145,7 +147,7 @@ span:hover::after {
     border-top-color: rgb(110, 110, 110);
 }
 
-.select .select-items {
+.select-box .select-item-list {
     position: absolute;
     background-color: rgb(255, 255, 255);
     min-width: 100%;
@@ -166,11 +168,11 @@ span:hover::after {
     transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, height 0.3s ease;
 }
 
-.select-items::-webkit-scrollbar{
+.select-item-list::-webkit-scrollbar{
     display: none;
 }
 
-.select .select-items.show {
+.select-box .select-item-list.show {
     opacity: 1;
     visibility: visible;
     transform: scaleY(1);
@@ -178,14 +180,14 @@ span:hover::after {
     transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease, height 0.3s ease;
 }
 
-.select .select-items div {
+.select-box .select-item-list .select-item {
     margin: 5px;
     padding: 5px 10px;
     border-radius: 20px;
     cursor: pointer;
 }
 
-.select .select-items div:hover {
+.select-box .select-item-list .select-item:hover {
     background-color: rgb(255, 241, 84);
     color: rgb(255, 54, 19);
 }
