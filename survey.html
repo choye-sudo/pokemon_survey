@@ -69,7 +69,7 @@
                         </div>
                         <!-- 입력란 -->
                         <input type="text" class="search-keyword" placeholder="검색 조건 선택 후 검색어 입력" onkeyup="search('firstwork')"/>
-                        <div class="search-results"></div>
+                        <div id="firstwork-results" class="search-results"></div>
                         <input type="hidden" name="firstwork" id="firstwork-input" required/>
                     </div>
                 </div>
@@ -78,8 +78,8 @@
                     <label><mark>가장 좋아하는 포켓몬 작품</mark>은 무엇인가요?</label>
                     <div id="favwork" class="userinput">
                         <!-- 검색 조건(장르) -->
-                        <div class="select-box" name="select-genre">
-                            <div class="selected-item" data-value="">장르선택</div>
+                        <div class="select-box">
+                            <div class="selected-item" name="select-genre" data-value="">장르선택</div>
                             <div class="select-item-list">
                                 <div class="select-item" data-value="genre_videogame">비디오게임</div>
                                 <div class="select-item" data-value="genre_anime">애니메이션</div>
@@ -89,8 +89,8 @@
                             </div>
                         </div>
                         <!-- 검색 조건(세대) -->
-                        <div class="select-box" name="select-gen">
-                            <div class="selected-item" data-value="">세대선택</div>
+                        <div class="select-box">
+                            <div class="selected-item" name="select-gen" data-value="">세대선택</div>
                             <div class="select-item-list">
                                 <div class="select-item" data-value="gen_1">1세대</div>
                                 <div class="select-item" data-value="gen_2">2세대</div>
@@ -104,9 +104,9 @@
                             </div>
                         </div>
                         <!-- 입력란 -->
-                        <input type="text" id="favworkKeyword" placeholder="검색 조건 선택 후 검색어 입력" onkeyup="search('favworkA', 'pokemon_works')"/>
-                        <div id="favworkResults" class="search-results"></div>
-                        <input type="hidden" name="favwork" id="favworkA" required/>
+                        <input type="text" class="search-keyword" placeholder="검색 조건 선택 후 검색어 입력" onkeyup="search('favwork')"/>
+                        <div id="favwork-results" class="search-results"></div>
+                        <input type="hidden" name="favwork" id="favwork-input" required/>
                     </div>
                 </div>
                 <!-- 질문 4 : 최애 포켓몬 -->
@@ -114,8 +114,8 @@
                     <label><mark>가장 좋아하는 포켓몬</mark>은 누구인가요?</label>
                     <div id="favpokemon" class="userinput">
                         <!-- 검색 조건(세대) -->
-                        <div class="select-box" name="select-gen">
-                            <div class="selected-item" data-value="">세대선택</div>
+                        <div class="select-box" >
+                            <div class="selected-item" name="select-gen" data-value="">세대선택</div>
                             <div class="select-item-list">
                                 <div class="select-item" data-value="gen_1">1세대</div>
                                 <div class="select-item" data-value="gen_2">2세대</div>
@@ -129,8 +129,8 @@
                             </div>
                         </div>
                         <!-- 검색 조건(포켓몬 타입) -->
-                        <div class="select-box" name="select-type">
-                            <div class="selected-item" data-value="">타입선택</div>
+                        <div class="select-box">
+                            <div class="selected-item" name="select-type" data-value="">타입선택</div>
                             <div class="select-item-list">
                                 <div class="select-item" data-value="normal">노말</div>
                                 <div class="select-item" data-value="fire">불꽃</div>
@@ -153,9 +153,9 @@
                             </div>
                         </div>
                         <!-- 입력란 -->
-                        <input type="text" id="favpokemonKeyword" placeholder="검색 조건 선택 후 검색어 입력" onkeyup="search('favpokemonA', 'pokemons')"/>
-                        <div id="favpokemonResults" class="search-results"></div>
-                        <input type="hidden" name="favpokemon" id="favpokemonA" required/>
+                        <input type="text" class="search-keyword" placeholder="검색 조건 선택 후 검색어 입력" onkeyup="search('favpokemon')"/>
+                        <div id="favpokemon-results" class="search-results"></div>
+                        <input type="hidden" name="favpokemon" id="favpokemon-input" required/>
                     </div>
                 </div>
                 <!-- 질문 5 : 최애 포켓몬 타입 -->
@@ -218,13 +218,5 @@
     <script src="./js/selectbox.js"></script>
     <script src="./js/checkbox.js"></script>
     <script src="./js/survey.js"></script>
-    <script>
-        //select box를 위해 호출
-        document.addEventListener("DOMContentLoaded", function() {
-            setupSelect('firstwork');
-            setupSelect('favwork');
-            setupSelect('favpokemon');
-        });
-    </script>
 </body>
 </html>
