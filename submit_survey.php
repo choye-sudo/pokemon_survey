@@ -26,7 +26,7 @@ VALUES (?, ?, ?, ?, ?)";
 
 // Prepared statement 사용
 $stmt = $conn->prepare($sql);
-$stmt->bind_param("siiss", $username, $firstwork, $favwork, $favpokemon, $favtype);
+$stmt->bind_param("sssss", $username, $firstwork, $favwork, $favpokemon, $favtype);
 
 // 쿼리 실행 및 결과 확인
 if ($stmt->execute() === TRUE) {

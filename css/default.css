@@ -14,6 +14,7 @@
     box-sizing: border-box;
 }
 
+
 /*header 관련*/
 header{
     position:sticky;
@@ -84,6 +85,44 @@ body{
         background-position: 300px 300px;
     }
 }
+
+
+/*contents 관련*/
+/* main contents 영역 */
+.contents{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+/*850px 이하*/
+@media(max-width:850px){
+    .contents{
+        width: 100%;
+    }
+}
+/*851px 이상*/
+@media(min-width:850px){
+    .contents{
+        width: 850px;
+        margin: 0 auto;
+    }
+}
+
+/* notice 영역 */
+.notice{
+    text-align: center;
+    border-radius: 20px;
+    line-height: 0.75;
+    margin: 20px;
+    padding: 10px;
+}
+
+.notice img{
+    vertical-align: middle;/*글자, 이미지 가로 정렬 맞춤*/
+    width: 40px;
+    height: auto;
+}
+
 
 /*footer 관련*/
 footer{

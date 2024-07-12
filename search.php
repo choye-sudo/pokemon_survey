@@ -1,8 +1,8 @@
 <?php
 // 데이터베이스 연결 정보 설정
-$servername = "localhost";
+$servername = "localhost:3306";
 $username = "root";
-$password = "";
+$password = "dPdmsdk?0928";
 $dbname = "pokemon_database";
 
 // 데이터베이스에 연결
@@ -20,25 +20,26 @@ $option_type = isset($_GET['select-type']) ? $_GET['select-type'] : '';//조건-
 
 //테이블 및 컬럼 설정
 $columns = [
-    'pokemon_works' => ['work_name', 'genre_id', 'gen', 'work_img_url'],
-    'genres' => ['genre_id', 'genre_name'],
-    'pokemons' => ['pokemon_name', 'pokemon_num', 'gen', 'pokemon_img_url'],
-    'types' => ['type_id', 'type_name'],
-    'pokemons_types' => ['pokemon_name', 'type_id']
+    'pokemon_works' => ['pokemon_works.work_name', 'pokemon_works.genre_id', 'pokemon_works.gen', 'pokemon_works.work_img_url'],
+    'pokemons' => ['pokemons.pokemon_name', 'pokemons.pokemon_num', 'pokemons.gen', 'pokemons.pokemon_img_url']
 ];
 if (!array_key_exists($table, $columns)) {
-    echo "Invalid table.";
+    echo json_encode(['error' => 'Invalid table.']);
     $conn->close();
     exit();
 }// get으로 받은 테이블명이 유효한지 확인, 유효하지 않으면 에러 메시지 출력 후 종료
 
 //SQL 쿼리 작성
-$sql = "SELECT " . implode(", ", $columns[$table]) . " FROM $table";
+$sql = "SELECT " . implode(", ", $columns[$table]);
 
-//pokemons 테이블을 탐색해야 하는 경우, join 추가
-if ($table == 'pokemons' && $option_type != '') {
-    $sql .= " JOIN pokemons_types ON pokemons.pokemon_name = pokemons_types.pokemon_name";
+// Join 추가
+if ($table == 'pokemon_works') {
+    $sql .= ", genres.genre_name FROM $table JOIN genres ON pokemon_works.genre_id = genres.genre_id";
+} else if ($table == 'pokemons' && $option_type != '') {
+    $sql .= ", types.type_name FROM $table JOIN pokemons_types ON pokemons.pokemon_name = pokemons_types.pokemon_name";
     $sql .= " JOIN types ON pokemons_types.type_id = types.type_id";
+} else {
+    $sql .= " FROM $table";
 }
 
 $sql .= " WHERE " . $columns[$table][0] . " LIKE ?";
@@ -46,19 +47,19 @@ $sql .= " WHERE " . $columns[$table][0] . " LIKE ?";
 if($option_genre!=''){
     switch($option_genre){
         case 'genre_videogame':
-            $sql .= " AND genre_id = 1";
+            $sql .= " AND pokemon_works.genre_id = 1";
             break;
         case 'genre_anime':
-            $sql .= " AND genre_id = 2";
+            $sql .= " AND pokemon_works.genre_id = 2";
             break;
         case 'genre_cartoon':
-            $sql .= " AND genre_id = 3";
+            $sql .= " AND pokemon_works.genre_id = 3";
             break;
         case 'genre_movie':
-            $sql .= " AND genre_id = 4";
+            $sql .= " AND pokemon_works.genre_id = 4";
             break;
         case 'genre_etc':
-            $sql .= " AND genre_id = 5";
+            $sql .= " AND pokemon_works.genre_id = 5";
             break;
         default :
             break;
@@ -67,31 +68,31 @@ if($option_genre!=''){
 if($option_gen!=''){
     switch($option_gen){
         case 'gen_1':
-            $sql .= " AND gen = 1";
+            $sql .= " AND " . $columns[$table][2] . " = 1";
             break;
         case 'gen_2':
-            $sql .= " AND gen = 2";
+            $sql .= " AND " . $columns[$table][2] . " = 2";
             break;
         case 'gen_3':
-            $sql .= " AND gen = 3";
+            $sql .= " AND " . $columns[$table][2] . " = 3";
             break;
         case 'gen_4':
-            $sql .= " AND gen = 4";
+            $sql .= " AND " . $columns[$table][2] . " = 4";
             break;
         case 'gen_5':
-            $sql .= " AND gen = 5";
+            $sql .= " AND " . $columns[$table][2] . " = 5";
             break;
         case 'gen_6':
-            $sql .= " AND gen = 6";
+            $sql .= " AND " . $columns[$table][2] . " = 6";
             break;
         case 'gen_7':
-            $sql .= " AND gen = 7";
+            $sql .= " AND " . $columns[$table][2] . " = 7";
             break;
         case 'gen_8':
-            $sql .= " AND gen = 8";
+            $sql .= " AND " . $columns[$table][2] . " = 8";
             break;
         case 'gen_9':
-            $sql .= " AND gen = 9";
+            $sql .= " AND " . $columns[$table][2] . " = 9";
             break;
         default :
             break;
@@ -100,58 +101,58 @@ if($option_gen!=''){
 if($option_type!=''){
     switch($option_type){
         case 'normal':
-            $sql .= " AND type_id = 1";
+            $sql .= " AND types.type_id = 1";
             break;
         case 'fire':
-            $sql .= " AND type_id = 2";
+            $sql .= " AND types.type_id = 2";
             break;
         case 'water':
-            $sql .= " AND type_id = 3";
+            $sql .= " AND types.type_id = 3";
             break;
         case 'grass':
-            $sql .= " AND type_id = 4";
+            $sql .= " AND types.type_id = 4";
             break;
         case 'electric':
-            $sql .= " AND type_id = 5";
+            $sql .= " AND types.type_id = 5";
             break;
         case 'ice':
-            $sql .= " AND type_id = 6";
+            $sql .= " AND types.type_id = 6";
             break;
         case 'fighting':
-            $sql .= " AND type_id = 7";
+            $sql .= " AND types.type_id = 7";
             break;
         case 'poison':
-            $sql .= " AND type_id = 8";
+            $sql .= " AND types.type_id = 8";
             break;
         case 'ground':
-            $sql .= " AND type_id = 9";
+            $sql .= " AND types.type_id = 9";
             break;
         case 'flying':
-            $sql .= " AND type_id = 10";
+            $sql .= " AND types.type_id = 10";
             break;
         case 'psychic':
-            $sql .= " AND type_id = 11";
+            $sql .= " AND types.type_id = 11";
             break;
         case 'bug':
-            $sql .= " AND type_id = 12";
+            $sql .= " AND types.type_id = 12";
             break;
         case 'rock':
-            $sql .= " AND type_id = 13";
+            $sql .= " AND types.type_id = 13";
             break;
         case 'ghost':
-            $sql .= " AND type_id = 14";
+            $sql .= " AND types.type_id = 14";
             break;
         case 'dragon':
-            $sql .= " AND type_id = 15";
+            $sql .= " AND types.type_id = 15";
             break;
         case 'dark':
-            $sql .= " AND type_id = 16";
+            $sql .= " AND types.type_id = 16";
             break;
         case 'steel':
-            $sql .= " AND type_id = 17";
+            $sql .= " AND types.type_id = 17";
             break;
         case 'fairy':
-            $sql .= " AND type_id = 18";
+            $sql .= " AND types.type_id = 18";
             break;
         default :
             break;
@@ -167,16 +168,16 @@ $stmt->bind_param("s", $searchTerm);
 $stmt->execute();
 $result = $stmt->get_result();
 
+// 결과가 있는지 확인한 후 연관 배열(키-값 쌍)로 저장
 $results = [];
-// 결과가 있을 경우 각 결과를 배열로 저장
 if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
-        $results[] = ['text' => $row[$columns[$table][0]], 'value' => $row[$columns[$table][1]]];
+        $results[] = $row;
     } 
 } 
 // 결과가 없을 경우 "No results found"를 배열로 저장
 else {
-    $results[] = ['text' => 'No results found', 'value' => ''];
+    $results[] = ['error' => 'No results found'];
 }
 
 echo json_encode($results);// 결과를 JSON 형식으로 인코딩하여 반환
