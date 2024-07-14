@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 var types = groupedResults[key].types.join(', ');
     
                 var imgElement = document.createElement('img');
-                imgElement.src = result.pokemon_img_url || 'default_image_url'; // 이미지가 없는 경우 대체 이미지를 표출
+                imgElement.src = result.pokemon_img_url || './assets/images/noimage.png'; // 이미지가 없는 경우 대체 이미지를 표출
                 imgElement.alt = result.pokemon_name;
                 imgElement.classList.add('pokemon-img');
                 resultElement.appendChild(imgElement);
@@ -115,7 +115,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 resultElement.classList.add('search-result-item'); //해당 div요소에 search-result-item 클래스 속성 추가
     
                 var imgElement = document.createElement('img');
-                imgElement.src = result.work_img_url || 'default_image_url'; // 이미지가 없는 경우 대체 이미지를 표출
+                imgElement.src = result.work_img_url || './assets/images/noimage.png'; // 이미지가 없는 경우 대체 이미지를 표출
                 imgElement.alt = result.work_name || 'No image available';
                 imgElement.classList.add('work-img');
                 resultElement.appendChild(imgElement);
