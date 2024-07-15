@@ -35,7 +35,7 @@ $sql = "SELECT " . implode(", ", $columns[$table]);
 // Join 추가
 if ($table == 'pokemon_works') {
     $sql .= ", genres.genre_name FROM $table JOIN genres ON pokemon_works.genre_id = genres.genre_id";
-} else if ($table == 'pokemons' && $option_type != '') {
+} else if ($table == 'pokemons') {
     $sql .= ", type_index.type_name FROM $table JOIN pokemons_types ON pokemons.pokemon_name = pokemons_types.pokemon_name";
     $sql .= " JOIN type_index ON pokemons_types.type_id = type_index.type_id";
 } else {

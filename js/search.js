@@ -80,7 +80,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
                 groupedResults[key].types.push(result.type_name);
             });
-    
+
+
             // 그룹화된 결과를 사용하여 HTML 요소 생성
             Object.keys(groupedResults).forEach(function(key) {
                 var resultElement = document.createElement('div'); //search-results 클래스 요소의 하위 요소로 넣어줄 div 요소 선언
@@ -92,13 +93,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 var imgElement = document.createElement('img');
                 imgElement.src = result.pokemon_img_url || './assets/images/noimage.png'; // 이미지가 없는 경우 대체 이미지를 표출
                 imgElement.alt = result.pokemon_name;
-                imgElement.classList.add('pokemon-img');
+                imgElement.classList.add('result-img');
                 resultElement.appendChild(imgElement);
     
                 var textElement = document.createElement('div');
-                textElement.classList.add('pokemon-info');
-                var genText = result.gen ? result.gen : ' - ';
-                textElement.innerHTML = `${result.pokemon_name} | ${result.pokemon_num} | ${genText} | ${types}`;
+                textElement.classList.add('result-info');
+                var genText = result.gen ? result.gen : ' 불명 ';
+                textElement.innerHTML = `<p>이름: ${result.pokemon_name}</p><p>번호: ${result.pokemon_num}</p><p>세대: ${genText}</p><p>타입: ${types}</p>`;
                 resultElement.appendChild(textElement);
     
                 // 결과 선택 이벤트 추가
@@ -117,13 +118,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 var imgElement = document.createElement('img');
                 imgElement.src = result.work_img_url || './assets/images/noimage.png'; // 이미지가 없는 경우 대체 이미지를 표출
                 imgElement.alt = result.work_name || 'No image available';
-                imgElement.classList.add('work-img');
+                imgElement.classList.add('result-img');
                 resultElement.appendChild(imgElement);
     
                 var textElement = document.createElement('div');
-                textElement.classList.add('work-info');
-                var genText = result.gen ? result.gen : ' - ';
-                textElement.innerHTML = `${result.work_name} | ${result.genre_name} | ${genText}`;
+                textElement.classList.add('result-info');
+                var genText = result.gen ? result.gen : ' 불명 ';
+                textElement.innerHTML = `<p>이름: ${result.work_name}</p><p>장르: ${result.genre_name}</p><p>세대: ${genText}</p>`;
                 resultElement.appendChild(textElement);
     
                 // 결과 선택 이벤트 추가

@@ -23,17 +23,38 @@
     line-height: 2.0;
     margin: 20px;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-h4{
+.ranking-item-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ranking-item-contents img{
+    width: 25%;
+}
+
+#favtype-ranking img{/*타입 이미지는 해상도가 낮아서 더 줄여줌*/
+    width: 10%;
+}
+
+.ranking-item-contents p{
+    text-align: center;
+}
+
+h3{
     text-align: center;
 }
 
 
 /* etc */
 mark{
-    background-color: rgb(255, 54, 19);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 241, 84);
+    color: rgb(255, 54, 19);
     border-radius: 4px;
     padding: 2px;
 }
