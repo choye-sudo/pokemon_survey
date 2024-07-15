@@ -1,0 +1,7460 @@
+[
+  {
+    "pokemon_name": "이상해씨",
+    "pokemon_num": 1,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/000101.png"
+  },
+  {
+    "pokemon_name": "이상해풀",
+    "pokemon_num": 2,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/000201.png"
+  },
+  {
+    "pokemon_name": "이상해꽃",
+    "pokemon_num": 3,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/000301.png"
+  },
+  {
+    "pokemon_name": "메가이상해꽃",
+    "pokemon_num": 3,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/000302.png"
+  },
+  {
+    "pokemon_name": "거다이이상해꽃",
+    "pokemon_num": 3,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/000303.png"
+  },
+  {
+    "pokemon_name": "파이리",
+    "pokemon_num": 4,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/000401.png"
+  },
+  {
+    "pokemon_name": "리자드",
+    "pokemon_num": 5,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/000501.png"
+  },
+  {
+    "pokemon_name": "리자몽",
+    "pokemon_num": 6,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/000601.png"
+  },
+  {
+    "pokemon_name": "메가리자몽X",
+    "pokemon_num": 6,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/000602.png"
+  },
+  {
+    "pokemon_name": "메가리자몽Y",
+    "pokemon_num": 6,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/000603.png"
+  },
+  {
+    "pokemon_name": "거다이리자몽",
+    "pokemon_num": 6,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/000604.png"
+  },
+  {
+    "pokemon_name": "꼬부기",
+    "pokemon_num": 7,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/000701.png"
+  },
+  {
+    "pokemon_name": "어니부기",
+    "pokemon_num": 8,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/000801.png"
+  },
+  {
+    "pokemon_name": "거북왕",
+    "pokemon_num": 9,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/000901.png"
+  },
+  {
+    "pokemon_name": "메가거북왕",
+    "pokemon_num": 9,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/000902.png"
+  },
+  {
+    "pokemon_name": "거다이거북왕",
+    "pokemon_num": 9,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/000903.png"
+  },
+  {
+    "pokemon_name": "캐터피",
+    "pokemon_num": 10,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/001001.png"
+  },
+  {
+    "pokemon_name": "단데기",
+    "pokemon_num": 11,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/001101.png"
+  },
+  {
+    "pokemon_name": "버터플",
+    "pokemon_num": 12,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/001201.png"
+  },
+  {
+    "pokemon_name": "거다이버터플",
+    "pokemon_num": 12,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/001202.png"
+  },
+  {
+    "pokemon_name": "뿔충이",
+    "pokemon_num": 13,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/001301.png"
+  },
+  {
+    "pokemon_name": "딱충이",
+    "pokemon_num": 14,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/001401.png"
+  },
+  {
+    "pokemon_name": "독침붕",
+    "pokemon_num": 15,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/001501.png"
+  },
+  {
+    "pokemon_name": "메가독침붕",
+    "pokemon_num": 15,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/001502.png"
+  },
+  {
+    "pokemon_name": "구구",
+    "pokemon_num": 16,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/001601.png"
+  },
+  {
+    "pokemon_name": "피죤",
+    "pokemon_num": 17,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/001701.png"
+  },
+  {
+    "pokemon_name": "피죤투",
+    "pokemon_num": 18,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/001801.png"
+  },
+  {
+    "pokemon_name": "메가피죤투",
+    "pokemon_num": 18,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/001802.png"
+  },
+  {
+    "pokemon_name": "꼬렛",
+    "pokemon_num": 19,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/001901.png"
+  },
+  {
+    "pokemon_name": "꼬렛(알로라의 모습)",
+    "pokemon_num": 19,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/001902.png"
+  },
+  {
+    "pokemon_name": "레트라",
+    "pokemon_num": 20,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/002001.png"
+  },
+  {
+    "pokemon_name": "레트라(알로라의 모습)",
+    "pokemon_num": 20,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/002002.png"
+  },
+  {
+    "pokemon_name": "깨비참",
+    "pokemon_num": 21,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/002101.png"
+  },
+  {
+    "pokemon_name": "깨비드릴조",
+    "pokemon_num": 22,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/002201.png"
+  },
+  {
+    "pokemon_name": "아보",
+    "pokemon_num": 23,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/002301.png"
+  },
+  {
+    "pokemon_name": "아보크",
+    "pokemon_num": 24,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/002401.png"
+  },
+  {
+    "pokemon_name": "피카츄",
+    "pokemon_num": 25,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/002501.png"
+  },
+  {
+    "pokemon_name": "거다이피카츄",
+    "pokemon_num": 25,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/002502.png"
+  },
+  {
+    "pokemon_name": "라이츄",
+    "pokemon_num": 26,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/002601.png"
+  },
+  {
+    "pokemon_name": "라이츄(알로라의 모습)",
+    "pokemon_num": 26,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/002602.png"
+  },
+  {
+    "pokemon_name": "모래두지",
+    "pokemon_num": 27,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/002701.png"
+  },
+  {
+    "pokemon_name": "모래두지(알로라의 모습)",
+    "pokemon_num": 27,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/002702.png"
+  },
+  {
+    "pokemon_name": "고지",
+    "pokemon_num": 28,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/002801.png"
+  },
+  {
+    "pokemon_name": "고지(알로라의 모습)",
+    "pokemon_num": 28,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/002802.png"
+  },
+  {
+    "pokemon_name": "니드런♀",
+    "pokemon_num": 29,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/002901.png"
+  },
+  {
+    "pokemon_name": "니드리노",
+    "pokemon_num": 33,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/003301.png"
+  },
+  {
+    "pokemon_name": "니드킹",
+    "pokemon_num": 34,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/003401.png"
+  },
+  {
+    "pokemon_name": "삐삐",
+    "pokemon_num": 35,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/003501.png"
+  },
+  {
+    "pokemon_name": "픽시",
+    "pokemon_num": 36,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/003601.png"
+  },
+  {
+    "pokemon_name": "식스테일",
+    "pokemon_num": 37,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/003701.png"
+  },
+  {
+    "pokemon_name": "식스테일(알로라의 모습)",
+    "pokemon_num": 37,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/003702.png"
+  },
+  {
+    "pokemon_name": "나인테일",
+    "pokemon_num": 38,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/003801.png"
+  },
+  {
+    "pokemon_name": "나인테일(알로라의 모습)",
+    "pokemon_num": 38,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/003802.png"
+  },
+  {
+    "pokemon_name": "푸린",
+    "pokemon_num": 39,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/003901.png"
+  },
+  {
+    "pokemon_name": "푸크린",
+    "pokemon_num": 40,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/004001.png"
+  },
+  {
+    "pokemon_name": "주뱃",
+    "pokemon_num": 41,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/004101.png"
+  },
+  {
+    "pokemon_name": "골뱃",
+    "pokemon_num": 42,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/004201.png"
+  },
+  {
+    "pokemon_name": "뚜벅쵸",
+    "pokemon_num": 43,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/004301.png"
+  },
+  {
+    "pokemon_name": "냄새꼬",
+    "pokemon_num": 44,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/004401.png"
+  },
+  {
+    "pokemon_name": "라플레시아",
+    "pokemon_num": 45,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/004501.png"
+  },
+  {
+    "pokemon_name": "파라스",
+    "pokemon_num": 46,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/004601.png"
+  },
+  {
+    "pokemon_name": "파라섹트",
+    "pokemon_num": 47,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/004701.png"
+  },
+  {
+    "pokemon_name": "콘팡",
+    "pokemon_num": 48,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/004801.png"
+  },
+  {
+    "pokemon_name": "도나리",
+    "pokemon_num": 49,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/004901.png"
+  },
+  {
+    "pokemon_name": "디그다",
+    "pokemon_num": 50,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/005001.png"
+  },
+  {
+    "pokemon_name": "디그다(알로라의 모습)",
+    "pokemon_num": 50,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/005002.png"
+  },
+  {
+    "pokemon_name": "닥트리오",
+    "pokemon_num": 51,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/005101.png"
+  },
+  {
+    "pokemon_name": "닥트리오(알로라의 모습)",
+    "pokemon_num": 51,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/005102.png"
+  },
+  {
+    "pokemon_name": "나옹",
+    "pokemon_num": 52,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/005201.png"
+  },
+  {
+    "pokemon_name": "나옹(알로라의 모습)",
+    "pokemon_num": 52,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/005202.png"
+  },
+  {
+    "pokemon_name": "나옹(가라르의 모습)",
+    "pokemon_num": 52,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/005203.png"
+  },
+  {
+    "pokemon_name": "거다이나옹",
+    "pokemon_num": 52,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/005204.png"
+  },
+  {
+    "pokemon_name": "페르시온",
+    "pokemon_num": 53,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/005301.png"
+  },
+  {
+    "pokemon_name": "페르시온(알로라의 모습)",
+    "pokemon_num": 53,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/005302.png"
+  },
+  {
+    "pokemon_name": "고라파덕",
+    "pokemon_num": 54,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/005401.png"
+  },
+  {
+    "pokemon_name": "골덕",
+    "pokemon_num": 55,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/005501.png"
+  },
+  {
+    "pokemon_name": "망키",
+    "pokemon_num": 56,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/005601.png"
+  },
+  {
+    "pokemon_name": "성원숭",
+    "pokemon_num": 57,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/005701.png"
+  },
+  {
+    "pokemon_name": "가디",
+    "pokemon_num": 58,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/005801.png"
+  },
+  {
+    "pokemon_name": "가디(히스이의 모습)",
+    "pokemon_num": 58,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/005802.png"
+  },
+  {
+    "pokemon_name": "윈디",
+    "pokemon_num": 59,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/005901.png"
+  },
+  {
+    "pokemon_name": "윈디(히스이의 모습)",
+    "pokemon_num": 59,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/005902.png"
+  },
+  {
+    "pokemon_name": "발챙이",
+    "pokemon_num": 60,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/006001.png"
+  },
+  {
+    "pokemon_name": "슈륙챙이",
+    "pokemon_num": 61,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/006101.png"
+  },
+  {
+    "pokemon_name": "강챙이",
+    "pokemon_num": 62,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/006201.png"
+  },
+  {
+    "pokemon_name": "캐이시",
+    "pokemon_num": 63,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/006301.png"
+  },
+  {
+    "pokemon_name": "윤겔라",
+    "pokemon_num": 64,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/006401.png"
+  },
+  {
+    "pokemon_name": "후딘",
+    "pokemon_num": 65,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/006501.png"
+  },
+  {
+    "pokemon_name": "메가후딘",
+    "pokemon_num": 65,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/006502.png"
+  },
+  {
+    "pokemon_name": "알통몬",
+    "pokemon_num": 66,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/006601.png"
+  },
+  {
+    "pokemon_name": "근육몬",
+    "pokemon_num": 67,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/006701.png"
+  },
+  {
+    "pokemon_name": "괴력몬",
+    "pokemon_num": 68,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/006801.png"
+  },
+  {
+    "pokemon_name": "거다이괴력몬",
+    "pokemon_num": 68,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/006802.png"
+  },
+  {
+    "pokemon_name": "모다피",
+    "pokemon_num": 69,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/006901.png"
+  },
+  {
+    "pokemon_name": "우츠동",
+    "pokemon_num": 70,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/007001.png"
+  },
+  {
+    "pokemon_name": "우츠보트",
+    "pokemon_num": 71,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/007101.png"
+  },
+  {
+    "pokemon_name": "왕눈해",
+    "pokemon_num": 72,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/007201.png"
+  },
+  {
+    "pokemon_name": "독파리",
+    "pokemon_num": 73,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/007301.png"
+  },
+  {
+    "pokemon_name": "꼬마돌",
+    "pokemon_num": 74,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/007401.png"
+  },
+  {
+    "pokemon_name": "꼬마돌(알로라의 모습)",
+    "pokemon_num": 74,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/007402.png"
+  },
+  {
+    "pokemon_name": "데구리",
+    "pokemon_num": 75,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/007501.png"
+  },
+  {
+    "pokemon_name": "데구리(알로라의 모습)",
+    "pokemon_num": 75,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/007502.png"
+  },
+  {
+    "pokemon_name": "딱구리",
+    "pokemon_num": 76,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/007601.png"
+  },
+  {
+    "pokemon_name": "딱구리(알로라의 모습)",
+    "pokemon_num": 76,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/007602.png"
+  },
+  {
+    "pokemon_name": "포니타",
+    "pokemon_num": 77,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/007701.png"
+  },
+  {
+    "pokemon_name": "포니타(가라르의 모습)",
+    "pokemon_num": 77,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/007702.png"
+  },
+  {
+    "pokemon_name": "날쌩마",
+    "pokemon_num": 78,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/007801.png"
+  },
+  {
+    "pokemon_name": "날쌩마(가라르의 모습)",
+    "pokemon_num": 78,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/007802.png"
+  },
+  {
+    "pokemon_name": "야돈",
+    "pokemon_num": 79,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/007901.png"
+  },
+  {
+    "pokemon_name": "야돈(가라르의 모습)",
+    "pokemon_num": 79,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/007902.png"
+  },
+  {
+    "pokemon_name": "야도란",
+    "pokemon_num": 80,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/008001.png"
+  },
+  {
+    "pokemon_name": "메가야도란",
+    "pokemon_num": 80,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/008002.png"
+  },
+  {
+    "pokemon_name": "야도란(가라르의 모습)",
+    "pokemon_num": 80,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/008003.png"
+  },
+  {
+    "pokemon_name": "코일",
+    "pokemon_num": 81,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/008101.png"
+  },
+  {
+    "pokemon_name": "레어코일",
+    "pokemon_num": 82,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/008201.png"
+  },
+  {
+    "pokemon_name": "파오리",
+    "pokemon_num": 83,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/008301.png"
+  },
+  {
+    "pokemon_name": "파오리(가라르의 모습)",
+    "pokemon_num": 83,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/008302.png"
+  },
+  {
+    "pokemon_name": "두두",
+    "pokemon_num": 84,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/008401.png"
+  },
+  {
+    "pokemon_name": "두트리오",
+    "pokemon_num": 85,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/008501.png"
+  },
+  {
+    "pokemon_name": "쥬쥬",
+    "pokemon_num": 86,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/008601.png"
+  },
+  {
+    "pokemon_name": "쥬레곤",
+    "pokemon_num": 87,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/008701.png"
+  },
+  {
+    "pokemon_name": "질퍽이",
+    "pokemon_num": 88,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/008801.png"
+  },
+  {
+    "pokemon_name": "질퍽이(알로라의 모습)",
+    "pokemon_num": 88,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/008802.png"
+  },
+  {
+    "pokemon_name": "질뻐기",
+    "pokemon_num": 89,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/008901.png"
+  },
+  {
+    "pokemon_name": "질뻐기(알로라의 모습)",
+    "pokemon_num": 89,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/008902.png"
+  },
+  {
+    "pokemon_name": "셀러",
+    "pokemon_num": 90,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/009001.png"
+  },
+  {
+    "pokemon_name": "파르셀",
+    "pokemon_num": 91,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/009101.png"
+  },
+  {
+    "pokemon_name": "고오스",
+    "pokemon_num": 92,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/009201.png"
+  },
+  {
+    "pokemon_name": "고우스트",
+    "pokemon_num": 93,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/009301.png"
+  },
+  {
+    "pokemon_name": "팬텀",
+    "pokemon_num": 94,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/009401.png"
+  },
+  {
+    "pokemon_name": "메가팬텀",
+    "pokemon_num": 94,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/009402.png"
+  },
+  {
+    "pokemon_name": "거다이팬텀",
+    "pokemon_num": 94,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/009403.png"
+  },
+  {
+    "pokemon_name": "롱스톤",
+    "pokemon_num": 95,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/009501.png"
+  },
+  {
+    "pokemon_name": "슬리프",
+    "pokemon_num": 96,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/009601.png"
+  },
+  {
+    "pokemon_name": "슬리퍼",
+    "pokemon_num": 97,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/009701.png"
+  },
+  {
+    "pokemon_name": "크랩",
+    "pokemon_num": 98,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/009801.png"
+  },
+  {
+    "pokemon_name": "킹크랩",
+    "pokemon_num": 99,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/009901.png"
+  },
+  {
+    "pokemon_name": "거다이킹크랩",
+    "pokemon_num": 99,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/009902.png"
+  },
+  {
+    "pokemon_name": "찌리리공",
+    "pokemon_num": 100,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/010001.png"
+  },
+  {
+    "pokemon_name": "찌리리공(히스이의 모습)",
+    "pokemon_num": 100,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/010002.png"
+  },
+  {
+    "pokemon_name": "붐볼",
+    "pokemon_num": 101,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/010101.png"
+  },
+  {
+    "pokemon_name": "붐볼(히스이의 모습)",
+    "pokemon_num": 101,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/010102.png"
+  },
+  {
+    "pokemon_name": "아라리",
+    "pokemon_num": 102,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/010201.png"
+  },
+  {
+    "pokemon_name": "나시",
+    "pokemon_num": 103,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/010301.png"
+  },
+  {
+    "pokemon_name": "나시(알로라의 모습)",
+    "pokemon_num": 103,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/010302.png"
+  },
+  {
+    "pokemon_name": "탕구리",
+    "pokemon_num": 104,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/010401.png"
+  },
+  {
+    "pokemon_name": "텅구리",
+    "pokemon_num": 105,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/010501.png"
+  },
+  {
+    "pokemon_name": "텅구리(알로라의 모습)",
+    "pokemon_num": 105,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/010502.png"
+  },
+  {
+    "pokemon_name": "시라소몬",
+    "pokemon_num": 106,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/010601.png"
+  },
+  {
+    "pokemon_name": "홍수몬",
+    "pokemon_num": 107,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/010701.png"
+  },
+  {
+    "pokemon_name": "내루미",
+    "pokemon_num": 108,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/010801.png"
+  },
+  {
+    "pokemon_name": "또가스",
+    "pokemon_num": 109,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/010901.png"
+  },
+  {
+    "pokemon_name": "또도가스",
+    "pokemon_num": 110,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/011001.png"
+  },
+  {
+    "pokemon_name": "또도가스(가라르의 모습)",
+    "pokemon_num": 110,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/011002.png"
+  },
+  {
+    "pokemon_name": "뿔카노",
+    "pokemon_num": 111,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/011101.png"
+  },
+  {
+    "pokemon_name": "코뿌리",
+    "pokemon_num": 112,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/011201.png"
+  },
+  {
+    "pokemon_name": "럭키",
+    "pokemon_num": 113,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/011301.png"
+  },
+  {
+    "pokemon_name": "덩쿠리",
+    "pokemon_num": 114,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/011401.png"
+  },
+  {
+    "pokemon_name": "캥카",
+    "pokemon_num": 115,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/011501.png"
+  },
+  {
+    "pokemon_name": "메가캥카",
+    "pokemon_num": 115,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/011502.png"
+  },
+  {
+    "pokemon_name": "쏘드라",
+    "pokemon_num": 116,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/011601.png"
+  },
+  {
+    "pokemon_name": "시드라",
+    "pokemon_num": 117,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/011701.png"
+  },
+  {
+    "pokemon_name": "콘치",
+    "pokemon_num": 118,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/011801.png"
+  },
+  {
+    "pokemon_name": "왕콘치",
+    "pokemon_num": 119,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/011901.png"
+  },
+  {
+    "pokemon_name": "별가사리",
+    "pokemon_num": 120,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/012001.png"
+  },
+  {
+    "pokemon_name": "아쿠스타",
+    "pokemon_num": 121,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/012101.png"
+  },
+  {
+    "pokemon_name": "마임맨",
+    "pokemon_num": 122,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/012201.png"
+  },
+  {
+    "pokemon_name": "마임맨(가라르의 모습)",
+    "pokemon_num": 122,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/012202.png"
+  },
+  {
+    "pokemon_name": "스라크",
+    "pokemon_num": 123,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/012301.png"
+  },
+  {
+    "pokemon_name": "루주라",
+    "pokemon_num": 124,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/012401.png"
+  },
+  {
+    "pokemon_name": "에레브",
+    "pokemon_num": 125,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/012501.png"
+  },
+  {
+    "pokemon_name": "마그마",
+    "pokemon_num": 126,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/012601.png"
+  },
+  {
+    "pokemon_name": "쁘사이저",
+    "pokemon_num": 127,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/012701.png"
+  },
+  {
+    "pokemon_name": "메가쁘사이저",
+    "pokemon_num": 127,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/012702.png"
+  },
+  {
+    "pokemon_name": "켄타로스",
+    "pokemon_num": 128,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/012801.png"
+  },
+  {
+    "pokemon_name": "켄타로스(팔데아의 모습/컴뱃종)",
+    "pokemon_num": 128,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/012802.png"
+  },
+  {
+    "pokemon_name": "켄타로스(팔데아의 모습/블레이즈종)",
+    "pokemon_num": 128,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/012803.png"
+  },
+  {
+    "pokemon_name": "켄타로스(팔데아의 모습/워터종)",
+    "pokemon_num": 128,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/012804.png"
+  },
+  {
+    "pokemon_name": "잉어킹",
+    "pokemon_num": 129,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/012901.png"
+  },
+  {
+    "pokemon_name": "갸라도스",
+    "pokemon_num": 130,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/013001.png"
+  },
+  {
+    "pokemon_name": "메가갸라도스",
+    "pokemon_num": 130,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/013002.png"
+  },
+  {
+    "pokemon_name": "라프라스",
+    "pokemon_num": 131,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/013101.png"
+  },
+  {
+    "pokemon_name": "거다이라프라스",
+    "pokemon_num": 131,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/013102.png"
+  },
+  {
+    "pokemon_name": "메타몽",
+    "pokemon_num": 132,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/013201.png"
+  },
+  {
+    "pokemon_name": "이브이",
+    "pokemon_num": 133,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/013301.png"
+  },
+  {
+    "pokemon_name": "거다이이브이",
+    "pokemon_num": 133,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/013302.png"
+  },
+  {
+    "pokemon_name": "샤미드",
+    "pokemon_num": 134,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/013401.png"
+  },
+  {
+    "pokemon_name": "쥬피썬더",
+    "pokemon_num": 135,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/013501.png"
+  },
+  {
+    "pokemon_name": "부스터",
+    "pokemon_num": 136,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/013601.png"
+  },
+  {
+    "pokemon_name": "폴리곤",
+    "pokemon_num": 137,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/013701.png"
+  },
+  {
+    "pokemon_name": "암나이트",
+    "pokemon_num": 138,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/013801.png"
+  },
+  {
+    "pokemon_name": "암스타",
+    "pokemon_num": 139,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/013901.png"
+  },
+  {
+    "pokemon_name": "투구",
+    "pokemon_num": 140,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014001.png"
+  },
+  {
+    "pokemon_name": "투구푸스",
+    "pokemon_num": 141,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014101.png"
+  },
+  {
+    "pokemon_name": "프테라",
+    "pokemon_num": 142,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014201.png"
+  },
+  {
+    "pokemon_name": "메가프테라",
+    "pokemon_num": 142,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/014202.png"
+  },
+  {
+    "pokemon_name": "잠만보",
+    "pokemon_num": 143,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014301.png"
+  },
+  {
+    "pokemon_name": "거다이잠만보",
+    "pokemon_num": 143,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014302.png"
+  },
+  {
+    "pokemon_name": "프리져",
+    "pokemon_num": 144,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014401.png"
+  },
+  {
+    "pokemon_name": "프리져(가라르의 모습)",
+    "pokemon_num": 144,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/014402.png"
+  },
+  {
+    "pokemon_name": "썬더",
+    "pokemon_num": 145,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014501.png"
+  },
+  {
+    "pokemon_name": "썬더(가라르의 모습)",
+    "pokemon_num": 145,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/014502.png"
+  },
+  {
+    "pokemon_name": "파이어",
+    "pokemon_num": 146,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014601.png"
+  },
+  {
+    "pokemon_name": "파이어(가라르의 모습)",
+    "pokemon_num": 146,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/014602.png"
+  },
+  {
+    "pokemon_name": "미뇽",
+    "pokemon_num": 147,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014701.png"
+  },
+  {
+    "pokemon_name": "신뇽",
+    "pokemon_num": 148,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014801.png"
+  },
+  {
+    "pokemon_name": "망나뇽",
+    "pokemon_num": 149,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/014901.png"
+  },
+  {
+    "pokemon_name": "뮤츠",
+    "pokemon_num": 150,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/015001.png"
+  },
+  {
+    "pokemon_name": "메가뮤츠X",
+    "pokemon_num": 150,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/015002.png"
+  },
+  {
+    "pokemon_name": "메가뮤츠Y",
+    "pokemon_num": 150,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/015003.png"
+  },
+  {
+    "pokemon_name": "뮤",
+    "pokemon_num": 151,
+    "gen": 1,
+    "pokemon_img_url": "./assets/images/pokemon_img/015101.png"
+  },
+  {
+    "pokemon_name": "치코리타",
+    "pokemon_num": 152,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/015201.png"
+  },
+  {
+    "pokemon_name": "베이리프",
+    "pokemon_num": 153,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/015301.png"
+  },
+  {
+    "pokemon_name": "메가니움",
+    "pokemon_num": 154,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/015401.png"
+  },
+  {
+    "pokemon_name": "브케인",
+    "pokemon_num": 155,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/015501.png"
+  },
+  {
+    "pokemon_name": "마그케인",
+    "pokemon_num": 156,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/015601.png"
+  },
+  {
+    "pokemon_name": "블레이범",
+    "pokemon_num": 157,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/015701.png"
+  },
+  {
+    "pokemon_name": "블레이범(히스이의 모습)",
+    "pokemon_num": 157,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/015702.png"
+  },
+  {
+    "pokemon_name": "리아코",
+    "pokemon_num": 158,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/015801.png"
+  },
+  {
+    "pokemon_name": "엘리게이",
+    "pokemon_num": 159,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/015901.png"
+  },
+  {
+    "pokemon_name": "장크로다일",
+    "pokemon_num": 160,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/016001.png"
+  },
+  {
+    "pokemon_name": "꼬리선",
+    "pokemon_num": 161,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/016101.png"
+  },
+  {
+    "pokemon_name": "다꼬리",
+    "pokemon_num": 162,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/016201.png"
+  },
+  {
+    "pokemon_name": "부우부",
+    "pokemon_num": 163,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/016301.png"
+  },
+  {
+    "pokemon_name": "야부엉",
+    "pokemon_num": 164,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/016401.png"
+  },
+  {
+    "pokemon_name": "레디바",
+    "pokemon_num": 165,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/016501.png"
+  },
+  {
+    "pokemon_name": "레디안",
+    "pokemon_num": 166,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/016601.png"
+  },
+  {
+    "pokemon_name": "페이검",
+    "pokemon_num": 167,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/016701.png"
+  },
+  {
+    "pokemon_name": "아리아도스",
+    "pokemon_num": 168,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/016801.png"
+  },
+  {
+    "pokemon_name": "크로뱃",
+    "pokemon_num": 169,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/016901.png"
+  },
+  {
+    "pokemon_name": "초라기",
+    "pokemon_num": 170,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/017001.png"
+  },
+  {
+    "pokemon_name": "랜턴",
+    "pokemon_num": 171,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/017101.png"
+  },
+  {
+    "pokemon_name": "피츄",
+    "pokemon_num": 172,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/017201.png"
+  },
+  {
+    "pokemon_name": "삐",
+    "pokemon_num": 173,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/017301.png"
+  },
+  {
+    "pokemon_name": "푸푸린",
+    "pokemon_num": 174,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/017401.png"
+  },
+  {
+    "pokemon_name": "토게피",
+    "pokemon_num": 175,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/017501.png"
+  },
+  {
+    "pokemon_name": "토게틱",
+    "pokemon_num": 176,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/017601.png"
+  },
+  {
+    "pokemon_name": "네이티",
+    "pokemon_num": 177,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/017701.png"
+  },
+  {
+    "pokemon_name": "네이티오",
+    "pokemon_num": 178,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/017801.png"
+  },
+  {
+    "pokemon_name": "메리프",
+    "pokemon_num": 179,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/017901.png"
+  },
+  {
+    "pokemon_name": "보송송",
+    "pokemon_num": 180,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/018001.png"
+  },
+  {
+    "pokemon_name": "전룡",
+    "pokemon_num": 181,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/018101.png"
+  },
+  {
+    "pokemon_name": "메가 전룡",
+    "pokemon_num": 181,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/018102.png"
+  },
+  {
+    "pokemon_name": "아르코",
+    "pokemon_num": 182,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/018201.png"
+  },
+  {
+    "pokemon_name": "마릴",
+    "pokemon_num": 183,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/018301.png"
+  },
+  {
+    "pokemon_name": "마릴리",
+    "pokemon_num": 184,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/018401.png"
+  },
+  {
+    "pokemon_name": "꼬지모",
+    "pokemon_num": 185,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/018501.png"
+  },
+  {
+    "pokemon_name": "왕구리",
+    "pokemon_num": 186,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/018601.png"
+  },
+  {
+    "pokemon_name": "통통코",
+    "pokemon_num": 187,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/018701.png"
+  },
+  {
+    "pokemon_name": "두코",
+    "pokemon_num": 188,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/018801.png"
+  },
+  {
+    "pokemon_name": "솜솜코",
+    "pokemon_num": 189,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/018901.png"
+  },
+  {
+    "pokemon_name": "에이팜",
+    "pokemon_num": 190,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/019001.png"
+  },
+  {
+    "pokemon_name": "해너츠",
+    "pokemon_num": 191,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/019101.png"
+  },
+  {
+    "pokemon_name": "해루미",
+    "pokemon_num": 192,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/019201.png"
+  },
+  {
+    "pokemon_name": "왕자리",
+    "pokemon_num": 193,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/019301.png"
+  },
+  {
+    "pokemon_name": "우파",
+    "pokemon_num": 194,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/019401.png"
+  },
+  {
+    "pokemon_name": "우파(팔데아의 모습)",
+    "pokemon_num": 194,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/019402.png"
+  },
+  {
+    "pokemon_name": "누오",
+    "pokemon_num": 195,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/019501.png"
+  },
+  {
+    "pokemon_name": "에브이",
+    "pokemon_num": 196,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/019601.png"
+  },
+  {
+    "pokemon_name": "블래키",
+    "pokemon_num": 197,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/019701.png"
+  },
+  {
+    "pokemon_name": "니로우",
+    "pokemon_num": 198,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/019801.png"
+  },
+  {
+    "pokemon_name": "야도킹",
+    "pokemon_num": 199,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/019901.png"
+  },
+  {
+    "pokemon_name": "야도킹(가라르의 모습)",
+    "pokemon_num": 199,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/019902.png"
+  },
+  {
+    "pokemon_name": "무우마",
+    "pokemon_num": 200,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/020001.png"
+  },
+  {
+    "pokemon_name": "안농",
+    "pokemon_num": 201,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/020101.png"
+  },
+  {
+    "pokemon_name": "마자용",
+    "pokemon_num": 202,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/020201.png"
+  },
+  {
+    "pokemon_name": "키링키",
+    "pokemon_num": 203,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/020301.png"
+  },
+  {
+    "pokemon_name": "피콘",
+    "pokemon_num": 204,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/020401.png"
+  },
+  {
+    "pokemon_name": "쏘콘",
+    "pokemon_num": 205,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/020501.png"
+  },
+  {
+    "pokemon_name": "노고치",
+    "pokemon_num": 206,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/020601.png"
+  },
+  {
+    "pokemon_name": "글라이거",
+    "pokemon_num": 207,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/020701.png"
+  },
+  {
+    "pokemon_name": "강철톤",
+    "pokemon_num": 208,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/020801.png"
+  },
+  {
+    "pokemon_name": "블루",
+    "pokemon_num": 209,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/020901.png"
+  },
+  {
+    "pokemon_name": "그랑블루",
+    "pokemon_num": 210,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/021001.png"
+  },
+  {
+    "pokemon_name": "침바루",
+    "pokemon_num": 211,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/021101.png"
+  },
+  {
+    "pokemon_name": "침바루(히스이의 모습)",
+    "pokemon_num": 211,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/021102.png"
+  },
+  {
+    "pokemon_name": "핫삼",
+    "pokemon_num": 212,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/021201.png"
+  },
+  {
+    "pokemon_name": "메가핫삼",
+    "pokemon_num": 212,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/021202.png"
+  },
+  {
+    "pokemon_name": "단단지",
+    "pokemon_num": 213,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/021301.png"
+  },
+  {
+    "pokemon_name": "헤라크로스",
+    "pokemon_num": 214,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/021401.png"
+  },
+  {
+    "pokemon_name": "메가헤라크로스",
+    "pokemon_num": 214,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/021402.png"
+  },
+  {
+    "pokemon_name": "포푸니",
+    "pokemon_num": 215,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/021501.png"
+  },
+  {
+    "pokemon_name": "포푸니(히스이의 모습)",
+    "pokemon_num": 215,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/021502.png"
+  },
+  {
+    "pokemon_name": "깜지곰",
+    "pokemon_num": 216,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/021601.png"
+  },
+  {
+    "pokemon_name": "링곰",
+    "pokemon_num": 217,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/021701.png"
+  },
+  {
+    "pokemon_name": "마그마그",
+    "pokemon_num": 218,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/021801.png"
+  },
+  {
+    "pokemon_name": "마그카르고",
+    "pokemon_num": 219,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/021901.png"
+  },
+  {
+    "pokemon_name": "꾸꾸리",
+    "pokemon_num": 220,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/022001.png"
+  },
+  {
+    "pokemon_name": "메꾸리",
+    "pokemon_num": 221,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/022101.png"
+  },
+  {
+    "pokemon_name": "코산호",
+    "pokemon_num": 222,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/022201.png"
+  },
+  {
+    "pokemon_name": "코산호(가라르의 모습)",
+    "pokemon_num": 222,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/022202.png"
+  },
+  {
+    "pokemon_name": "총어",
+    "pokemon_num": 223,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/022301.png"
+  },
+  {
+    "pokemon_name": "대포무노",
+    "pokemon_num": 224,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/022401.png"
+  },
+  {
+    "pokemon_name": "딜리버드",
+    "pokemon_num": 225,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/022501.png"
+  },
+  {
+    "pokemon_name": "만타인",
+    "pokemon_num": 226,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/022601.png"
+  },
+  {
+    "pokemon_name": "무장조",
+    "pokemon_num": 227,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/022701.png"
+  },
+  {
+    "pokemon_name": "델빌",
+    "pokemon_num": 228,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/022801.png"
+  },
+  {
+    "pokemon_name": "헬가",
+    "pokemon_num": 229,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/022901.png"
+  },
+  {
+    "pokemon_name": "메가헬가",
+    "pokemon_num": 229,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/022902.png"
+  },
+  {
+    "pokemon_name": "킹드라",
+    "pokemon_num": 230,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/023001.png"
+  },
+  {
+    "pokemon_name": "코코리",
+    "pokemon_num": 231,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/023101.png"
+  },
+  {
+    "pokemon_name": "코리갑",
+    "pokemon_num": 232,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/023201.png"
+  },
+  {
+    "pokemon_name": "폴리곤2",
+    "pokemon_num": 233,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/023301.png"
+  },
+  {
+    "pokemon_name": "노라키",
+    "pokemon_num": 234,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/023401.png"
+  },
+  {
+    "pokemon_name": "루브도",
+    "pokemon_num": 235,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/023501.png"
+  },
+  {
+    "pokemon_name": "배루키",
+    "pokemon_num": 236,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/023601.png"
+  },
+  {
+    "pokemon_name": "카포에라",
+    "pokemon_num": 237,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/023701.png"
+  },
+  {
+    "pokemon_name": "뽀뽀라",
+    "pokemon_num": 238,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/023801.png"
+  },
+  {
+    "pokemon_name": "에레키드",
+    "pokemon_num": 239,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/023901.png"
+  },
+  {
+    "pokemon_name": "마그비",
+    "pokemon_num": 240,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/024001.png"
+  },
+  {
+    "pokemon_name": "밀탱크",
+    "pokemon_num": 241,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/024101.png"
+  },
+  {
+    "pokemon_name": "해피너스",
+    "pokemon_num": 242,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/024201.png"
+  },
+  {
+    "pokemon_name": "라이코",
+    "pokemon_num": 243,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/024301.png"
+  },
+  {
+    "pokemon_name": "앤테이",
+    "pokemon_num": 244,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/024401.png"
+  },
+  {
+    "pokemon_name": "스이쿤",
+    "pokemon_num": 245,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/024501.png"
+  },
+  {
+    "pokemon_name": "애버라스",
+    "pokemon_num": 246,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/024601.png"
+  },
+  {
+    "pokemon_name": "데기라스",
+    "pokemon_num": 247,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/024701.png"
+  },
+  {
+    "pokemon_name": "마기라스",
+    "pokemon_num": 248,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/024801.png"
+  },
+  {
+    "pokemon_name": "메가마기라스",
+    "pokemon_num": 248,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/024802.png"
+  },
+  {
+    "pokemon_name": "루기아",
+    "pokemon_num": 249,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/024901.png"
+  },
+  {
+    "pokemon_name": "칠색조",
+    "pokemon_num": 250,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/025001.png"
+  },
+  {
+    "pokemon_name": "세레비",
+    "pokemon_num": 251,
+    "gen": 2,
+    "pokemon_img_url": "./assets/images/pokemon_img/025101.png"
+  },
+  {
+    "pokemon_name": "나무지기",
+    "pokemon_num": 252,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/025201.png"
+  },
+  {
+    "pokemon_name": "나무돌이",
+    "pokemon_num": 253,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/025301.png"
+  },
+  {
+    "pokemon_name": "나무킹",
+    "pokemon_num": 254,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/025401.png"
+  },
+  {
+    "pokemon_name": "메가나무킹",
+    "pokemon_num": 254,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/025402.png"
+  },
+  {
+    "pokemon_name": "아차모",
+    "pokemon_num": 255,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/025501.png"
+  },
+  {
+    "pokemon_name": "영치코",
+    "pokemon_num": 256,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/025601.png"
+  },
+  {
+    "pokemon_name": "번치코",
+    "pokemon_num": 257,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/025701.png"
+  },
+  {
+    "pokemon_name": "메가번치코",
+    "pokemon_num": 257,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/025702.png"
+  },
+  {
+    "pokemon_name": "물짱이",
+    "pokemon_num": 258,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/025801.png"
+  },
+  {
+    "pokemon_name": "늪짱이",
+    "pokemon_num": 259,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/025901.png"
+  },
+  {
+    "pokemon_name": "대짱이",
+    "pokemon_num": 260,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/026001.png"
+  },
+  {
+    "pokemon_name": "메가대짱이",
+    "pokemon_num": 260,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/026002.png"
+  },
+  {
+    "pokemon_name": "포챠나",
+    "pokemon_num": 261,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/026101.png"
+  },
+  {
+    "pokemon_name": "그라에나",
+    "pokemon_num": 262,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/026201.png"
+  },
+  {
+    "pokemon_name": "지그제구리",
+    "pokemon_num": 263,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/026301.png"
+  },
+  {
+    "pokemon_name": "지그제구리(가라르의 모습)",
+    "pokemon_num": 263,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/026302.png"
+  },
+  {
+    "pokemon_name": "직구리",
+    "pokemon_num": 264,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/026401.png"
+  },
+  {
+    "pokemon_name": "직구리(가라르의 모습)",
+    "pokemon_num": 264,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/026402.png"
+  },
+  {
+    "pokemon_name": "개무소",
+    "pokemon_num": 265,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/026501.png"
+  },
+  {
+    "pokemon_name": "실쿤",
+    "pokemon_num": 266,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/026601.png"
+  },
+  {
+    "pokemon_name": "뷰티플라이",
+    "pokemon_num": 267,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/026701.png"
+  },
+  {
+    "pokemon_name": "카스쿤",
+    "pokemon_num": 268,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/026801.png"
+  },
+  {
+    "pokemon_name": "독케일",
+    "pokemon_num": 269,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/026901.png"
+  },
+  {
+    "pokemon_name": "연꽃몬",
+    "pokemon_num": 270,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/027001.png"
+  },
+  {
+    "pokemon_name": "로토스",
+    "pokemon_num": 271,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/027101.png"
+  },
+  {
+    "pokemon_name": "로파파",
+    "pokemon_num": 272,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/027201.png"
+  },
+  {
+    "pokemon_name": "도토링",
+    "pokemon_num": 273,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/027301.png"
+  },
+  {
+    "pokemon_name": "잎새코",
+    "pokemon_num": 274,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/027401.png"
+  },
+  {
+    "pokemon_name": "다탱구",
+    "pokemon_num": 275,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/027501.png"
+  },
+  {
+    "pokemon_name": "테일로",
+    "pokemon_num": 276,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/027601.png"
+  },
+  {
+    "pokemon_name": "스왈로",
+    "pokemon_num": 277,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/027701.png"
+  },
+  {
+    "pokemon_name": "갈모매",
+    "pokemon_num": 278,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/027801.png"
+  },
+  {
+    "pokemon_name": "패리퍼",
+    "pokemon_num": 279,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/027901.png"
+  },
+  {
+    "pokemon_name": "랄토스",
+    "pokemon_num": 280,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/028001.png"
+  },
+  {
+    "pokemon_name": "킬리아",
+    "pokemon_num": 281,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/028101.png"
+  },
+  {
+    "pokemon_name": "가디안",
+    "pokemon_num": 282,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/028201.png"
+  },
+  {
+    "pokemon_name": "메가가디안",
+    "pokemon_num": 282,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/028202.png"
+  },
+  {
+    "pokemon_name": "비구술",
+    "pokemon_num": 283,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/028301.png"
+  },
+  {
+    "pokemon_name": "비나방",
+    "pokemon_num": 284,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/028401.png"
+  },
+  {
+    "pokemon_name": "버섯꼬",
+    "pokemon_num": 285,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/028501.png"
+  },
+  {
+    "pokemon_name": "버섯모",
+    "pokemon_num": 286,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/028601.png"
+  },
+  {
+    "pokemon_name": "게을로",
+    "pokemon_num": 287,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/028701.png"
+  },
+  {
+    "pokemon_name": "발바로",
+    "pokemon_num": 288,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/028801.png"
+  },
+  {
+    "pokemon_name": "게을킹",
+    "pokemon_num": 289,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/028901.png"
+  },
+  {
+    "pokemon_name": "토중몬",
+    "pokemon_num": 290,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/029001.png"
+  },
+  {
+    "pokemon_name": "아이스크",
+    "pokemon_num": 291,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/029101.png"
+  },
+  {
+    "pokemon_name": "껍질몬",
+    "pokemon_num": 292,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/029201.png"
+  },
+  {
+    "pokemon_name": "소곤룡",
+    "pokemon_num": 293,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/029301.png"
+  },
+  {
+    "pokemon_name": "노공룡",
+    "pokemon_num": 294,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/029401.png"
+  },
+  {
+    "pokemon_name": "폭음룡",
+    "pokemon_num": 295,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/029501.png"
+  },
+  {
+    "pokemon_name": "마크탕",
+    "pokemon_num": 296,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/029601.png"
+  },
+  {
+    "pokemon_name": "하리뭉",
+    "pokemon_num": 297,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/029701.png"
+  },
+  {
+    "pokemon_name": "루리리",
+    "pokemon_num": 298,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/029801.png"
+  },
+  {
+    "pokemon_name": "코코파스",
+    "pokemon_num": 299,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/029901.png"
+  },
+  {
+    "pokemon_name": "에나비",
+    "pokemon_num": 300,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/030001.png"
+  },
+  {
+    "pokemon_name": "델케티",
+    "pokemon_num": 301,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/030101.png"
+  },
+  {
+    "pokemon_name": "깜까미",
+    "pokemon_num": 302,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/030201.png"
+  },
+  {
+    "pokemon_name": "메가깜까미",
+    "pokemon_num": 302,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/030202.png"
+  },
+  {
+    "pokemon_name": "입치트",
+    "pokemon_num": 303,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/030301.png"
+  },
+  {
+    "pokemon_name": "메가입치트",
+    "pokemon_num": 303,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/030302.png"
+  },
+  {
+    "pokemon_name": "가보리",
+    "pokemon_num": 304,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/030401.png"
+  },
+  {
+    "pokemon_name": "갱도라",
+    "pokemon_num": 305,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/030501.png"
+  },
+  {
+    "pokemon_name": "보스로라",
+    "pokemon_num": 306,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/030601.png"
+  },
+  {
+    "pokemon_name": "메가보스로라",
+    "pokemon_num": 306,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/030602.png"
+  },
+  {
+    "pokemon_name": "요가랑",
+    "pokemon_num": 307,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/030701.png"
+  },
+  {
+    "pokemon_name": "요가램",
+    "pokemon_num": 308,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/030801.png"
+  },
+  {
+    "pokemon_name": "메가요가램",
+    "pokemon_num": 308,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/030802.png"
+  },
+  {
+    "pokemon_name": "썬더라이",
+    "pokemon_num": 309,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/030901.png"
+  },
+  {
+    "pokemon_name": "썬더볼트",
+    "pokemon_num": 310,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/031001.png"
+  },
+  {
+    "pokemon_name": "메가썬더볼트",
+    "pokemon_num": 310,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/031002.png"
+  },
+  {
+    "pokemon_name": "플러시",
+    "pokemon_num": 311,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/031101.png"
+  },
+  {
+    "pokemon_name": "마이농",
+    "pokemon_num": 312,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/031201.png"
+  },
+  {
+    "pokemon_name": "볼비트",
+    "pokemon_num": 313,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/031301.png"
+  },
+  {
+    "pokemon_name": "네오비트",
+    "pokemon_num": 314,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/031401.png"
+  },
+  {
+    "pokemon_name": "로젤리아",
+    "pokemon_num": 315,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/031501.png"
+  },
+  {
+    "pokemon_name": "꼴깍몬",
+    "pokemon_num": 316,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/031601.png"
+  },
+  {
+    "pokemon_name": "꿀꺽몬",
+    "pokemon_num": 317,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/031701.png"
+  },
+  {
+    "pokemon_name": "샤프니아",
+    "pokemon_num": 318,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/031801.png"
+  },
+  {
+    "pokemon_name": "샤크니아",
+    "pokemon_num": 319,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/031901.png"
+  },
+  {
+    "pokemon_name": "메가샤크니아",
+    "pokemon_num": 319,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/031902.png"
+  },
+  {
+    "pokemon_name": "고래왕자",
+    "pokemon_num": 320,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/032001.png"
+  },
+  {
+    "pokemon_name": "고래왕",
+    "pokemon_num": 321,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/032101.png"
+  },
+  {
+    "pokemon_name": "둔타",
+    "pokemon_num": 322,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/032201.png"
+  },
+  {
+    "pokemon_name": "폭타",
+    "pokemon_num": 323,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/032301.png"
+  },
+  {
+    "pokemon_name": "메가폭타",
+    "pokemon_num": 323,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/032302.png"
+  },
+  {
+    "pokemon_name": "코터스",
+    "pokemon_num": 324,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/032401.png"
+  },
+  {
+    "pokemon_name": "피그점프",
+    "pokemon_num": 325,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/032501.png"
+  },
+  {
+    "pokemon_name": "피그킹",
+    "pokemon_num": 326,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/032601.png"
+  },
+  {
+    "pokemon_name": "얼루기",
+    "pokemon_num": 327,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/032701.png"
+  },
+  {
+    "pokemon_name": "톱치",
+    "pokemon_num": 328,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/032801.png"
+  },
+  {
+    "pokemon_name": "비브라바",
+    "pokemon_num": 329,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/032901.png"
+  },
+  {
+    "pokemon_name": "플라이곤",
+    "pokemon_num": 330,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/033001.png"
+  },
+  {
+    "pokemon_name": "선인왕",
+    "pokemon_num": 331,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/033101.png"
+  },
+  {
+    "pokemon_name": "밤선인",
+    "pokemon_num": 332,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/033201.png"
+  },
+  {
+    "pokemon_name": "파비코",
+    "pokemon_num": 333,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/033301.png"
+  },
+  {
+    "pokemon_name": "파비코리",
+    "pokemon_num": 334,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/033401.png"
+  },
+  {
+    "pokemon_name": "메가파비코리",
+    "pokemon_num": 334,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/033402.png"
+  },
+  {
+    "pokemon_name": "쟝고",
+    "pokemon_num": 335,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/033501.png"
+  },
+  {
+    "pokemon_name": "세비퍼",
+    "pokemon_num": 336,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/033601.png"
+  },
+  {
+    "pokemon_name": "루나톤",
+    "pokemon_num": 337,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/033701.png"
+  },
+  {
+    "pokemon_name": "솔록",
+    "pokemon_num": 338,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/033801.png"
+  },
+  {
+    "pokemon_name": "미꾸리",
+    "pokemon_num": 339,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/033901.png"
+  },
+  {
+    "pokemon_name": "메깅",
+    "pokemon_num": 340,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/034001.png"
+  },
+  {
+    "pokemon_name": "가재군",
+    "pokemon_num": 341,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/034101.png"
+  },
+  {
+    "pokemon_name": "가재장군",
+    "pokemon_num": 342,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/034201.png"
+  },
+  {
+    "pokemon_name": "오뚝군",
+    "pokemon_num": 343,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/034301.png"
+  },
+  {
+    "pokemon_name": "점토도리",
+    "pokemon_num": 344,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/034401.png"
+  },
+  {
+    "pokemon_name": "릴링",
+    "pokemon_num": 345,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/034501.png"
+  },
+  {
+    "pokemon_name": "릴리요",
+    "pokemon_num": 346,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/034601.png"
+  },
+  {
+    "pokemon_name": "아노딥스",
+    "pokemon_num": 347,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/034701.png"
+  },
+  {
+    "pokemon_name": "아말도",
+    "pokemon_num": 348,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/034801.png"
+  },
+  {
+    "pokemon_name": "빈티나",
+    "pokemon_num": 349,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/034901.png"
+  },
+  {
+    "pokemon_name": "밀로틱",
+    "pokemon_num": 350,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035001.png"
+  },
+  {
+    "pokemon_name": "캐스퐁",
+    "pokemon_num": 351,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035101.png"
+  },
+  {
+    "pokemon_name": "캐스퐁(태양의 모습)",
+    "pokemon_num": 351,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035102.png"
+  },
+  {
+    "pokemon_name": "캐스퐁(빗방울의 모습)",
+    "pokemon_num": 351,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035103.png"
+  },
+  {
+    "pokemon_name": "캐스퐁(설운의 모습)",
+    "pokemon_num": 351,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035104.png"
+  },
+  {
+    "pokemon_name": "켈리몬",
+    "pokemon_num": 352,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035201.png"
+  },
+  {
+    "pokemon_name": "어둠대신",
+    "pokemon_num": 353,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035301.png"
+  },
+  {
+    "pokemon_name": "다크펫",
+    "pokemon_num": 354,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035401.png"
+  },
+  {
+    "pokemon_name": "메가다크펫",
+    "pokemon_num": 354,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/035402.png"
+  },
+  {
+    "pokemon_name": "해골몽",
+    "pokemon_num": 355,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035501.png"
+  },
+  {
+    "pokemon_name": "미라몽",
+    "pokemon_num": 356,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035601.png"
+  },
+  {
+    "pokemon_name": "트로피우스",
+    "pokemon_num": 357,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035701.png"
+  },
+  {
+    "pokemon_name": "치렁",
+    "pokemon_num": 358,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035801.png"
+  },
+  {
+    "pokemon_name": "앱솔",
+    "pokemon_num": 359,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/035901.png"
+  },
+  {
+    "pokemon_name": "메가앱솔",
+    "pokemon_num": 359,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/035902.png"
+  },
+  {
+    "pokemon_name": "마자",
+    "pokemon_num": 360,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/036001.png"
+  },
+  {
+    "pokemon_name": "눈꼬마",
+    "pokemon_num": 361,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/036101.png"
+  },
+  {
+    "pokemon_name": "얼음귀신",
+    "pokemon_num": 362,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/036201.png"
+  },
+  {
+    "pokemon_name": "메가얼음귀신",
+    "pokemon_num": 362,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/036202.png"
+  },
+  {
+    "pokemon_name": "대굴레오",
+    "pokemon_num": 363,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/036301.png"
+  },
+  {
+    "pokemon_name": "씨레오",
+    "pokemon_num": 364,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/036401.png"
+  },
+  {
+    "pokemon_name": "씨카이저",
+    "pokemon_num": 365,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/036501.png"
+  },
+  {
+    "pokemon_name": "진주몽",
+    "pokemon_num": 366,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/036601.png"
+  },
+  {
+    "pokemon_name": "헌테일",
+    "pokemon_num": 367,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/036701.png"
+  },
+  {
+    "pokemon_name": "분홍장이",
+    "pokemon_num": 368,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/036801.png"
+  },
+  {
+    "pokemon_name": "시라칸",
+    "pokemon_num": 369,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/036901.png"
+  },
+  {
+    "pokemon_name": "사랑동이",
+    "pokemon_num": 370,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/037001.png"
+  },
+  {
+    "pokemon_name": "아공이",
+    "pokemon_num": 371,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/037101.png"
+  },
+  {
+    "pokemon_name": "쉘곤",
+    "pokemon_num": 372,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/037201.png"
+  },
+  {
+    "pokemon_name": "보만다",
+    "pokemon_num": 373,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/037301.png"
+  },
+  {
+    "pokemon_name": "메가보만다",
+    "pokemon_num": 373,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/037302.png"
+  },
+  {
+    "pokemon_name": "메탕",
+    "pokemon_num": 374,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/037401.png"
+  },
+  {
+    "pokemon_name": "메탕구",
+    "pokemon_num": 375,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/037501.png"
+  },
+  {
+    "pokemon_name": "메타그로스",
+    "pokemon_num": 376,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/037601.png"
+  },
+  {
+    "pokemon_name": "메가메타그로스",
+    "pokemon_num": 376,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/037602.png"
+  },
+  {
+    "pokemon_name": "레지락",
+    "pokemon_num": 377,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/037701.png"
+  },
+  {
+    "pokemon_name": "레지아이스",
+    "pokemon_num": 378,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/037801.png"
+  },
+  {
+    "pokemon_name": "레지스틸",
+    "pokemon_num": 379,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/037901.png"
+  },
+  {
+    "pokemon_name": "라티아스",
+    "pokemon_num": 380,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/038001.png"
+  },
+  {
+    "pokemon_name": "메가라티아스",
+    "pokemon_num": 380,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/038002.png"
+  },
+  {
+    "pokemon_name": "라티오스",
+    "pokemon_num": 381,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/038101.png"
+  },
+  {
+    "pokemon_name": "메가라티오스",
+    "pokemon_num": 381,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/038102.png"
+  },
+  {
+    "pokemon_name": "가이오가",
+    "pokemon_num": 382,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/038201.png"
+  },
+  {
+    "pokemon_name": "원시가이오가",
+    "pokemon_num": 382,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/038202.png"
+  },
+  {
+    "pokemon_name": "그란돈",
+    "pokemon_num": 383,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/038301.png"
+  },
+  {
+    "pokemon_name": "원시그란돈",
+    "pokemon_num": 383,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/038302.png"
+  },
+  {
+    "pokemon_name": "레쿠쟈",
+    "pokemon_num": 384,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/038401.png"
+  },
+  {
+    "pokemon_name": "메가레쿠쟈",
+    "pokemon_num": 384,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/038402.png"
+  },
+  {
+    "pokemon_name": "지라치",
+    "pokemon_num": 385,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/038501.png"
+  },
+  {
+    "pokemon_name": "테오키스(노말폼)",
+    "pokemon_num": 386,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/038601.png"
+  },
+  {
+    "pokemon_name": "테오키스(어택폼)",
+    "pokemon_num": 386,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/038602.png"
+  },
+  {
+    "pokemon_name": "테오키스(디펜스폼)",
+    "pokemon_num": 386,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/038603.png"
+  },
+  {
+    "pokemon_name": "테오키스(스피드폼)",
+    "pokemon_num": 386,
+    "gen": 3,
+    "pokemon_img_url": "./assets/images/pokemon_img/038604.png"
+  },
+  {
+    "pokemon_name": "모부기",
+    "pokemon_num": 387,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/038701.png"
+  },
+  {
+    "pokemon_name": "수풀부기",
+    "pokemon_num": 388,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/038801.png"
+  },
+  {
+    "pokemon_name": "토대부기",
+    "pokemon_num": 389,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/038901.png"
+  },
+  {
+    "pokemon_name": "불꽃숭이",
+    "pokemon_num": 390,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/039001.png"
+  },
+  {
+    "pokemon_name": "파이숭이",
+    "pokemon_num": 391,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/039101.png"
+  },
+  {
+    "pokemon_name": "초염몽",
+    "pokemon_num": 392,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/039201.png"
+  },
+  {
+    "pokemon_name": "팽도리",
+    "pokemon_num": 393,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/039301.png"
+  },
+  {
+    "pokemon_name": "팽태자",
+    "pokemon_num": 394,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/039401.png"
+  },
+  {
+    "pokemon_name": "엠페르트",
+    "pokemon_num": 395,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/039501.png"
+  },
+  {
+    "pokemon_name": "찌르꼬",
+    "pokemon_num": 396,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/039601.png"
+  },
+  {
+    "pokemon_name": "찌르버드",
+    "pokemon_num": 397,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/039701.png"
+  },
+  {
+    "pokemon_name": "찌르호크",
+    "pokemon_num": 398,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/039801.png"
+  },
+  {
+    "pokemon_name": "비버니",
+    "pokemon_num": 399,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/039901.png"
+  },
+  {
+    "pokemon_name": "비버통",
+    "pokemon_num": 400,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/040001.png"
+  },
+  {
+    "pokemon_name": "귀뚤뚜기",
+    "pokemon_num": 401,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/040101.png"
+  },
+  {
+    "pokemon_name": "귀뚤톡크",
+    "pokemon_num": 402,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/040201.png"
+  },
+  {
+    "pokemon_name": "꼬링크",
+    "pokemon_num": 403,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/040301.png"
+  },
+  {
+    "pokemon_name": "럭시오",
+    "pokemon_num": 404,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/040401.png"
+  },
+  {
+    "pokemon_name": "렌트라",
+    "pokemon_num": 405,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/040501.png"
+  },
+  {
+    "pokemon_name": "꼬몽울",
+    "pokemon_num": 406,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/040601.png"
+  },
+  {
+    "pokemon_name": "로즈레이드",
+    "pokemon_num": 407,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/040701.png"
+  },
+  {
+    "pokemon_name": "두개도스",
+    "pokemon_num": 408,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/040801.png"
+  },
+  {
+    "pokemon_name": "램펄드",
+    "pokemon_num": 409,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/040901.png"
+  },
+  {
+    "pokemon_name": "방패톱스",
+    "pokemon_num": 410,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041001.png"
+  },
+  {
+    "pokemon_name": "바리톱스",
+    "pokemon_num": 411,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041101.png"
+  },
+  {
+    "pokemon_name": "도롱충이(초목도롱)",
+    "pokemon_num": 412,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041201.png"
+  },
+  {
+    "pokemon_name": "도롱충이(모래땅도롱)",
+    "pokemon_num": 412,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041202.png"
+  },
+  {
+    "pokemon_name": "도롱충이(슈레도롱)",
+    "pokemon_num": 412,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041203.png"
+  },
+  {
+    "pokemon_name": "도롱마담(초목도롱)",
+    "pokemon_num": 413,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041301.png"
+  },
+  {
+    "pokemon_name": "도롱마담(모래땅도롱)",
+    "pokemon_num": 413,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041302.png"
+  },
+  {
+    "pokemon_name": "도롱마담(슈레도롱)",
+    "pokemon_num": 413,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041303.png"
+  },
+  {
+    "pokemon_name": "나메일",
+    "pokemon_num": 414,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041401.png"
+  },
+  {
+    "pokemon_name": "세꿀버리",
+    "pokemon_num": 415,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041501.png"
+  },
+  {
+    "pokemon_name": "비퀸",
+    "pokemon_num": 416,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041601.png"
+  },
+  {
+    "pokemon_name": "파치리스",
+    "pokemon_num": 417,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041701.png"
+  },
+  {
+    "pokemon_name": "브이젤",
+    "pokemon_num": 418,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041801.png"
+  },
+  {
+    "pokemon_name": "플로젤",
+    "pokemon_num": 419,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/041901.png"
+  },
+  {
+    "pokemon_name": "체리버",
+    "pokemon_num": 420,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042001.png"
+  },
+  {
+    "pokemon_name": "체리꼬(네거폼)",
+    "pokemon_num": 421,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042101.png"
+  },
+  {
+    "pokemon_name": "체리꼬(포지폼)",
+    "pokemon_num": 421,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042102.png"
+  },
+  {
+    "pokemon_name": "깝질무(서쪽바다)",
+    "pokemon_num": 422,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042201.png"
+  },
+  {
+    "pokemon_name": "깝질무(동쪽바다)",
+    "pokemon_num": 422,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042202.png"
+  },
+  {
+    "pokemon_name": "트리토돈(서쪽바다)",
+    "pokemon_num": 423,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042301.png"
+  },
+  {
+    "pokemon_name": "트리토돈(동쪽바다)",
+    "pokemon_num": 423,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042302.png"
+  },
+  {
+    "pokemon_name": "겟핸보숭",
+    "pokemon_num": 424,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042401.png"
+  },
+  {
+    "pokemon_name": "흔들풍손",
+    "pokemon_num": 425,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042501.png"
+  },
+  {
+    "pokemon_name": "둥실라이드",
+    "pokemon_num": 426,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042601.png"
+  },
+  {
+    "pokemon_name": "이어롤",
+    "pokemon_num": 427,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042701.png"
+  },
+  {
+    "pokemon_name": "이어롭",
+    "pokemon_num": 428,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042801.png"
+  },
+  {
+    "pokemon_name": "메가이어롭",
+    "pokemon_num": 428,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/042802.png"
+  },
+  {
+    "pokemon_name": "무우마직",
+    "pokemon_num": 429,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/042901.png"
+  },
+  {
+    "pokemon_name": "돈크로우",
+    "pokemon_num": 430,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/043001.png"
+  },
+  {
+    "pokemon_name": "나옹마",
+    "pokemon_num": 431,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/043101.png"
+  },
+  {
+    "pokemon_name": "몬냥이",
+    "pokemon_num": 432,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/043201.png"
+  },
+  {
+    "pokemon_name": "랑딸랑",
+    "pokemon_num": 433,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/043301.png"
+  },
+  {
+    "pokemon_name": "스컹뿡",
+    "pokemon_num": 434,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/043401.png"
+  },
+  {
+    "pokemon_name": "스컹탱크",
+    "pokemon_num": 435,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/043501.png"
+  },
+  {
+    "pokemon_name": "동미러",
+    "pokemon_num": 436,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/043601.png"
+  },
+  {
+    "pokemon_name": "동탁군",
+    "pokemon_num": 437,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/043701.png"
+  },
+  {
+    "pokemon_name": "꼬지지",
+    "pokemon_num": 438,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/043801.png"
+  },
+  {
+    "pokemon_name": "흉내내",
+    "pokemon_num": 439,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/043901.png"
+  },
+  {
+    "pokemon_name": "핑복",
+    "pokemon_num": 440,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/044001.png"
+  },
+  {
+    "pokemon_name": "페라페",
+    "pokemon_num": 441,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/044101.png"
+  },
+  {
+    "pokemon_name": "화강돌",
+    "pokemon_num": 442,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/044201.png"
+  },
+  {
+    "pokemon_name": "딥상어동",
+    "pokemon_num": 443,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/044301.png"
+  },
+  {
+    "pokemon_name": "한바이트",
+    "pokemon_num": 444,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/044401.png"
+  },
+  {
+    "pokemon_name": "한카리아스",
+    "pokemon_num": 445,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/044501.png"
+  },
+  {
+    "pokemon_name": "메가한카리아스",
+    "pokemon_num": 445,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/044502.png"
+  },
+  {
+    "pokemon_name": "먹고자",
+    "pokemon_num": 446,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/044601.png"
+  },
+  {
+    "pokemon_name": "리오르",
+    "pokemon_num": 447,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/044701.png"
+  },
+  {
+    "pokemon_name": "루카리오",
+    "pokemon_num": 448,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/044801.png"
+  },
+  {
+    "pokemon_name": "메가루카리오",
+    "pokemon_num": 448,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/044802.png"
+  },
+  {
+    "pokemon_name": "히포포타스",
+    "pokemon_num": 449,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/044901.png"
+  },
+  {
+    "pokemon_name": "하마돈",
+    "pokemon_num": 450,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/045001.png"
+  },
+  {
+    "pokemon_name": "스콜피",
+    "pokemon_num": 451,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/045101.png"
+  },
+  {
+    "pokemon_name": "드래피온",
+    "pokemon_num": 452,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/045201.png"
+  },
+  {
+    "pokemon_name": "삐딱구리",
+    "pokemon_num": 453,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/045301.png"
+  },
+  {
+    "pokemon_name": "독개굴",
+    "pokemon_num": 454,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/045401.png"
+  },
+  {
+    "pokemon_name": "무스틈니",
+    "pokemon_num": 455,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/045501.png"
+  },
+  {
+    "pokemon_name": "형광어",
+    "pokemon_num": 456,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/045601.png"
+  },
+  {
+    "pokemon_name": "네오라이트",
+    "pokemon_num": 457,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/045701.png"
+  },
+  {
+    "pokemon_name": "타만타",
+    "pokemon_num": 458,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/045801.png"
+  },
+  {
+    "pokemon_name": "눈쓰개",
+    "pokemon_num": 459,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/045901.png"
+  },
+  {
+    "pokemon_name": "눈설왕",
+    "pokemon_num": 460,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/046001.png"
+  },
+  {
+    "pokemon_name": "메가눈설왕",
+    "pokemon_num": 460,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/046002.png"
+  },
+  {
+    "pokemon_name": "포푸니라",
+    "pokemon_num": 461,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/046101.png"
+  },
+  {
+    "pokemon_name": "자포코일",
+    "pokemon_num": 462,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/046201.png"
+  },
+  {
+    "pokemon_name": "내룸벨트",
+    "pokemon_num": 463,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/046301.png"
+  },
+  {
+    "pokemon_name": "거대코뿌리",
+    "pokemon_num": 464,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/046401.png"
+  },
+  {
+    "pokemon_name": "덩쿠림보",
+    "pokemon_num": 465,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/046501.png"
+  },
+  {
+    "pokemon_name": "에레키블",
+    "pokemon_num": 466,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/046601.png"
+  },
+  {
+    "pokemon_name": "마그마번",
+    "pokemon_num": 467,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/046701.png"
+  },
+  {
+    "pokemon_name": "토게키스",
+    "pokemon_num": 468,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/046801.png"
+  },
+  {
+    "pokemon_name": "메가자리",
+    "pokemon_num": 469,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/046901.png"
+  },
+  {
+    "pokemon_name": "리피아",
+    "pokemon_num": 470,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047001.png"
+  },
+  {
+    "pokemon_name": "글레이시아",
+    "pokemon_num": 471,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047101.png"
+  },
+  {
+    "pokemon_name": "글라이온",
+    "pokemon_num": 472,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047201.png"
+  },
+  {
+    "pokemon_name": "맘모꾸리",
+    "pokemon_num": 473,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047301.png"
+  },
+  {
+    "pokemon_name": "폴리곤Z",
+    "pokemon_num": 474,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047401.png"
+  },
+  {
+    "pokemon_name": "엘레이드",
+    "pokemon_num": 475,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047501.png"
+  },
+  {
+    "pokemon_name": "메가엘레이드",
+    "pokemon_num": 475,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/047502.png"
+  },
+  {
+    "pokemon_name": "대코파스",
+    "pokemon_num": 476,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047601.png"
+  },
+  {
+    "pokemon_name": "야느와르몽",
+    "pokemon_num": 477,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047701.png"
+  },
+  {
+    "pokemon_name": "눈여아",
+    "pokemon_num": 478,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047801.png"
+  },
+  {
+    "pokemon_name": "로토무",
+    "pokemon_num": 479,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047901.png"
+  },
+  {
+    "pokemon_name": "히트로토무",
+    "pokemon_num": 479,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047902.png"
+  },
+  {
+    "pokemon_name": "워시로토무",
+    "pokemon_num": 479,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047903.png"
+  },
+  {
+    "pokemon_name": "프로스트로토무",
+    "pokemon_num": 479,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047904.png"
+  },
+  {
+    "pokemon_name": "스핀로토무",
+    "pokemon_num": 479,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047905.png"
+  },
+  {
+    "pokemon_name": "커트로토무",
+    "pokemon_num": 479,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/047906.png"
+  },
+  {
+    "pokemon_name": "유크시",
+    "pokemon_num": 480,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048001.png"
+  },
+  {
+    "pokemon_name": "엠라이트",
+    "pokemon_num": 481,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048101.png"
+  },
+  {
+    "pokemon_name": "아그놈",
+    "pokemon_num": 482,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048201.png"
+  },
+  {
+    "pokemon_name": "디아루가(어나더폼)",
+    "pokemon_num": 483,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048301.png"
+  },
+  {
+    "pokemon_name": "디아루가(오리진폼)",
+    "pokemon_num": 483,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048302.png"
+  },
+  {
+    "pokemon_name": "펄기아(어나더폼)",
+    "pokemon_num": 484,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048401.png"
+  },
+  {
+    "pokemon_name": "펄기아(오리진폼)",
+    "pokemon_num": 484,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048402.png"
+  },
+  {
+    "pokemon_name": "히드런",
+    "pokemon_num": 485,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048501.png"
+  },
+  {
+    "pokemon_name": "레지기가스",
+    "pokemon_num": 486,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048601.png"
+  },
+  {
+    "pokemon_name": "기라티나(어나더폼)",
+    "pokemon_num": 487,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048701.png"
+  },
+  {
+    "pokemon_name": "기라티나(오리진폼)",
+    "pokemon_num": 487,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048702.png"
+  },
+  {
+    "pokemon_name": "크레세리아",
+    "pokemon_num": 488,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048801.png"
+  },
+  {
+    "pokemon_name": "피오네",
+    "pokemon_num": 489,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/048901.png"
+  },
+  {
+    "pokemon_name": "마나피",
+    "pokemon_num": 490,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/049001.png"
+  },
+  {
+    "pokemon_name": "다크라이",
+    "pokemon_num": 491,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/049101.png"
+  },
+  {
+    "pokemon_name": "쉐이미(랜드폼)",
+    "pokemon_num": 492,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/049201.png"
+  },
+  {
+    "pokemon_name": "쉐이미(스카이폼)",
+    "pokemon_num": 492,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/049202.png"
+  },
+  {
+    "pokemon_name": "아르세우스",
+    "pokemon_num": 493,
+    "gen": 4,
+    "pokemon_img_url": "./assets/images/pokemon_img/049301.png"
+  },
+  {
+    "pokemon_name": "비크티니",
+    "pokemon_num": 494,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/049401.png"
+  },
+  {
+    "pokemon_name": "주리비얀",
+    "pokemon_num": 495,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/049501.png"
+  },
+  {
+    "pokemon_name": "샤비",
+    "pokemon_num": 496,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/049601.png"
+  },
+  {
+    "pokemon_name": "샤로다",
+    "pokemon_num": 497,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/049701.png"
+  },
+  {
+    "pokemon_name": "뚜꾸리",
+    "pokemon_num": 498,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/049801.png"
+  },
+  {
+    "pokemon_name": "차오꿀",
+    "pokemon_num": 499,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/049901.png"
+  },
+  {
+    "pokemon_name": "염무왕",
+    "pokemon_num": 500,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/050001.png"
+  },
+  {
+    "pokemon_name": "수댕이",
+    "pokemon_num": 501,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/050101.png"
+  },
+  {
+    "pokemon_name": "쌍검자비",
+    "pokemon_num": 502,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/050201.png"
+  },
+  {
+    "pokemon_name": "대검귀",
+    "pokemon_num": 503,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/050301.png"
+  },
+  {
+    "pokemon_name": "대검귀(히스이의 모습)",
+    "pokemon_num": 503,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/050302.png"
+  },
+  {
+    "pokemon_name": "보르쥐",
+    "pokemon_num": 504,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/050401.png"
+  },
+  {
+    "pokemon_name": "보르그",
+    "pokemon_num": 505,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/050501.png"
+  },
+  {
+    "pokemon_name": "요테리",
+    "pokemon_num": 506,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/050601.png"
+  },
+  {
+    "pokemon_name": "하데리어",
+    "pokemon_num": 507,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/050701.png"
+  },
+  {
+    "pokemon_name": "바랜드",
+    "pokemon_num": 508,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/050801.png"
+  },
+  {
+    "pokemon_name": "쌔비냥",
+    "pokemon_num": 509,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/050901.png"
+  },
+  {
+    "pokemon_name": "레파르다스",
+    "pokemon_num": 510,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/051001.png"
+  },
+  {
+    "pokemon_name": "야나프",
+    "pokemon_num": 511,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/051101.png"
+  },
+  {
+    "pokemon_name": "야나키",
+    "pokemon_num": 512,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/051201.png"
+  },
+  {
+    "pokemon_name": "바오프",
+    "pokemon_num": 513,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/051301.png"
+  },
+  {
+    "pokemon_name": "바오키",
+    "pokemon_num": 514,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/051401.png"
+  },
+  {
+    "pokemon_name": "앗차프",
+    "pokemon_num": 515,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/051501.png"
+  },
+  {
+    "pokemon_name": "앗차키",
+    "pokemon_num": 516,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/051601.png"
+  },
+  {
+    "pokemon_name": "몽나",
+    "pokemon_num": 517,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/051701.png"
+  },
+  {
+    "pokemon_name": "몽얌나",
+    "pokemon_num": 518,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/051801.png"
+  },
+  {
+    "pokemon_name": "콩둘기",
+    "pokemon_num": 519,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/051901.png"
+  },
+  {
+    "pokemon_name": "유토브",
+    "pokemon_num": 520,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052001.png"
+  },
+  {
+    "pokemon_name": "켄호로우(수컷의 모습)",
+    "pokemon_num": 521,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052101.png"
+  },
+  {
+    "pokemon_name": "켄호로우(암컷의 모습)",
+    "pokemon_num": 521,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052102.png"
+  },
+  {
+    "pokemon_name": "줄뮤마",
+    "pokemon_num": 522,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052201.png"
+  },
+  {
+    "pokemon_name": "제브라이카",
+    "pokemon_num": 523,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052301.png"
+  },
+  {
+    "pokemon_name": "단굴",
+    "pokemon_num": 524,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052401.png"
+  },
+  {
+    "pokemon_name": "암트르",
+    "pokemon_num": 525,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052501.png"
+  },
+  {
+    "pokemon_name": "기가이어스",
+    "pokemon_num": 526,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052601.png"
+  },
+  {
+    "pokemon_name": "또르박쥐",
+    "pokemon_num": 527,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052701.png"
+  },
+  {
+    "pokemon_name": "맘박쥐",
+    "pokemon_num": 528,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052801.png"
+  },
+  {
+    "pokemon_name": "두더류",
+    "pokemon_num": 529,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/052901.png"
+  },
+  {
+    "pokemon_name": "몰드류",
+    "pokemon_num": 530,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/053001.png"
+  },
+  {
+    "pokemon_name": "다부니",
+    "pokemon_num": 531,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/053101.png"
+  },
+  {
+    "pokemon_name": "메가다부니",
+    "pokemon_num": 531,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/053102.png"
+  },
+  {
+    "pokemon_name": "으랏차",
+    "pokemon_num": 532,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/053201.png"
+  },
+  {
+    "pokemon_name": "토쇠골",
+    "pokemon_num": 533,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/053301.png"
+  },
+  {
+    "pokemon_name": "노보청",
+    "pokemon_num": 534,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/053401.png"
+  },
+  {
+    "pokemon_name": "동챙이",
+    "pokemon_num": 535,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/053501.png"
+  },
+  {
+    "pokemon_name": "두까비",
+    "pokemon_num": 536,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/053601.png"
+  },
+  {
+    "pokemon_name": "두빅굴",
+    "pokemon_num": 537,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/053701.png"
+  },
+  {
+    "pokemon_name": "던지미",
+    "pokemon_num": 538,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/053801.png"
+  },
+  {
+    "pokemon_name": "타격귀",
+    "pokemon_num": 539,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/053901.png"
+  },
+  {
+    "pokemon_name": "두르보",
+    "pokemon_num": 540,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/054001.png"
+  },
+  {
+    "pokemon_name": "두르쿤",
+    "pokemon_num": 541,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/054101.png"
+  },
+  {
+    "pokemon_name": "모아머",
+    "pokemon_num": 542,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/054201.png"
+  },
+  {
+    "pokemon_name": "마디네",
+    "pokemon_num": 543,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/054301.png"
+  },
+  {
+    "pokemon_name": "휠구",
+    "pokemon_num": 544,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/054401.png"
+  },
+  {
+    "pokemon_name": "펜드라",
+    "pokemon_num": 545,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/054501.png"
+  },
+  {
+    "pokemon_name": "소미안",
+    "pokemon_num": 546,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/054601.png"
+  },
+  {
+    "pokemon_name": "엘풍",
+    "pokemon_num": 547,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/054701.png"
+  },
+  {
+    "pokemon_name": "치릴리",
+    "pokemon_num": 548,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/054801.png"
+  },
+  {
+    "pokemon_name": "드레디어",
+    "pokemon_num": 549,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/054901.png"
+  },
+  {
+    "pokemon_name": "드레디어(히스이의 모습)",
+    "pokemon_num": 549,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/054902.png"
+  },
+  {
+    "pokemon_name": "배쓰나이(적색근의 모습)",
+    "pokemon_num": 550,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055001.png"
+  },
+  {
+    "pokemon_name": "배쓰나이(청색근의 모습)",
+    "pokemon_num": 550,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055002.png"
+  },
+  {
+    "pokemon_name": "배쓰나이(백색근의 모습)",
+    "pokemon_num": 550,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/055003.png"
+  },
+  {
+    "pokemon_name": "깜눈크",
+    "pokemon_num": 551,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055101.png"
+  },
+  {
+    "pokemon_name": "악비르",
+    "pokemon_num": 552,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055201.png"
+  },
+  {
+    "pokemon_name": "악비아르",
+    "pokemon_num": 553,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055301.png"
+  },
+  {
+    "pokemon_name": "달막화",
+    "pokemon_num": 554,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055401.png"
+  },
+  {
+    "pokemon_name": "달막화(가라르의 모습)",
+    "pokemon_num": 554,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/055402.png"
+  },
+  {
+    "pokemon_name": "불비달마(노말모드)",
+    "pokemon_num": 555,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055501.png"
+  },
+  {
+    "pokemon_name": "불비달마(달마모드)",
+    "pokemon_num": 555,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055502.png"
+  },
+  {
+    "pokemon_name": "불비달마(가라르의 모습/노말모드)",
+    "pokemon_num": 555,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/055503.png"
+  },
+  {
+    "pokemon_name": "불비달마(가라르의 모습/달마모드)",
+    "pokemon_num": 555,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/055504.png"
+  },
+  {
+    "pokemon_name": "마라카치",
+    "pokemon_num": 556,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055601.png"
+  },
+  {
+    "pokemon_name": "돌살이",
+    "pokemon_num": 557,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055701.png"
+  },
+  {
+    "pokemon_name": "암팰리스",
+    "pokemon_num": 558,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055801.png"
+  },
+  {
+    "pokemon_name": "곤율랭",
+    "pokemon_num": 559,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/055901.png"
+  },
+  {
+    "pokemon_name": "곤율거니",
+    "pokemon_num": 560,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056001.png"
+  },
+  {
+    "pokemon_name": "심보러",
+    "pokemon_num": 561,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056101.png"
+  },
+  {
+    "pokemon_name": "데스마스",
+    "pokemon_num": 562,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056201.png"
+  },
+  {
+    "pokemon_name": "데스마스(가라르의 모습)",
+    "pokemon_num": 562,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/056202.png"
+  },
+  {
+    "pokemon_name": "데스니칸",
+    "pokemon_num": 563,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056301.png"
+  },
+  {
+    "pokemon_name": "프로토가",
+    "pokemon_num": 564,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056401.png"
+  },
+  {
+    "pokemon_name": "늑골라",
+    "pokemon_num": 565,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056501.png"
+  },
+  {
+    "pokemon_name": "아켄",
+    "pokemon_num": 566,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056601.png"
+  },
+  {
+    "pokemon_name": "아케오스",
+    "pokemon_num": 567,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056701.png"
+  },
+  {
+    "pokemon_name": "깨봉이",
+    "pokemon_num": 568,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056801.png"
+  },
+  {
+    "pokemon_name": "더스트나",
+    "pokemon_num": 569,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056901.png"
+  },
+  {
+    "pokemon_name": "거다이더스트나",
+    "pokemon_num": 569,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/056902.png"
+  },
+  {
+    "pokemon_name": "조로아",
+    "pokemon_num": 570,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/057001.png"
+  },
+  {
+    "pokemon_name": "조로아(히스이의 모습)",
+    "pokemon_num": 570,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/057002.png"
+  },
+  {
+    "pokemon_name": "조로아크",
+    "pokemon_num": 571,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/057101.png"
+  },
+  {
+    "pokemon_name": "조로아크(히스이의 모습)",
+    "pokemon_num": 571,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/057102.png"
+  },
+  {
+    "pokemon_name": "치라미",
+    "pokemon_num": 572,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/057201.png"
+  },
+  {
+    "pokemon_name": "치라치노",
+    "pokemon_num": 573,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/057301.png"
+  },
+  {
+    "pokemon_name": "고디탱",
+    "pokemon_num": 574,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/057401.png"
+  },
+  {
+    "pokemon_name": "고디보미",
+    "pokemon_num": 575,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/057501.png"
+  },
+  {
+    "pokemon_name": "고디모아젤",
+    "pokemon_num": 576,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/057601.png"
+  },
+  {
+    "pokemon_name": "유니란",
+    "pokemon_num": 577,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/057701.png"
+  },
+  {
+    "pokemon_name": "듀란",
+    "pokemon_num": 578,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/057801.png"
+  },
+  {
+    "pokemon_name": "란쿨루스",
+    "pokemon_num": 579,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/057901.png"
+  },
+  {
+    "pokemon_name": "꼬지보리",
+    "pokemon_num": 580,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058001.png"
+  },
+  {
+    "pokemon_name": "스완나",
+    "pokemon_num": 581,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058101.png"
+  },
+  {
+    "pokemon_name": "바닐프티",
+    "pokemon_num": 582,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058201.png"
+  },
+  {
+    "pokemon_name": "바닐리치",
+    "pokemon_num": 583,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058301.png"
+  },
+  {
+    "pokemon_name": "배바닐라",
+    "pokemon_num": 584,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058401.png"
+  },
+  {
+    "pokemon_name": "사철록(봄)",
+    "pokemon_num": 585,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058501.png"
+  },
+  {
+    "pokemon_name": "사철록(여름)",
+    "pokemon_num": 585,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058502.png"
+  },
+  {
+    "pokemon_name": "사철록(가을)",
+    "pokemon_num": 585,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058503.png"
+  },
+  {
+    "pokemon_name": "사철록(겨울)",
+    "pokemon_num": 585,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058504.png"
+  },
+  {
+    "pokemon_name": "바라철록(봄)",
+    "pokemon_num": 586,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058601.png"
+  },
+  {
+    "pokemon_name": "바라철록(여름)",
+    "pokemon_num": 586,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058602.png"
+  },
+  {
+    "pokemon_name": "바라철록(가을)",
+    "pokemon_num": 586,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058603.png"
+  },
+  {
+    "pokemon_name": "바라철록(겨울)",
+    "pokemon_num": 586,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058604.png"
+  },
+  {
+    "pokemon_name": "에몽가",
+    "pokemon_num": 587,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058701.png"
+  },
+  {
+    "pokemon_name": "딱정곤",
+    "pokemon_num": 588,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058801.png"
+  },
+  {
+    "pokemon_name": "슈바르고",
+    "pokemon_num": 589,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/058901.png"
+  },
+  {
+    "pokemon_name": "깜놀버슬",
+    "pokemon_num": 590,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059001.png"
+  },
+  {
+    "pokemon_name": "뽀록나",
+    "pokemon_num": 591,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059101.png"
+  },
+  {
+    "pokemon_name": "탱그릴(수컷의 모습)",
+    "pokemon_num": 592,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059201.png"
+  },
+  {
+    "pokemon_name": "탱그릴(암컷의 모습)",
+    "pokemon_num": 592,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059202.png"
+  },
+  {
+    "pokemon_name": "탱탱겔(수컷의 모습)",
+    "pokemon_num": 593,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059301.png"
+  },
+  {
+    "pokemon_name": "탱탱겔(암컷의 모습)",
+    "pokemon_num": 593,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059302.png"
+  },
+  {
+    "pokemon_name": "맘복치",
+    "pokemon_num": 594,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059401.png"
+  },
+  {
+    "pokemon_name": "파쪼옥",
+    "pokemon_num": 595,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059501.png"
+  },
+  {
+    "pokemon_name": "전툴라",
+    "pokemon_num": 596,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059601.png"
+  },
+  {
+    "pokemon_name": "철시드",
+    "pokemon_num": 597,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059701.png"
+  },
+  {
+    "pokemon_name": "너트령",
+    "pokemon_num": 598,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059801.png"
+  },
+  {
+    "pokemon_name": "기어르",
+    "pokemon_num": 599,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/059901.png"
+  },
+  {
+    "pokemon_name": "기기어르",
+    "pokemon_num": 600,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/060001.png"
+  },
+  {
+    "pokemon_name": "기기기어르",
+    "pokemon_num": 601,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/060101.png"
+  },
+  {
+    "pokemon_name": "저리어",
+    "pokemon_num": 602,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/060201.png"
+  },
+  {
+    "pokemon_name": "저리릴",
+    "pokemon_num": 603,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/060301.png"
+  },
+  {
+    "pokemon_name": "저리더프",
+    "pokemon_num": 604,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/060401.png"
+  },
+  {
+    "pokemon_name": "리그레",
+    "pokemon_num": 605,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/060501.png"
+  },
+  {
+    "pokemon_name": "벰크",
+    "pokemon_num": 606,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/060601.png"
+  },
+  {
+    "pokemon_name": "불켜미",
+    "pokemon_num": 607,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/060701.png"
+  },
+  {
+    "pokemon_name": "램프라",
+    "pokemon_num": 608,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/060801.png"
+  },
+  {
+    "pokemon_name": "샹델라",
+    "pokemon_num": 609,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/060901.png"
+  },
+  {
+    "pokemon_name": "터검니",
+    "pokemon_num": 610,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/061001.png"
+  },
+  {
+    "pokemon_name": "액슨도",
+    "pokemon_num": 611,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/061101.png"
+  },
+  {
+    "pokemon_name": "액스라이즈",
+    "pokemon_num": 612,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/061201.png"
+  },
+  {
+    "pokemon_name": "코고미",
+    "pokemon_num": 613,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/061301.png"
+  },
+  {
+    "pokemon_name": "툰베어",
+    "pokemon_num": 614,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/061401.png"
+  },
+  {
+    "pokemon_name": "프리지오",
+    "pokemon_num": 615,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/061501.png"
+  },
+  {
+    "pokemon_name": "쪼마리",
+    "pokemon_num": 616,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/061601.png"
+  },
+  {
+    "pokemon_name": "어지리더",
+    "pokemon_num": 617,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/061701.png"
+  },
+  {
+    "pokemon_name": "메더",
+    "pokemon_num": 618,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/061801.png"
+  },
+  {
+    "pokemon_name": "메더(가라르의 모습)",
+    "pokemon_num": 618,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/061802.png"
+  },
+  {
+    "pokemon_name": "비조푸",
+    "pokemon_num": 619,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/061901.png"
+  },
+  {
+    "pokemon_name": "비조도",
+    "pokemon_num": 620,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/062001.png"
+  },
+  {
+    "pokemon_name": "크리만",
+    "pokemon_num": 621,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/062101.png"
+  },
+  {
+    "pokemon_name": "골비람",
+    "pokemon_num": 622,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/062201.png"
+  },
+  {
+    "pokemon_name": "골루그",
+    "pokemon_num": 623,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/062301.png"
+  },
+  {
+    "pokemon_name": "자망칼",
+    "pokemon_num": 624,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/062401.png"
+  },
+  {
+    "pokemon_name": "절각참",
+    "pokemon_num": 625,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/062501.png"
+  },
+  {
+    "pokemon_name": "버프론",
+    "pokemon_num": 626,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/062601.png"
+  },
+  {
+    "pokemon_name": "수리둥보",
+    "pokemon_num": 627,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/062701.png"
+  },
+  {
+    "pokemon_name": "워글",
+    "pokemon_num": 628,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/062801.png"
+  },
+  {
+    "pokemon_name": "워글(히스이의 모습)",
+    "pokemon_num": 628,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/062802.png"
+  },
+  {
+    "pokemon_name": "벌차이",
+    "pokemon_num": 629,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/062901.png"
+  },
+  {
+    "pokemon_name": "버랜지나",
+    "pokemon_num": 630,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/063001.png"
+  },
+  {
+    "pokemon_name": "앤티골",
+    "pokemon_num": 631,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/063101.png"
+  },
+  {
+    "pokemon_name": "아이앤트",
+    "pokemon_num": 632,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/063201.png"
+  },
+  {
+    "pokemon_name": "모노두",
+    "pokemon_num": 633,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/063301.png"
+  },
+  {
+    "pokemon_name": "디헤드",
+    "pokemon_num": 634,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/063401.png"
+  },
+  {
+    "pokemon_name": "삼삼드래",
+    "pokemon_num": 635,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/063501.png"
+  },
+  {
+    "pokemon_name": "활화르바",
+    "pokemon_num": 636,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/063601.png"
+  },
+  {
+    "pokemon_name": "불카모스",
+    "pokemon_num": 637,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/063701.png"
+  },
+  {
+    "pokemon_name": "코바르온",
+    "pokemon_num": 638,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/063801.png"
+  },
+  {
+    "pokemon_name": "테라키온",
+    "pokemon_num": 639,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/063901.png"
+  },
+  {
+    "pokemon_name": "비리디온",
+    "pokemon_num": 640,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064001.png"
+  },
+  {
+    "pokemon_name": "토네로스(화신폼)",
+    "pokemon_num": 641,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064101.png"
+  },
+  {
+    "pokemon_name": "토네로스(영물폼)",
+    "pokemon_num": 641,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064102.png"
+  },
+  {
+    "pokemon_name": "볼트로스(화신폼)",
+    "pokemon_num": 642,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064201.png"
+  },
+  {
+    "pokemon_name": "볼트로스(영물폼)",
+    "pokemon_num": 642,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064202.png"
+  },
+  {
+    "pokemon_name": "레시라무",
+    "pokemon_num": 643,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064301.png"
+  },
+  {
+    "pokemon_name": "제크로무",
+    "pokemon_num": 644,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064401.png"
+  },
+  {
+    "pokemon_name": "랜드로스(화신폼)",
+    "pokemon_num": 645,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064501.png"
+  },
+  {
+    "pokemon_name": "랜드로스(영물폼)",
+    "pokemon_num": 645,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064502.png"
+  },
+  {
+    "pokemon_name": "큐레무",
+    "pokemon_num": 646,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064601.png"
+  },
+  {
+    "pokemon_name": "블랙큐레무",
+    "pokemon_num": 646,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064602.png"
+  },
+  {
+    "pokemon_name": "화이트큐레무",
+    "pokemon_num": 646,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064603.png"
+  },
+  {
+    "pokemon_name": "케르디오",
+    "pokemon_num": 647,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064701.png"
+  },
+  {
+    "pokemon_name": "케르디오(각오의 모습)",
+    "pokemon_num": 647,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064702.png"
+  },
+  {
+    "pokemon_name": "메로엣타(보이스폼)",
+    "pokemon_num": 648,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064801.png"
+  },
+  {
+    "pokemon_name": "메로엣타(스텝폼)",
+    "pokemon_num": 648,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064802.png"
+  },
+  {
+    "pokemon_name": "게노세크트",
+    "pokemon_num": 649,
+    "gen": 5,
+    "pokemon_img_url": "./assets/images/pokemon_img/064901.png"
+  },
+  {
+    "pokemon_name": "도치마론",
+    "pokemon_num": 650,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/065001.png"
+  },
+  {
+    "pokemon_name": "도치보구",
+    "pokemon_num": 651,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/065101.png"
+  },
+  {
+    "pokemon_name": "브리가론",
+    "pokemon_num": 652,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/065201.png"
+  },
+  {
+    "pokemon_name": "푸호꼬",
+    "pokemon_num": 653,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/065301.png"
+  },
+  {
+    "pokemon_name": "테르나",
+    "pokemon_num": 654,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/065401.png"
+  },
+  {
+    "pokemon_name": "마폭시",
+    "pokemon_num": 655,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/065501.png"
+  },
+  {
+    "pokemon_name": "개구마르",
+    "pokemon_num": 656,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/065601.png"
+  },
+  {
+    "pokemon_name": "개굴반장",
+    "pokemon_num": 657,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/065701.png"
+  },
+  {
+    "pokemon_name": "개굴닌자",
+    "pokemon_num": 658,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/065801.png"
+  },
+  {
+    "pokemon_name": "파르빗",
+    "pokemon_num": 659,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/065901.png"
+  },
+  {
+    "pokemon_name": "파르토",
+    "pokemon_num": 660,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066001.png"
+  },
+  {
+    "pokemon_name": "화살꼬빈",
+    "pokemon_num": 661,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066101.png"
+  },
+  {
+    "pokemon_name": "불화살빈",
+    "pokemon_num": 662,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066201.png"
+  },
+  {
+    "pokemon_name": "파이어로",
+    "pokemon_num": 663,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066301.png"
+  },
+  {
+    "pokemon_name": "분이벌레",
+    "pokemon_num": 664,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066401.png"
+  },
+  {
+    "pokemon_name": "분떠도리",
+    "pokemon_num": 665,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066501.png"
+  },
+  {
+    "pokemon_name": "비비용",
+    "pokemon_num": 666,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066601.png"
+  },
+  {
+    "pokemon_name": "레오꼬",
+    "pokemon_num": 667,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066701.png"
+  },
+  {
+    "pokemon_name": "화염레오(수컷의 모습)",
+    "pokemon_num": 668,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066801.png"
+  },
+  {
+    "pokemon_name": "화염레오(암컷의 모습)",
+    "pokemon_num": 668,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066802.png"
+  },
+  {
+    "pokemon_name": "플라베베",
+    "pokemon_num": 669,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/066901.png"
+  },
+  {
+    "pokemon_name": "플라엣테",
+    "pokemon_num": 670,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067001.png"
+  },
+  {
+    "pokemon_name": "플라제스",
+    "pokemon_num": 671,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067101.png"
+  },
+  {
+    "pokemon_name": "메이클",
+    "pokemon_num": 672,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067201.png"
+  },
+  {
+    "pokemon_name": "고고트",
+    "pokemon_num": 673,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067301.png"
+  },
+  {
+    "pokemon_name": "판짱",
+    "pokemon_num": 674,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067401.png"
+  },
+  {
+    "pokemon_name": "부란다",
+    "pokemon_num": 675,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067501.png"
+  },
+  {
+    "pokemon_name": "트리미앙",
+    "pokemon_num": 676,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067601.png"
+  },
+  {
+    "pokemon_name": "냐스퍼",
+    "pokemon_num": 677,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067701.png"
+  },
+  {
+    "pokemon_name": "냐오닉스(수컷의 모습)",
+    "pokemon_num": 678,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067801.png"
+  },
+  {
+    "pokemon_name": "냐오닉스(암컷의 모습)",
+    "pokemon_num": 678,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067802.png"
+  },
+  {
+    "pokemon_name": "단칼빙",
+    "pokemon_num": 679,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/067901.png"
+  },
+  {
+    "pokemon_name": "쌍검킬",
+    "pokemon_num": 680,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068001.png"
+  },
+  {
+    "pokemon_name": "킬가르도(실드폼)",
+    "pokemon_num": 681,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068101.png"
+  },
+  {
+    "pokemon_name": "킬가르도(블레이드폼)",
+    "pokemon_num": 681,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068102.png"
+  },
+  {
+    "pokemon_name": "슈쁘",
+    "pokemon_num": 682,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068201.png"
+  },
+  {
+    "pokemon_name": "프레프티르",
+    "pokemon_num": 683,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068301.png"
+  },
+  {
+    "pokemon_name": "나룸퍼프",
+    "pokemon_num": 684,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068401.png"
+  },
+  {
+    "pokemon_name": "나루림",
+    "pokemon_num": 685,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068501.png"
+  },
+  {
+    "pokemon_name": "오케이징",
+    "pokemon_num": 686,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068601.png"
+  },
+  {
+    "pokemon_name": "칼라마네로",
+    "pokemon_num": 687,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068701.png"
+  },
+  {
+    "pokemon_name": "거북손손",
+    "pokemon_num": 688,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068801.png"
+  },
+  {
+    "pokemon_name": "거북손데스",
+    "pokemon_num": 689,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/068901.png"
+  },
+  {
+    "pokemon_name": "수레기",
+    "pokemon_num": 690,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/069001.png"
+  },
+  {
+    "pokemon_name": "드래캄",
+    "pokemon_num": 691,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/069101.png"
+  },
+  {
+    "pokemon_name": "완철포",
+    "pokemon_num": 692,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/069201.png"
+  },
+  {
+    "pokemon_name": "블로스터",
+    "pokemon_num": 693,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/069301.png"
+  },
+  {
+    "pokemon_name": "목도리키텔",
+    "pokemon_num": 694,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/069401.png"
+  },
+  {
+    "pokemon_name": "일레도리자드",
+    "pokemon_num": 695,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/069501.png"
+  },
+  {
+    "pokemon_name": "티고라스",
+    "pokemon_num": 696,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/069601.png"
+  },
+  {
+    "pokemon_name": "견고라스",
+    "pokemon_num": 697,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/069701.png"
+  },
+  {
+    "pokemon_name": "아마루스",
+    "pokemon_num": 698,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/069801.png"
+  },
+  {
+    "pokemon_name": "아마루르가",
+    "pokemon_num": 699,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/069901.png"
+  },
+  {
+    "pokemon_name": "님피아",
+    "pokemon_num": 700,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/070001.png"
+  },
+  {
+    "pokemon_name": "루차불",
+    "pokemon_num": 701,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/070101.png"
+  },
+  {
+    "pokemon_name": "데덴네",
+    "pokemon_num": 702,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/070201.png"
+  },
+  {
+    "pokemon_name": "멜리시",
+    "pokemon_num": 703,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/070301.png"
+  },
+  {
+    "pokemon_name": "미끄메라",
+    "pokemon_num": 704,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/070401.png"
+  },
+  {
+    "pokemon_name": "미끄네일",
+    "pokemon_num": 705,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/070501.png"
+  },
+  {
+    "pokemon_name": "미끄네일(히스이의 모습)",
+    "pokemon_num": 705,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/070502.png"
+  },
+  {
+    "pokemon_name": "미끄래곤",
+    "pokemon_num": 706,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/070601.png"
+  },
+  {
+    "pokemon_name": "미끄래곤(히스이의 모습)",
+    "pokemon_num": 706,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/070602.png"
+  },
+  {
+    "pokemon_name": "클레피",
+    "pokemon_num": 707,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/070701.png"
+  },
+  {
+    "pokemon_name": "나목령",
+    "pokemon_num": 708,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/070801.png"
+  },
+  {
+    "pokemon_name": "대로트",
+    "pokemon_num": 709,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/070901.png"
+  },
+  {
+    "pokemon_name": "호바귀",
+    "pokemon_num": 710,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071001.png"
+  },
+  {
+    "pokemon_name": "펌킨인",
+    "pokemon_num": 711,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071101.png"
+  },
+  {
+    "pokemon_name": "꽁어름",
+    "pokemon_num": 712,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071201.png"
+  },
+  {
+    "pokemon_name": "크레베이스",
+    "pokemon_num": 713,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071301.png"
+  },
+  {
+    "pokemon_name": "크레베이스(히스이의 모습)",
+    "pokemon_num": 713,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/071302.png"
+  },
+  {
+    "pokemon_name": "음뱃",
+    "pokemon_num": 714,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071401.png"
+  },
+  {
+    "pokemon_name": "음번",
+    "pokemon_num": 715,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071501.png"
+  },
+  {
+    "pokemon_name": "제르네아스",
+    "pokemon_num": 716,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071601.png"
+  },
+  {
+    "pokemon_name": "이벨타르",
+    "pokemon_num": 717,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071701.png"
+  },
+  {
+    "pokemon_name": "지가르데(10%폼)",
+    "pokemon_num": 718,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071801.png"
+  },
+  {
+    "pokemon_name": "지가르데(50%폼)",
+    "pokemon_num": 718,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071802.png"
+  },
+  {
+    "pokemon_name": "지가르데(퍼펙트폼)",
+    "pokemon_num": 718,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071803.png"
+  },
+  {
+    "pokemon_name": "디안시",
+    "pokemon_num": 719,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071901.png"
+  },
+  {
+    "pokemon_name": "메가디안시",
+    "pokemon_num": 719,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/071902.png"
+  },
+  {
+    "pokemon_name": "후파(굴레에 빠진 후파)",
+    "pokemon_num": 720,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/072001.png"
+  },
+  {
+    "pokemon_name": "후파(굴레를 벗어난 후파)",
+    "pokemon_num": 720,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/072002.png"
+  },
+  {
+    "pokemon_name": "볼케니온",
+    "pokemon_num": 721,
+    "gen": 6,
+    "pokemon_img_url": "./assets/images/pokemon_img/072101.png"
+  },
+  {
+    "pokemon_name": "나몰빼미",
+    "pokemon_num": 722,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/072201.png"
+  },
+  {
+    "pokemon_name": "빼미스로우",
+    "pokemon_num": 723,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/072301.png"
+  },
+  {
+    "pokemon_name": "모크나이퍼",
+    "pokemon_num": 724,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/072401.png"
+  },
+  {
+    "pokemon_name": "모크나이퍼(히스이의 모습)",
+    "pokemon_num": 724,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/072402.png"
+  },
+  {
+    "pokemon_name": "냐오불",
+    "pokemon_num": 725,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/072501.png"
+  },
+  {
+    "pokemon_name": "냐오히트",
+    "pokemon_num": 726,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/072601.png"
+  },
+  {
+    "pokemon_name": "어흥염",
+    "pokemon_num": 727,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/072701.png"
+  },
+  {
+    "pokemon_name": "누리공",
+    "pokemon_num": 728,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/072801.png"
+  },
+  {
+    "pokemon_name": "키요공",
+    "pokemon_num": 729,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/072901.png"
+  },
+  {
+    "pokemon_name": "누리레느",
+    "pokemon_num": 730,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/073001.png"
+  },
+  {
+    "pokemon_name": "콕코구리",
+    "pokemon_num": 731,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/073101.png"
+  },
+  {
+    "pokemon_name": "크라파",
+    "pokemon_num": 732,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/073201.png"
+  },
+  {
+    "pokemon_name": "왕큰부리",
+    "pokemon_num": 733,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/073301.png"
+  },
+  {
+    "pokemon_name": "영구스",
+    "pokemon_num": 734,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/073401.png"
+  },
+  {
+    "pokemon_name": "형사구스",
+    "pokemon_num": 735,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/073501.png"
+  },
+  {
+    "pokemon_name": "턱지충이",
+    "pokemon_num": 736,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/073601.png"
+  },
+  {
+    "pokemon_name": "전지충이",
+    "pokemon_num": 737,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/073701.png"
+  },
+  {
+    "pokemon_name": "투구뿌논",
+    "pokemon_num": 738,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/073801.png"
+  },
+  {
+    "pokemon_name": "오기지게",
+    "pokemon_num": 739,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/073901.png"
+  },
+  {
+    "pokemon_name": "모단단게",
+    "pokemon_num": 740,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074001.png"
+  },
+  {
+    "pokemon_name": "춤추새(이글이글스타일)",
+    "pokemon_num": 741,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074101.png"
+  },
+  {
+    "pokemon_name": "춤추새(파칙파칙스타일)",
+    "pokemon_num": 741,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074102.png"
+  },
+  {
+    "pokemon_name": "춤추새(훌라훌라스타일)",
+    "pokemon_num": 741,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074103.png"
+  },
+  {
+    "pokemon_name": "춤추새(하늘하늘스타일)",
+    "pokemon_num": 741,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074104.png"
+  },
+  {
+    "pokemon_name": "에블리",
+    "pokemon_num": 742,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074201.png"
+  },
+  {
+    "pokemon_name": "에리본",
+    "pokemon_num": 743,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074301.png"
+  },
+  {
+    "pokemon_name": "암멍이",
+    "pokemon_num": 744,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074401.png"
+  },
+  {
+    "pokemon_name": "루가루암(한낮의 모습)",
+    "pokemon_num": 745,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074501.png"
+  },
+  {
+    "pokemon_name": "루가루암(한밤의 모습)",
+    "pokemon_num": 745,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074502.png"
+  },
+  {
+    "pokemon_name": "루가루암(황혼의 모습)",
+    "pokemon_num": 745,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074503.png"
+  },
+  {
+    "pokemon_name": "약어리(단독의 모습)",
+    "pokemon_num": 746,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074601.png"
+  },
+  {
+    "pokemon_name": "약어리(군집의 모습)",
+    "pokemon_num": 746,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074602.png"
+  },
+  {
+    "pokemon_name": "시마사리",
+    "pokemon_num": 747,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074701.png"
+  },
+  {
+    "pokemon_name": "더시마사리",
+    "pokemon_num": 748,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074801.png"
+  },
+  {
+    "pokemon_name": "머드나기",
+    "pokemon_num": 749,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/074901.png"
+  },
+  {
+    "pokemon_name": "만마드",
+    "pokemon_num": 750,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/075001.png"
+  },
+  {
+    "pokemon_name": "물거미",
+    "pokemon_num": 751,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/075101.png"
+  },
+  {
+    "pokemon_name": "깨비물거미",
+    "pokemon_num": 752,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/075201.png"
+  },
+  {
+    "pokemon_name": "짜랑랑",
+    "pokemon_num": 753,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/075301.png"
+  },
+  {
+    "pokemon_name": "라란티스",
+    "pokemon_num": 754,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/075401.png"
+  },
+  {
+    "pokemon_name": "자마슈",
+    "pokemon_num": 755,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/075501.png"
+  },
+  {
+    "pokemon_name": "마셰이드",
+    "pokemon_num": 756,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/075601.png"
+  },
+  {
+    "pokemon_name": "야도뇽",
+    "pokemon_num": 757,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/075701.png"
+  },
+  {
+    "pokemon_name": "염뉴트",
+    "pokemon_num": 758,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/075801.png"
+  },
+  {
+    "pokemon_name": "포곰곰",
+    "pokemon_num": 759,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/075901.png"
+  },
+  {
+    "pokemon_name": "이븐곰",
+    "pokemon_num": 760,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/076001.png"
+  },
+  {
+    "pokemon_name": "달콤아",
+    "pokemon_num": 761,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/076101.png"
+  },
+  {
+    "pokemon_name": "달무리나",
+    "pokemon_num": 762,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/076201.png"
+  },
+  {
+    "pokemon_name": "달코퀸",
+    "pokemon_num": 763,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/076301.png"
+  },
+  {
+    "pokemon_name": "큐아링",
+    "pokemon_num": 764,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/076401.png"
+  },
+  {
+    "pokemon_name": "하랑우탄",
+    "pokemon_num": 765,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/076501.png"
+  },
+  {
+    "pokemon_name": "내던숭이",
+    "pokemon_num": 766,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/076601.png"
+  },
+  {
+    "pokemon_name": "꼬시레",
+    "pokemon_num": 767,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/076701.png"
+  },
+  {
+    "pokemon_name": "갑주무사",
+    "pokemon_num": 768,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/076801.png"
+  },
+  {
+    "pokemon_name": "모래꿍",
+    "pokemon_num": 769,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/076901.png"
+  },
+  {
+    "pokemon_name": "모래성이당",
+    "pokemon_num": 770,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077001.png"
+  },
+  {
+    "pokemon_name": "해무기",
+    "pokemon_num": 771,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077101.png"
+  },
+  {
+    "pokemon_name": "타입:널",
+    "pokemon_num": 772,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077201.png"
+  },
+  {
+    "pokemon_name": "실버디",
+    "pokemon_num": 773,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077301.png"
+  },
+  {
+    "pokemon_name": "메테노(유성의 모습)",
+    "pokemon_num": 774,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077401.png"
+  },
+  {
+    "pokemon_name": "메테노",
+    "pokemon_num": 774,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077402.png"
+  },
+  {
+    "pokemon_name": "자말라",
+    "pokemon_num": 775,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077501.png"
+  },
+  {
+    "pokemon_name": "폭거북스",
+    "pokemon_num": 776,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077601.png"
+  },
+  {
+    "pokemon_name": "토게데마루",
+    "pokemon_num": 777,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077701.png"
+  },
+  {
+    "pokemon_name": "따라큐",
+    "pokemon_num": 778,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077801.png"
+  },
+  {
+    "pokemon_name": "치갈기",
+    "pokemon_num": 779,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/077901.png"
+  },
+  {
+    "pokemon_name": "할비롱",
+    "pokemon_num": 780,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/078001.png"
+  },
+  {
+    "pokemon_name": "타타륜",
+    "pokemon_num": 781,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/078101.png"
+  },
+  {
+    "pokemon_name": "짜랑꼬",
+    "pokemon_num": 782,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/078201.png"
+  },
+  {
+    "pokemon_name": "짜랑고우",
+    "pokemon_num": 783,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/078301.png"
+  },
+  {
+    "pokemon_name": "짜랑고우거",
+    "pokemon_num": 784,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/078401.png"
+  },
+  {
+    "pokemon_name": "카푸꼬꼬꼭",
+    "pokemon_num": 785,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/078501.png"
+  },
+  {
+    "pokemon_name": "카푸나비나",
+    "pokemon_num": 786,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/078601.png"
+  },
+  {
+    "pokemon_name": "카푸브루루",
+    "pokemon_num": 787,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/078701.png"
+  },
+  {
+    "pokemon_name": "카푸느지느",
+    "pokemon_num": 788,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/078801.png"
+  },
+  {
+    "pokemon_name": "코스모그",
+    "pokemon_num": 789,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/078901.png"
+  },
+  {
+    "pokemon_name": "코스모움",
+    "pokemon_num": 790,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/079001.png"
+  },
+  {
+    "pokemon_name": "솔가레오",
+    "pokemon_num": 791,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/079101.png"
+  },
+  {
+    "pokemon_name": "루나아라",
+    "pokemon_num": 792,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/079201.png"
+  },
+  {
+    "pokemon_name": "텅비드",
+    "pokemon_num": 793,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/079301.png"
+  },
+  {
+    "pokemon_name": "매시붕",
+    "pokemon_num": 794,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/079401.png"
+  },
+  {
+    "pokemon_name": "페로코체",
+    "pokemon_num": 795,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/079501.png"
+  },
+  {
+    "pokemon_name": "전수목",
+    "pokemon_num": 796,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/079601.png"
+  },
+  {
+    "pokemon_name": "철화구야",
+    "pokemon_num": 797,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/079701.png"
+  },
+  {
+    "pokemon_name": "종이신도",
+    "pokemon_num": 798,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/079801.png"
+  },
+  {
+    "pokemon_name": "악식킹",
+    "pokemon_num": 799,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/079901.png"
+  },
+  {
+    "pokemon_name": "네크로즈마",
+    "pokemon_num": 800,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080001.png"
+  },
+  {
+    "pokemon_name": "네크로즈마(황혼의 갈기)",
+    "pokemon_num": 800,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080002.png"
+  },
+  {
+    "pokemon_name": "네크로즈마(새벽의 날개)",
+    "pokemon_num": 800,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080003.png"
+  },
+  {
+    "pokemon_name": "울트라네크로즈마",
+    "pokemon_num": 800,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080004.png"
+  },
+  {
+    "pokemon_name": "마기아나",
+    "pokemon_num": 801,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080101.png"
+  },
+  {
+    "pokemon_name": "마기아나(500년 전의 색)",
+    "pokemon_num": 801,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080102.png"
+  },
+  {
+    "pokemon_name": "마샤도",
+    "pokemon_num": 802,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080201.png"
+  },
+  {
+    "pokemon_name": "베베놈",
+    "pokemon_num": 803,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080301.png"
+  },
+  {
+    "pokemon_name": "아고용",
+    "pokemon_num": 804,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080401.png"
+  },
+  {
+    "pokemon_name": "차곡차곡",
+    "pokemon_num": 805,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080501.png"
+  },
+  {
+    "pokemon_name": "두파팡",
+    "pokemon_num": 806,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080601.png"
+  },
+  {
+    "pokemon_name": "제라오라",
+    "pokemon_num": 807,
+    "gen": 7,
+    "pokemon_img_url": "./assets/images/pokemon_img/080701.png"
+  },
+  {
+    "pokemon_name": "멜탄",
+    "pokemon_num": 808,
+    "gen": "",
+    "pokemon_img_url": "./assets/images/pokemon_img/080801.png"
+  },
+  {
+    "pokemon_name": "멜메탈",
+    "pokemon_num": 809,
+    "gen": "",
+    "pokemon_img_url": "./assets/images/pokemon_img/080901.png"
+  },
+  {
+    "pokemon_name": "거다이멜메탈",
+    "pokemon_num": 809,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/080902.png"
+  },
+  {
+    "pokemon_name": "흥나숭",
+    "pokemon_num": 810,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081001.png"
+  },
+  {
+    "pokemon_name": "채키몽",
+    "pokemon_num": 811,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081101.png"
+  },
+  {
+    "pokemon_name": "고릴타",
+    "pokemon_num": 812,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081201.png"
+  },
+  {
+    "pokemon_name": "거다이고릴타",
+    "pokemon_num": 812,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081202.png"
+  },
+  {
+    "pokemon_name": "염버니",
+    "pokemon_num": 813,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081301.png"
+  },
+  {
+    "pokemon_name": "래비풋",
+    "pokemon_num": 814,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081401.png"
+  },
+  {
+    "pokemon_name": "에이스번",
+    "pokemon_num": 815,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081501.png"
+  },
+  {
+    "pokemon_name": "거다이에이스번",
+    "pokemon_num": 815,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081502.png"
+  },
+  {
+    "pokemon_name": "울머기",
+    "pokemon_num": 816,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081601.png"
+  },
+  {
+    "pokemon_name": "누겔레온",
+    "pokemon_num": 817,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081701.png"
+  },
+  {
+    "pokemon_name": "인텔리레온",
+    "pokemon_num": 818,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081801.png"
+  },
+  {
+    "pokemon_name": "거다이인텔리레온",
+    "pokemon_num": 818,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081802.png"
+  },
+  {
+    "pokemon_name": "탐리스",
+    "pokemon_num": 819,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/081901.png"
+  },
+  {
+    "pokemon_name": "요씽리스",
+    "pokemon_num": 820,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082001.png"
+  },
+  {
+    "pokemon_name": "파라꼬",
+    "pokemon_num": 821,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082101.png"
+  },
+  {
+    "pokemon_name": "파크로우",
+    "pokemon_num": 822,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082201.png"
+  },
+  {
+    "pokemon_name": "아머까오",
+    "pokemon_num": 823,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082301.png"
+  },
+  {
+    "pokemon_name": "거다이아머까오",
+    "pokemon_num": 823,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082302.png"
+  },
+  {
+    "pokemon_name": "두루지벌레",
+    "pokemon_num": 824,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082401.png"
+  },
+  {
+    "pokemon_name": "레돔벌레",
+    "pokemon_num": 825,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082501.png"
+  },
+  {
+    "pokemon_name": "이올브",
+    "pokemon_num": 826,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082601.png"
+  },
+  {
+    "pokemon_name": "거다이이올브",
+    "pokemon_num": 826,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082602.png"
+  },
+  {
+    "pokemon_name": "훔처우",
+    "pokemon_num": 827,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082701.png"
+  },
+  {
+    "pokemon_name": "폭슬라이",
+    "pokemon_num": 828,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082801.png"
+  },
+  {
+    "pokemon_name": "꼬모카",
+    "pokemon_num": 829,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/082901.png"
+  },
+  {
+    "pokemon_name": "백솜모카",
+    "pokemon_num": 830,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083001.png"
+  },
+  {
+    "pokemon_name": "우르",
+    "pokemon_num": 831,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083101.png"
+  },
+  {
+    "pokemon_name": "배우르",
+    "pokemon_num": 832,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083201.png"
+  },
+  {
+    "pokemon_name": "깨물부기",
+    "pokemon_num": 833,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083301.png"
+  },
+  {
+    "pokemon_name": "갈가부기",
+    "pokemon_num": 834,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083401.png"
+  },
+  {
+    "pokemon_name": "거다이갈가부기",
+    "pokemon_num": 834,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083402.png"
+  },
+  {
+    "pokemon_name": "멍파치",
+    "pokemon_num": 835,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083501.png"
+  },
+  {
+    "pokemon_name": "펄스멍",
+    "pokemon_num": 836,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083601.png"
+  },
+  {
+    "pokemon_name": "탄동",
+    "pokemon_num": 837,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083701.png"
+  },
+  {
+    "pokemon_name": "탄차곤",
+    "pokemon_num": 838,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083801.png"
+  },
+  {
+    "pokemon_name": "석탄산",
+    "pokemon_num": 839,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083901.png"
+  },
+  {
+    "pokemon_name": "거다이석탄산",
+    "pokemon_num": 839,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/083902.png"
+  },
+  {
+    "pokemon_name": "과사삭벌레",
+    "pokemon_num": 840,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084001.png"
+  },
+  {
+    "pokemon_name": "애프룡",
+    "pokemon_num": 841,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084101.png"
+  },
+  {
+    "pokemon_name": "거다이애프룡",
+    "pokemon_num": 841,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084102.png"
+  },
+  {
+    "pokemon_name": "단지래플",
+    "pokemon_num": 842,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084201.png"
+  },
+  {
+    "pokemon_name": "거다이단지래플",
+    "pokemon_num": 842,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084202.png"
+  },
+  {
+    "pokemon_name": "모래뱀",
+    "pokemon_num": 843,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084301.png"
+  },
+  {
+    "pokemon_name": "사다이사",
+    "pokemon_num": 844,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084401.png"
+  },
+  {
+    "pokemon_name": "거다이사다이사",
+    "pokemon_num": 844,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084402.png"
+  },
+  {
+    "pokemon_name": "윽우지",
+    "pokemon_num": 845,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084501.png"
+  },
+  {
+    "pokemon_name": "찌로꼬치",
+    "pokemon_num": 846,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084601.png"
+  },
+  {
+    "pokemon_name": "꼬치조",
+    "pokemon_num": 847,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084701.png"
+  },
+  {
+    "pokemon_name": "일레즌",
+    "pokemon_num": 848,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084801.png"
+  },
+  {
+    "pokemon_name": "스트린더(하이한 모습)",
+    "pokemon_num": 849,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084901.png"
+  },
+  {
+    "pokemon_name": "스트린더(로우한 모습)",
+    "pokemon_num": 849,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084902.png"
+  },
+  {
+    "pokemon_name": "거다이스트린더",
+    "pokemon_num": 849,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/084903.png"
+  },
+  {
+    "pokemon_name": "태우지네",
+    "pokemon_num": 850,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085001.png"
+  },
+  {
+    "pokemon_name": "다태우지네",
+    "pokemon_num": 851,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085101.png"
+  },
+  {
+    "pokemon_name": "거다이다태우지네",
+    "pokemon_num": 851,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085102.png"
+  },
+  {
+    "pokemon_name": "때때무노",
+    "pokemon_num": 852,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085201.png"
+  },
+  {
+    "pokemon_name": "케오퍼스",
+    "pokemon_num": 853,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085301.png"
+  },
+  {
+    "pokemon_name": "데인차",
+    "pokemon_num": 854,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085401.png"
+  },
+  {
+    "pokemon_name": "포트데스",
+    "pokemon_num": 855,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085501.png"
+  },
+  {
+    "pokemon_name": "몸지브림",
+    "pokemon_num": 856,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085601.png"
+  },
+  {
+    "pokemon_name": "손지브림",
+    "pokemon_num": 857,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085701.png"
+  },
+  {
+    "pokemon_name": "브리무음",
+    "pokemon_num": 858,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085801.png"
+  },
+  {
+    "pokemon_name": "거다이브리무음",
+    "pokemon_num": 858,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085802.png"
+  },
+  {
+    "pokemon_name": "메롱꿍",
+    "pokemon_num": 859,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/085901.png"
+  },
+  {
+    "pokemon_name": "쏘겨모",
+    "pokemon_num": 860,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086001.png"
+  },
+  {
+    "pokemon_name": "오롱털",
+    "pokemon_num": 861,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086101.png"
+  },
+  {
+    "pokemon_name": "거다이오롱털",
+    "pokemon_num": 861,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086102.png"
+  },
+  {
+    "pokemon_name": "가로막구리",
+    "pokemon_num": 862,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086201.png"
+  },
+  {
+    "pokemon_name": "나이킹",
+    "pokemon_num": 863,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086301.png"
+  },
+  {
+    "pokemon_name": "산호르곤",
+    "pokemon_num": 864,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086401.png"
+  },
+  {
+    "pokemon_name": "창파나이트",
+    "pokemon_num": 865,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086501.png"
+  },
+  {
+    "pokemon_name": "마임꽁꽁",
+    "pokemon_num": 866,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086601.png"
+  },
+  {
+    "pokemon_name": "데스판",
+    "pokemon_num": 867,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086701.png"
+  },
+  {
+    "pokemon_name": "마빌크",
+    "pokemon_num": 868,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086801.png"
+  },
+  {
+    "pokemon_name": "마휘핑",
+    "pokemon_num": 869,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086901.png"
+  },
+  {
+    "pokemon_name": "거다이마휘핑",
+    "pokemon_num": 869,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/086902.png"
+  },
+  {
+    "pokemon_name": "대여르",
+    "pokemon_num": 870,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087001.png"
+  },
+  {
+    "pokemon_name": "찌르성게",
+    "pokemon_num": 871,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087101.png"
+  },
+  {
+    "pokemon_name": "누니머기",
+    "pokemon_num": 872,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087201.png"
+  },
+  {
+    "pokemon_name": "모스노우",
+    "pokemon_num": 873,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087301.png"
+  },
+  {
+    "pokemon_name": "돌헨진",
+    "pokemon_num": 874,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087401.png"
+  },
+  {
+    "pokemon_name": "빙큐보",
+    "pokemon_num": 875,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087501.png"
+  },
+  {
+    "pokemon_name": "에써르(수컷의 모습)",
+    "pokemon_num": 876,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087601.png"
+  },
+  {
+    "pokemon_name": "에써르(암컷의 모습)",
+    "pokemon_num": 876,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087602.png"
+  },
+  {
+    "pokemon_name": "모르페코(배부른 모양)",
+    "pokemon_num": 877,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087701.png"
+  },
+  {
+    "pokemon_name": "모르페코(배고픈 모양)",
+    "pokemon_num": 877,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087702.png"
+  },
+  {
+    "pokemon_name": "끼리동",
+    "pokemon_num": 878,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087801.png"
+  },
+  {
+    "pokemon_name": "대왕끼리동",
+    "pokemon_num": 879,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087901.png"
+  },
+  {
+    "pokemon_name": "거다이대왕끼리동",
+    "pokemon_num": 879,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/087902.png"
+  },
+  {
+    "pokemon_name": "파치래곤",
+    "pokemon_num": 880,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088001.png"
+  },
+  {
+    "pokemon_name": "파치르돈",
+    "pokemon_num": 881,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088101.png"
+  },
+  {
+    "pokemon_name": "어래곤",
+    "pokemon_num": 882,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088201.png"
+  },
+  {
+    "pokemon_name": "어치르돈",
+    "pokemon_num": 883,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088301.png"
+  },
+  {
+    "pokemon_name": "두랄루돈",
+    "pokemon_num": 884,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088401.png"
+  },
+  {
+    "pokemon_name": "거다이두랄루돈",
+    "pokemon_num": 884,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088402.png"
+  },
+  {
+    "pokemon_name": "드라꼰",
+    "pokemon_num": 885,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088501.png"
+  },
+  {
+    "pokemon_name": "드래런치",
+    "pokemon_num": 886,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088601.png"
+  },
+  {
+    "pokemon_name": "드래펄트",
+    "pokemon_num": 887,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088701.png"
+  },
+  {
+    "pokemon_name": "자시안(역전의 용사)",
+    "pokemon_num": 888,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088801.png"
+  },
+  {
+    "pokemon_name": "자시안(검왕)",
+    "pokemon_num": 888,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088802.png"
+  },
+  {
+    "pokemon_name": "자마젠타(역전의 용사)",
+    "pokemon_num": 889,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088901.png"
+  },
+  {
+    "pokemon_name": "자마젠타(방패왕)",
+    "pokemon_num": 889,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/088902.png"
+  },
+  {
+    "pokemon_name": "무한다이노",
+    "pokemon_num": 890,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089001.png"
+  },
+  {
+    "pokemon_name": "치고마",
+    "pokemon_num": 891,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089101.png"
+  },
+  {
+    "pokemon_name": "우라오스(일격의 태세)",
+    "pokemon_num": 892,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089201.png"
+  },
+  {
+    "pokemon_name": "우라오스(연격의 태세)",
+    "pokemon_num": 892,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089202.png"
+  },
+  {
+    "pokemon_name": "거다이우라오스(일격의 태세)",
+    "pokemon_num": 892,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089203.png"
+  },
+  {
+    "pokemon_name": "거다이우라오스(연격의 태세)",
+    "pokemon_num": 892,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089204.png"
+  },
+  {
+    "pokemon_name": "자루도",
+    "pokemon_num": 893,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089301.png"
+  },
+  {
+    "pokemon_name": "자루도(아빠)",
+    "pokemon_num": 893,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089302.png"
+  },
+  {
+    "pokemon_name": "레지에레키",
+    "pokemon_num": 894,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089401.png"
+  },
+  {
+    "pokemon_name": "레지드래고",
+    "pokemon_num": 895,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089501.png"
+  },
+  {
+    "pokemon_name": "블리자포스",
+    "pokemon_num": 896,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089601.png"
+  },
+  {
+    "pokemon_name": "레이스포스",
+    "pokemon_num": 897,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089701.png"
+  },
+  {
+    "pokemon_name": "버드렉스",
+    "pokemon_num": 898,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089801.png"
+  },
+  {
+    "pokemon_name": "버드렉스(백마 탄 모습)",
+    "pokemon_num": 898,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089802.png"
+  },
+  {
+    "pokemon_name": "버드렉스(흑마 탄 모습)",
+    "pokemon_num": 898,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089803.png"
+  },
+  {
+    "pokemon_name": "신비록",
+    "pokemon_num": 899,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/089901.png"
+  },
+  {
+    "pokemon_name": "사마자르",
+    "pokemon_num": 900,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/090001.png"
+  },
+  {
+    "pokemon_name": "다투곰",
+    "pokemon_num": 901,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/090101.png"
+  },
+  {
+    "pokemon_name": "다투곰(붉은 달)",
+    "pokemon_num": 901,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/090102.png"
+  },
+  {
+    "pokemon_name": "대쓰여너(수컷의 모습)",
+    "pokemon_num": 902,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/090201.png"
+  },
+  {
+    "pokemon_name": "대쓰여너(암컷의 모습)",
+    "pokemon_num": 902,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/090202.png"
+  },
+  {
+    "pokemon_name": "포푸니크",
+    "pokemon_num": 903,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/090301.png"
+  },
+  {
+    "pokemon_name": "장침바루",
+    "pokemon_num": 904,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/090401.png"
+  },
+  {
+    "pokemon_name": "러브로스(화신폼)",
+    "pokemon_num": 905,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/090501.png"
+  },
+  {
+    "pokemon_name": "러브로스(영물폼)",
+    "pokemon_num": 905,
+    "gen": 8,
+    "pokemon_img_url": "./assets/images/pokemon_img/090502.png"
+  },
+  {
+    "pokemon_name": "나오하",
+    "pokemon_num": 906,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/090601.png"
+  },
+  {
+    "pokemon_name": "나로테",
+    "pokemon_num": 907,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/090701.png"
+  },
+  {
+    "pokemon_name": "마스카나",
+    "pokemon_num": 908,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/090801.png"
+  },
+  {
+    "pokemon_name": "뜨아거",
+    "pokemon_num": 909,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/090901.png"
+  },
+  {
+    "pokemon_name": "악뜨거",
+    "pokemon_num": 910,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091001.png"
+  },
+  {
+    "pokemon_name": "라우드본",
+    "pokemon_num": 911,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091101.png"
+  },
+  {
+    "pokemon_name": "꾸왁스",
+    "pokemon_num": 912,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091201.png"
+  },
+  {
+    "pokemon_name": "아꾸왁",
+    "pokemon_num": 913,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091301.png"
+  },
+  {
+    "pokemon_name": "웨이니발",
+    "pokemon_num": 914,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091401.png"
+  },
+  {
+    "pokemon_name": "맛보돈",
+    "pokemon_num": 915,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091501.png"
+  },
+  {
+    "pokemon_name": "퍼퓨돈(수컷의 모습)",
+    "pokemon_num": 916,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091601.png"
+  },
+  {
+    "pokemon_name": "퍼퓨돈(암컷의 모습)",
+    "pokemon_num": 916,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091602.png"
+  },
+  {
+    "pokemon_name": "타랜툴라",
+    "pokemon_num": 917,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091701.png"
+  },
+  {
+    "pokemon_name": "트래피더",
+    "pokemon_num": 918,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091801.png"
+  },
+  {
+    "pokemon_name": "콩알뚜기",
+    "pokemon_num": 919,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/091901.png"
+  },
+  {
+    "pokemon_name": "엑스레그",
+    "pokemon_num": 920,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092001.png"
+  },
+  {
+    "pokemon_name": "빠모",
+    "pokemon_num": 921,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092101.png"
+  },
+  {
+    "pokemon_name": "빠모트",
+    "pokemon_num": 922,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092201.png"
+  },
+  {
+    "pokemon_name": "빠르모트",
+    "pokemon_num": 923,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092301.png"
+  },
+  {
+    "pokemon_name": "두리쥐",
+    "pokemon_num": 924,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092401.png"
+  },
+  {
+    "pokemon_name": "파밀리쥐(세 식구)",
+    "pokemon_num": 925,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092501.png"
+  },
+  {
+    "pokemon_name": "파밀리쥐(네 식구)",
+    "pokemon_num": 925,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092502.png"
+  },
+  {
+    "pokemon_name": "쫀도기",
+    "pokemon_num": 926,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092601.png"
+  },
+  {
+    "pokemon_name": "바우첼",
+    "pokemon_num": 927,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092701.png"
+  },
+  {
+    "pokemon_name": "미니브",
+    "pokemon_num": 928,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092801.png"
+  },
+  {
+    "pokemon_name": "올리뇨",
+    "pokemon_num": 929,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/092901.png"
+  },
+  {
+    "pokemon_name": "올리르바",
+    "pokemon_num": 930,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/093001.png"
+  },
+  {
+    "pokemon_name": "시비꼬",
+    "pokemon_num": 931,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/093101.png"
+  },
+  {
+    "pokemon_name": "베베솔트",
+    "pokemon_num": 932,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/093201.png"
+  },
+  {
+    "pokemon_name": "스태솔트",
+    "pokemon_num": 933,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/093301.png"
+  },
+  {
+    "pokemon_name": "콜로솔트",
+    "pokemon_num": 934,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/093401.png"
+  },
+  {
+    "pokemon_name": "카르본",
+    "pokemon_num": 935,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/093501.png"
+  },
+  {
+    "pokemon_name": "카디나르마",
+    "pokemon_num": 936,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/093601.png"
+  },
+  {
+    "pokemon_name": "파라블레이즈",
+    "pokemon_num": 937,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/093701.png"
+  },
+  {
+    "pokemon_name": "빈나두",
+    "pokemon_num": 938,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/093801.png"
+  },
+  {
+    "pokemon_name": "찌리배리",
+    "pokemon_num": 939,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/093901.png"
+  },
+  {
+    "pokemon_name": "찌리비",
+    "pokemon_num": 940,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/094001.png"
+  },
+  {
+    "pokemon_name": "찌리비크",
+    "pokemon_num": 941,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/094101.png"
+  },
+  {
+    "pokemon_name": "오라티프",
+    "pokemon_num": 942,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/094201.png"
+  },
+  {
+    "pokemon_name": "마피티프",
+    "pokemon_num": 943,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/094301.png"
+  },
+  {
+    "pokemon_name": "땃쭈르",
+    "pokemon_num": 944,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/094401.png"
+  },
+  {
+    "pokemon_name": "태깅구르",
+    "pokemon_num": 945,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/094501.png"
+  },
+  {
+    "pokemon_name": "그푸리",
+    "pokemon_num": 946,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/094601.png"
+  },
+  {
+    "pokemon_name": "공푸리",
+    "pokemon_num": 947,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/094701.png"
+  },
+  {
+    "pokemon_name": "들눈해",
+    "pokemon_num": 948,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/094801.png"
+  },
+  {
+    "pokemon_name": "육파리",
+    "pokemon_num": 949,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/094901.png"
+  },
+  {
+    "pokemon_name": "절벼게",
+    "pokemon_num": 950,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/095001.png"
+  },
+  {
+    "pokemon_name": "캡싸이",
+    "pokemon_num": 951,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/095101.png"
+  },
+  {
+    "pokemon_name": "스코빌런",
+    "pokemon_num": 952,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/095201.png"
+  },
+  {
+    "pokemon_name": "구르데",
+    "pokemon_num": 953,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/095301.png"
+  },
+  {
+    "pokemon_name": "베라카스",
+    "pokemon_num": 954,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/095401.png"
+  },
+  {
+    "pokemon_name": "하느라기",
+    "pokemon_num": 955,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/095501.png"
+  },
+  {
+    "pokemon_name": "클레스퍼트라",
+    "pokemon_num": 956,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/095601.png"
+  },
+  {
+    "pokemon_name": "어리짱",
+    "pokemon_num": 957,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/095701.png"
+  },
+  {
+    "pokemon_name": "벼리짱",
+    "pokemon_num": 958,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/095801.png"
+  },
+  {
+    "pokemon_name": "두드리짱",
+    "pokemon_num": 959,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/095901.png"
+  },
+  {
+    "pokemon_name": "바다그다",
+    "pokemon_num": 960,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096001.png"
+  },
+  {
+    "pokemon_name": "바닥트리오",
+    "pokemon_num": 961,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096101.png"
+  },
+  {
+    "pokemon_name": "떨구새",
+    "pokemon_num": 962,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096201.png"
+  },
+  {
+    "pokemon_name": "맨돌핀",
+    "pokemon_num": 963,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096301.png"
+  },
+  {
+    "pokemon_name": "돌핀맨(나이브폼)",
+    "pokemon_num": 964,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096401.png"
+  },
+  {
+    "pokemon_name": "돌핀맨(마이티폼)",
+    "pokemon_num": 964,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096402.png"
+  },
+  {
+    "pokemon_name": "부르롱",
+    "pokemon_num": 965,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096501.png"
+  },
+  {
+    "pokemon_name": "부르르룸",
+    "pokemon_num": 966,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096601.png"
+  },
+  {
+    "pokemon_name": "모토마",
+    "pokemon_num": 967,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096701.png"
+  },
+  {
+    "pokemon_name": "꿈트렁",
+    "pokemon_num": 968,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096801.png"
+  },
+  {
+    "pokemon_name": "초롱순",
+    "pokemon_num": 969,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/096901.png"
+  },
+  {
+    "pokemon_name": "킬라플로르",
+    "pokemon_num": 970,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097001.png"
+  },
+  {
+    "pokemon_name": "망망이",
+    "pokemon_num": 971,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097101.png"
+  },
+  {
+    "pokemon_name": "묘두기",
+    "pokemon_num": 972,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097201.png"
+  },
+  {
+    "pokemon_name": "꼬이밍고",
+    "pokemon_num": 973,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097301.png"
+  },
+  {
+    "pokemon_name": "터벅고래",
+    "pokemon_num": 974,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097401.png"
+  },
+  {
+    "pokemon_name": "우락고래",
+    "pokemon_num": 975,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097501.png"
+  },
+  {
+    "pokemon_name": "가비루사",
+    "pokemon_num": 976,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097601.png"
+  },
+  {
+    "pokemon_name": "어써러셔",
+    "pokemon_num": 977,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097701.png"
+  },
+  {
+    "pokemon_name": "싸리용(젖힌 모습)",
+    "pokemon_num": 978,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097801.png"
+  },
+  {
+    "pokemon_name": "싸리용(늘어진 모습)",
+    "pokemon_num": 978,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097802.png"
+  },
+  {
+    "pokemon_name": "싸리용(뻗은 모습)",
+    "pokemon_num": 978,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097803.png"
+  },
+  {
+    "pokemon_name": "저승갓숭",
+    "pokemon_num": 979,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/097901.png"
+  },
+  {
+    "pokemon_name": "토오",
+    "pokemon_num": 980,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/098001.png"
+  },
+  {
+    "pokemon_name": "키키링",
+    "pokemon_num": 981,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/098101.png"
+  },
+  {
+    "pokemon_name": "노고고치",
+    "pokemon_num": 982,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/098201.png"
+  },
+  {
+    "pokemon_name": "대도각참",
+    "pokemon_num": 983,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/098301.png"
+  },
+  {
+    "pokemon_name": "위대한엄니",
+    "pokemon_num": 984,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/098401.png"
+  },
+  {
+    "pokemon_name": "우렁찬꼬리",
+    "pokemon_num": 985,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/098501.png"
+  },
+  {
+    "pokemon_name": "사나운버섯",
+    "pokemon_num": 986,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/098601.png"
+  },
+  {
+    "pokemon_name": "날개치는머리",
+    "pokemon_num": 987,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/098701.png"
+  },
+  {
+    "pokemon_name": "땅을기는날개",
+    "pokemon_num": 988,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/098801.png"
+  },
+  {
+    "pokemon_name": "모래털가죽",
+    "pokemon_num": 989,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/098901.png"
+  },
+  {
+    "pokemon_name": "무쇠바퀴",
+    "pokemon_num": 990,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099001.png"
+  },
+  {
+    "pokemon_name": "무쇠보따리",
+    "pokemon_num": 991,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099101.png"
+  },
+  {
+    "pokemon_name": "무쇠손",
+    "pokemon_num": 992,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099201.png"
+  },
+  {
+    "pokemon_name": "무쇠머리",
+    "pokemon_num": 993,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099301.png"
+  },
+  {
+    "pokemon_name": "무쇠독나방",
+    "pokemon_num": 994,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099401.png"
+  },
+  {
+    "pokemon_name": "무쇠가시",
+    "pokemon_num": 995,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099501.png"
+  },
+  {
+    "pokemon_name": "드니차",
+    "pokemon_num": 996,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099601.png"
+  },
+  {
+    "pokemon_name": "드니꽁",
+    "pokemon_num": 997,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099701.png"
+  },
+  {
+    "pokemon_name": "드닐레이브",
+    "pokemon_num": 998,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099801.png"
+  },
+  {
+    "pokemon_name": "모으령(상자폼)",
+    "pokemon_num": 999,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099901.png"
+  },
+  {
+    "pokemon_name": "모으령(도보폼)",
+    "pokemon_num": 999,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/099902.png"
+  },
+  {
+    "pokemon_name": "타부자고",
+    "pokemon_num": 1000,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/100001.png"
+  },
+  {
+    "pokemon_name": "총지엔",
+    "pokemon_num": 1001,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/100101.png"
+  },
+  {
+    "pokemon_name": "파오젠",
+    "pokemon_num": 1002,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/100201.png"
+  },
+  {
+    "pokemon_name": "딩루",
+    "pokemon_num": 1003,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/100301.png"
+  },
+  {
+    "pokemon_name": "위유이",
+    "pokemon_num": 1004,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/100401.png"
+  },
+  {
+    "pokemon_name": "고동치는달",
+    "pokemon_num": 1005,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/100501.png"
+  },
+  {
+    "pokemon_name": "무쇠무인",
+    "pokemon_num": 1006,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/100601.png"
+  },
+  {
+    "pokemon_name": "코라이돈",
+    "pokemon_num": 1007,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/100701.png"
+  },
+  {
+    "pokemon_name": "미라이돈",
+    "pokemon_num": 1008,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/100801.png"
+  },
+  {
+    "pokemon_name": "굽이치는물결",
+    "pokemon_num": 1009,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/100901.png"
+  },
+  {
+    "pokemon_name": "무쇠잎새",
+    "pokemon_num": 1010,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101001.png"
+  },
+  {
+    "pokemon_name": "과미르",
+    "pokemon_num": 1011,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101101.png"
+  },
+  {
+    "pokemon_name": "차데스",
+    "pokemon_num": 1012,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101201.png"
+  },
+  {
+    "pokemon_name": "그우린차",
+    "pokemon_num": 1013,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101301.png"
+  },
+  {
+    "pokemon_name": "조타구",
+    "pokemon_num": 1014,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101401.png"
+  },
+  {
+    "pokemon_name": "이야후",
+    "pokemon_num": 1015,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101501.png"
+  },
+  {
+    "pokemon_name": "기로치",
+    "pokemon_num": 1016,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101601.png"
+  },
+  {
+    "pokemon_name": "오거폰(벽록의 가면)",
+    "pokemon_num": 1017,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101701.png"
+  },
+  {
+    "pokemon_name": "오거폰(화덕의 가면)",
+    "pokemon_num": 1017,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101702.png"
+  },
+  {
+    "pokemon_name": "오거폰(우물의 가면)",
+    "pokemon_num": 1017,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101703.png"
+  },
+  {
+    "pokemon_name": "오거폰(주춧돌의 가면)",
+    "pokemon_num": 1017,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101704.png"
+  },
+  {
+    "pokemon_name": "브리두라스",
+    "pokemon_num": 1018,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101801.png"
+  },
+  {
+    "pokemon_name": "과미드라",
+    "pokemon_num": 1019,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/101901.png"
+  },
+  {
+    "pokemon_name": "꿰뚫는화염",
+    "pokemon_num": 1020,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/102001.png"
+  },
+  {
+    "pokemon_name": "날뛰는우레",
+    "pokemon_num": 1021,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/102101.png"
+  },
+  {
+    "pokemon_name": "무쇠암석",
+    "pokemon_num": 1022,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/102201.png"
+  },
+  {
+    "pokemon_name": "무쇠감투",
+    "pokemon_num": 1023,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/102301.png"
+  },
+  {
+    "pokemon_name": "테라파고스(노말폼)",
+    "pokemon_num": 1024,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/102401.png"
+  },
+  {
+    "pokemon_name": "테라파고스(테라스탈폼)",
+    "pokemon_num": 1024,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/102402.png"
+  },
+  {
+    "pokemon_name": "테라파고스(스텔라폼)",
+    "pokemon_num": 1024,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/102403.png"
+  },
+  {
+    "pokemon_name": "복숭악동",
+    "pokemon_num": 1025,
+    "gen": 9,
+    "pokemon_img_url": "./assets/images/pokemon_img/102501.png"
+  }
+]

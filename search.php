@@ -36,8 +36,8 @@ $sql = "SELECT " . implode(", ", $columns[$table]);
 if ($table == 'pokemon_works') {
     $sql .= ", genres.genre_name FROM $table JOIN genres ON pokemon_works.genre_id = genres.genre_id";
 } else if ($table == 'pokemons' && $option_type != '') {
-    $sql .= ", types.type_name FROM $table JOIN pokemons_types ON pokemons.pokemon_name = pokemons_types.pokemon_name";
-    $sql .= " JOIN types ON pokemons_types.type_id = types.type_id";
+    $sql .= ", type_index.type_name FROM $table JOIN pokemons_types ON pokemons.pokemon_name = pokemons_types.pokemon_name";
+    $sql .= " JOIN type_index ON pokemons_types.type_id = type_index.type_id";
 } else {
     $sql .= " FROM $table";
 }
@@ -101,58 +101,58 @@ if($option_gen!=''){
 if($option_type!=''){
     switch($option_type){
         case 'normal':
-            $sql .= " AND types.type_id = 1";
+            $sql .= " AND type_index.type_id = 1";
             break;
         case 'fire':
-            $sql .= " AND types.type_id = 2";
+            $sql .= " AND type_index.type_id = 2";
             break;
         case 'water':
-            $sql .= " AND types.type_id = 3";
+            $sql .= " AND type_index.type_id = 3";
             break;
         case 'grass':
-            $sql .= " AND types.type_id = 4";
+            $sql .= " AND type_index.type_id = 4";
             break;
         case 'electric':
-            $sql .= " AND types.type_id = 5";
+            $sql .= " AND type_index.type_id = 5";
             break;
         case 'ice':
-            $sql .= " AND types.type_id = 6";
+            $sql .= " AND type_index.type_id = 6";
             break;
         case 'fighting':
-            $sql .= " AND types.type_id = 7";
+            $sql .= " AND type_index.type_id = 7";
             break;
         case 'poison':
-            $sql .= " AND types.type_id = 8";
+            $sql .= " AND type_index.type_id = 8";
             break;
         case 'ground':
-            $sql .= " AND types.type_id = 9";
+            $sql .= " AND type_index.type_id = 9";
             break;
         case 'flying':
-            $sql .= " AND types.type_id = 10";
+            $sql .= " AND type_index.type_id = 10";
             break;
         case 'psychic':
-            $sql .= " AND types.type_id = 11";
+            $sql .= " AND type_index.type_id = 11";
             break;
         case 'bug':
-            $sql .= " AND types.type_id = 12";
+            $sql .= " AND type_index.type_id = 12";
             break;
         case 'rock':
-            $sql .= " AND types.type_id = 13";
+            $sql .= " AND type_index.type_id = 13";
             break;
         case 'ghost':
-            $sql .= " AND types.type_id = 14";
+            $sql .= " AND type_index.type_id = 14";
             break;
         case 'dragon':
-            $sql .= " AND types.type_id = 15";
+            $sql .= " AND type_index.type_id = 15";
             break;
         case 'dark':
-            $sql .= " AND types.type_id = 16";
+            $sql .= " AND type_index.type_id = 16";
             break;
         case 'steel':
-            $sql .= " AND types.type_id = 17";
+            $sql .= " AND type_index.type_id = 17";
             break;
         case 'fairy':
-            $sql .= " AND types.type_id = 18";
+            $sql .= " AND type_index.type_id = 18";
             break;
         default :
             break;

@@ -41,7 +41,7 @@ while ($row = $favtypeResult->fetch_assoc()) {
 }
 arsort($typeCounts); // typeCounts 내림차순 정렬
 $favtypeId = key($typeCounts); // 가장 많은 사람이 선택한 타입 id
-$favtypenameQuery = "SELECT type_name FROM types WHERE type_id = $favtypeId"; // 가장 많은 사람이 선택한 타입 id를 활용, 타입 이름을 가져오는 쿼리 작성
+$favtypenameQuery = "SELECT type_name FROM type_index WHERE type_id = $favtypeId"; // 가장 많은 사람이 선택한 타입 id를 활용, 타입 이름을 가져오는 쿼리 작성
 $favtypenameResult = $conn->query($favtypenameQuery);
 $favtype = $favtypenameResult->fetch_assoc()['type_name'];
 
