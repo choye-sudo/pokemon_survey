@@ -5,7 +5,7 @@ ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
 // 데이터베이스 연결 정보 설정
-$servername = "localhost:3306";
+$servername = "pokedb.c5gwy6uo2j33.us-west-2.rds.amazonaws.com"; // 로컬 환경 : localhost:3306
 $username = "root";
 $password = "dPdmsdk?0928";
 $dbname = "pokemon_database";
